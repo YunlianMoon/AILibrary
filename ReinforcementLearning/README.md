@@ -19,7 +19,5 @@ paper: [Van Hasselt, Hado, Arthur Guez, and David Silver. "Deep reinforcement le
 #### <a name="PrioritizedExperienceReplay">Prioritized Experience Replay DQN</a>
 paper: [Schaul, Tom, et al. "Prioritized experience replay." arXiv preprint arXiv:1511.05952 (2015).](https://arxiv.org/pdf/1511.05952.pdf)
 
-![DQN](https://latex.codecogs.com/svg.latex?R&plus;%5Cgamma%20%5Cunderset%7Ba%7D%7Bmax%7D%20Q%28S_%7Bt&plus;1%7D%2Ca%3B%5Ctheta_%7Bt%7D%5E%7B-%7D%20%29 "DQN")
-
 
 
