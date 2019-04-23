@@ -4,6 +4,7 @@
 - <a href="#DQN">DQN</a>
 - <a href="#DoubleDQN">Double DQN</a>
 - <a href="#PrioritizedExperienceReplayDQN">Prioritized Experience Replay DQN</a>
+- <a href="#DuelingDQN">Dueling DQN</a>
 
 
 #### <a name="DQN">DQN</a>
@@ -18,6 +19,11 @@ paper: [Van Hasselt, Hado, Arthur Guez, and David Silver. "Deep reinforcement le
 
 #### <a name="PrioritizedExperienceReplay">Prioritized Experience Replay DQN</a>
 paper: [Schaul, Tom, et al. "Prioritized experience replay." arXiv preprint arXiv:1511.05952 (2015).](https://arxiv.org/pdf/1511.05952.pdf)
+
+#### <a name="DuelingDQN">Dueling DQN</a>
+paper: [Wang, Ziyu, et al. "Dueling network architectures for deep reinforcement learning." arXiv preprint arXiv:1511.06581 (2015).](https://arxiv.org/pdf/1511.06581.pdf)
+
+![DuelingDQN](https://latex.codecogs.com/svg.latex?Q%28s%2Ca%3B%5Ctheta%2C%5Calpha%2C%5Cbeta%29%3DV%28s%3B%5Ctheta%2C%5Cbeta%29&plus;A%28s%2Ca%3B%5Ctheta%2C%5Calpha%29 "DuelingDQN")
 
 
 
