@@ -1,11 +1,13 @@
 # Reinforcement Learning
 
 ### Table of Contents
-- <a href="#DQN">DQN</a>
-- <a href="#DoubleDQN">Double DQN</a>
-- <a href="#PrioritizedExperienceReplayDQN">Prioritized Experience Replay DQN</a>
-- <a href="#DuelingDQN">Dueling DQN</a>
-- <a href="#REINFORCE">REINFORCE</a>
+- value-based
+  - <a href="#DQN">DQN</a>
+  - <a href="#DoubleDQN">Double DQN</a>
+  - <a href="#PrioritizedExperienceReplayDQN">Prioritized Experience Replay DQN</a>
+  - <a href="#DuelingDQN">Dueling DQN</a>
+- policy gradient
+  - <a href="#REINFORCE">REINFORCE</a>
 
 
 #### <a name="DQN">DQN</a>
