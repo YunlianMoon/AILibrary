@@ -14,6 +14,7 @@
 
 #### <a name="DQN">DQN</a>
 full name: Deep Q network
+
 paper: [Mnih, Volodymyr, et al. "Playing atari with deep reinforcement learning." arXiv preprint arXiv:1312.5602 (2013).](https://arxiv.org/pdf/1312.5602.pdf\))
 
 ![DQN](https://latex.codecogs.com/svg.latex?R&plus;%5Cgamma%20%5Cunderset%7Ba%7D%7Bmax%7D%20Q%28S_%7Bt&plus;1%7D%2Ca%3B%5Ctheta_%7Bt%7D%5E%7B-%7D%20%29 "DQN")
@@ -40,6 +41,7 @@ paper: [Sutton, Richard S., et al. "Policy gradient methods for reinforcement le
 
 #### <a name="DDPG">DDPG</a>
 full name: deep deterministic policy gradient
+
 paper: [Lillicrap, Timothy P., et al. "Continuous control with deep reinforcement learning." arXiv preprint arXiv:1509.02971 (2015).](https://arxiv.org/pdf/1509.02971.pdf)
 
 ![DDPG](https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/DDPG.svg "DDPG")
