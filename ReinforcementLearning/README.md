@@ -1,4 +1,4 @@
-# Reinforcement Learning
+# Deep Reinforcement Learning
 
 ### Table of Contents
 - value-based
