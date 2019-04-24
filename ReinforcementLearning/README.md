@@ -20,7 +20,7 @@ paper: [Van Hasselt, Hado, Arthur Guez, and David Silver. "Deep reinforcement le
 
 ![DoubleDQN](https://latex.codecogs.com/svg.latex?R&plus;%5Cgamma%20Q%28S_%7Bt&plus;1%7D%2C%5Cunderset%7Ba%7D%7Bargmax%7DQ%28S_%7Bt&plus;1%7D%2Ca%3B%5Ctheta_%7Bt%7D%29%3B%5Ctheta_%7Bt%7D%5E%7B-%7D%20%29 "DoubleDQN")
 
-#### <a name="PrioritizedExperienceReplay">Prioritized Experience Replay DQN</a>
+#### <a name="PrioritizedExperienceReplayDQN">Prioritized Experience Replay DQN</a>
 paper: [Schaul, Tom, et al. "Prioritized experience replay." arXiv preprint arXiv:1511.05952 (2015).](https://arxiv.org/pdf/1511.05952.pdf)
 
 #### <a name="DuelingDQN">Dueling DQN</a>
