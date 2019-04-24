@@ -6,7 +6,7 @@
   - <a href="#DoubleDQN">Double DQN</a>
   - <a href="#PrioritizedExperienceReplayDQN">Prioritized Experience Replay DQN</a>
   - <a href="#DuelingDQN">Dueling DQN</a>
-- policy gradient
+- policy gradients
   - <a href="#REINFORCE">REINFORCE</a>
 - actor critic
   - <a href="#ActorCritic">Actor Critic</a>
