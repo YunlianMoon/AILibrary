@@ -9,6 +9,7 @@
 - policy gradient
   - <a href="#REINFORCE">REINFORCE</a>
 
+### value based
 
 #### <a name="DQN">DQN</a>
 paper: [Mnih, Volodymyr, et al. "Playing atari with deep reinforcement learning." arXiv preprint arXiv:1312.5602 (2013).](https://arxiv.org/pdf/1312.5602.pdf\))
