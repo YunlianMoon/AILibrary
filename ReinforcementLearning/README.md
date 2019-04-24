@@ -40,5 +40,7 @@ paper: [Sutton, Richard S., et al. "Policy gradient methods for reinforcement le
 #### <a name="DDPG">DDPG</a>
 paper: [Lillicrap, Timothy P., et al. "Continuous control with deep reinforcement learning." arXiv preprint arXiv:1509.02971 (2015).](https://arxiv.org/pdf/1509.02971.pdf)
 
+![DDPG](https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/DDPG.svg "DDPG")
+
 
 
