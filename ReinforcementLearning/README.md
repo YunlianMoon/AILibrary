@@ -10,6 +10,7 @@
   - <a href="#REINFORCE">REINFORCE</a>
 - actor critic
   - <a href="#ActorCritic">Actor Critic</a>
+  - <a href="#DDPG">DDPG</a>
 
 #### <a name="DQN">DQN</a>
 paper: [Mnih, Volodymyr, et al. "Playing atari with deep reinforcement learning." arXiv preprint arXiv:1312.5602 (2013).](https://arxiv.org/pdf/1312.5602.pdf\))
@@ -33,6 +34,10 @@ paper: [Wang, Ziyu, et al. "Dueling network architectures for deep reinforcement
 paper: [Sutton, Richard S., et al. "Policy gradient methods for reinforcement learning with function approximation." Advances in neural information processing systems. 2000.](http://papers.nips.cc/paper/1713-policy-gradient-methods-for-reinforcement-learning-with-function-approximation.pdf)
 
 ![REINFORCE](https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/REINFORCE.svg "REINFORCE")
+
+#### <a name="ActorCritic">Actor Critic</a>
+
+#### <a name="DDPG">DDPG</a>
 
 
 
