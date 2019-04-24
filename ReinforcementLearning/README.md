@@ -5,7 +5,7 @@
 - <a href="#DoubleDQN">Double DQN</a>
 - <a href="#PrioritizedExperienceReplayDQN">Prioritized Experience Replay DQN</a>
 - <a href="#DuelingDQN">Dueling DQN</a>
-- <a href="#PolicyGradients">Policy Gradients</a>
+- <a href="#REINFORCE">REINFORCE</a>
 
 
 #### <a name="DQN">DQN</a>
@@ -26,7 +26,7 @@ paper: [Wang, Ziyu, et al. "Dueling network architectures for deep reinforcement
 
 ![DuelingDQN](https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/DuelingDQN.svg "DuelingDQN")
 
-#### <a name="PolicyGradients">Policy Gradients</a>
+#### <a name="REINFORCE">REINFORCE</a>
 paper: [Sutton, Richard S., et al. "Policy gradient methods for reinforcement learning with function approximation." Advances in neural information processing systems. 2000.](http://papers.nips.cc/paper/1713-policy-gradient-methods-for-reinforcement-learning-with-function-approximation.pdf)
 
 ![DuelingDQN](https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/DuelingDQN.svg "DuelingDQN")
