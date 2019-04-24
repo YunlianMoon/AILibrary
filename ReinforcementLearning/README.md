@@ -30,7 +30,7 @@ paper: [Wang, Ziyu, et al. "Dueling network architectures for deep reinforcement
 #### <a name="REINFORCE">REINFORCE</a>
 paper: [Sutton, Richard S., et al. "Policy gradient methods for reinforcement learning with function approximation." Advances in neural information processing systems. 2000.](http://papers.nips.cc/paper/1713-policy-gradient-methods-for-reinforcement-learning-with-function-approximation.pdf)
 
-![DuelingDQN](https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/DuelingDQN.svg "DuelingDQN")
+![REINFORCE](https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/REINFORCE.svg "REINFORCE")
 
 
 
