@@ -60,7 +60,7 @@ full name: proximal policy optimization
 paper: [Schulman, John, et al. "Proximal policy optimization algorithms." arXiv preprint arXiv:1707.06347 (2017).](https://arxiv.org/pdf/1707.06347.pdf)
 
 #### <a name="DPPO">DPPO</a>
-full name: proximal policy optimization
+full name: distributed proximal policy optimization
 
 paper: [Heess, Nicolas, et al. "Emergence of locomotion behaviours in rich environments." arXiv preprint arXiv:1707.02286 (2017).](https://arxiv.org/pdf/1707.02286.pdf)
 
