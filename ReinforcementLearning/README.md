@@ -11,6 +11,7 @@
 - actor critic
   - <a href="#ActorCritic">Actor Critic</a>
   - <a href="#DDPG">DDPG</a>
+  - <a href="#A3C">A3C</a>
 
 #### <a name="DQN">DQN</a>
 full name: Deep Q network
@@ -45,6 +46,13 @@ full name: deep deterministic policy gradient
 paper: [Lillicrap, Timothy P., et al. "Continuous control with deep reinforcement learning." arXiv preprint arXiv:1509.02971 (2015).](https://arxiv.org/pdf/1509.02971.pdf)
 
 ![DDPG](https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/DDPG.svg "DDPG")
+
+#### <a name="A3C">A3C</a>
+full name: asynchronous advantage actor critic
+
+paper: [Mnih, Volodymyr, et al. "Asynchronous methods for deep reinforcement learning." International conference on machine learning. 2016.](http://proceedings.mlr.press/v48/mniha16.pdf)
+
+
 
 
 
