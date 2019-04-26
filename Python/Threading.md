@@ -16,6 +16,6 @@ threading.enumerate()
 threading.current_thread()
 
 # add thread and start
-added_thread = threading.Thread(target=)
+added_thread = threading.Thread(target=, name=)
 added_thread.start()
 ```
