@@ -26,7 +26,3 @@ added_thread = threading.Thread(target=, name=)
 added_thread.start()
 added_thread.join()
 ```
-
-(4) queue
-
-
