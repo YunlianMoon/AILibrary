@@ -11,4 +11,7 @@ threading.active_count()
 
 # what
 threading.enumerate()
+
+# current
+threading.current_thread()
 ```
