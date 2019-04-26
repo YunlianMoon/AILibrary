@@ -8,4 +8,7 @@ import threading
 ```python
 # how many
 threading.active_count()
+
+# what
+threading.enumerate()
 ```
