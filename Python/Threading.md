@@ -21,7 +21,7 @@ added_thread.start()
 ```
 (3) join
 ```python
-# wait all threads finish
+# wait thread finish
 added_thread = threading.Thread(target=, name=)
 added_thread.start()
 added_thread.join()
