@@ -28,7 +28,7 @@ added_thread.join()
 ```
 (4) lock
 ```python
-lock=threading.Lock()
+lock = threading.Lock()
 lock.acquire()
 lock.release()
 ```
