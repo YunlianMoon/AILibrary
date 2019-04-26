@@ -27,3 +27,6 @@ added_thread.start()
 added_thread.join()
 ```
 
+(4) queue
+
+
