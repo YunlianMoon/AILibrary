@@ -14,4 +14,8 @@ threading.enumerate()
 
 # current
 threading.current_thread()
+
+# add thread and start
+added_thread = threading.Thread(target=)
+added_thread.start()
 ```
