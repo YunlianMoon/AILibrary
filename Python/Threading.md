@@ -26,3 +26,7 @@ added_thread = threading.Thread(target=, name=, args=)
 added_thread.start()
 added_thread.join()
 ```
+(4) lock
+lock=threading.Lock()
+lock.acquire()
+lock.release()
