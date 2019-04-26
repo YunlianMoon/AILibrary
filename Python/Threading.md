@@ -19,3 +19,11 @@ threading.current_thread()
 added_thread = threading.Thread(target=, name=)
 added_thread.start()
 ```
+(3) join
+```python
+# wait all threads finish
+added_thread = threading.Thread(target=thread_job, name='T1')
+added_thread.start()
+added_thread.join()
+```
+
