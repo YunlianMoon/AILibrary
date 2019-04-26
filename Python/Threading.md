@@ -6,13 +6,13 @@ import threading
 ```
 (2) function
 ```python
-# how many activated thread
+# how many activated threads
 threading.active_count()
 
-# all thread information
+# all threads information
 threading.enumerate()
 
-# current running thread
+# current running threads
 threading.current_thread()
 
 # add thread and start
