@@ -17,11 +17,17 @@ reference: [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Un
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="70%" />
   
+  forget gate
+  
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-i.png" width="70%" />
+  
+  input gate and gate gate
   
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-C.png" width="70%" />
   
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-o.png" width="70%" />
+  
+  output gate
 </div>
 
 
