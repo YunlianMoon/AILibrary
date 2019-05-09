@@ -7,7 +7,14 @@ reference: [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Un
 <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-chain.png" width="70%" />
 <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM2-notation.png" width="70%" />
 </p>
-<center>The repeating module in an LSTM contains four interacting layers</center>
+< center>The repeating module in an LSTM contains four interacting layers< /center>
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-chain.png" width="70%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM2-notation.png" width="70%" />
+  The repeating module in an LSTM contains four interacting layers
+</div>
+
 
 
 ### Step-by-Step LSTM Walk Through
