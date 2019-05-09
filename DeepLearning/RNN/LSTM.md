@@ -1,4 +1,10 @@
 # Long Short-Term Memory
 
-<img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM.png" width="60%" /><img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/node.png" width="40%" />
+reference: [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+### LSTM Networks
+<img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-chain.png" width="50%" /><img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM2-notation.png" width="40%" />
+
+### Step-by-Step LSTM Walk Through
+
 
