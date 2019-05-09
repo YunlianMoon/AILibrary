@@ -21,10 +21,9 @@ reference:
   input gate and gate gate<br/>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-C.png" width="70%" /><br/> 
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-o.png" width="70%" /><br/>
-  output gate
-  <br/>
-  <br/>
-  <br/>
+  output gate<br/>
+  
+  ---
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM.png" width="70%" /><br/>
   Li Hongyi PPT
 </div>
