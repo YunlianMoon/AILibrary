@@ -20,7 +20,7 @@ Table of Contents
 
 [CS 294: Deep Reinforcement Learning](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/index.html) Fall 2017 by Sergey Levine
 
-[Deep Reinforcement Learning 2018](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) by Li Hongyi
+[Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) 2018 by Li Hongyi
 
 
 
