@@ -2,8 +2,8 @@
 
 Table of Contents
 - <a href="#course">Course</a>
-  -< a href="#RL">Reinforcement Learning</a>
-  -< a href="#DRL">Deep Reinforcement Learning</a>
+  - < a href="#RL">Reinforcement Learning</a>
+  - < a href="#DRL">Deep Reinforcement Learning</a>
 
 
 ### <a name="course">Course</a>
