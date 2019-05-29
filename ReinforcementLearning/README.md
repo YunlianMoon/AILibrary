@@ -10,6 +10,8 @@ Table of Contents
 
 #### <a name="RL">Reinforcement Learning</a>
 
+[Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html) 2015 by David Silver
+
 [CS188](http://ai.berkeley.edu/home.html) Spring 2014
 
 [CS 188: Introduction to Artificial Intelligence](http://www-inst.eecs.berkeley.edu/~cs188/fa18/) Fall 2018
