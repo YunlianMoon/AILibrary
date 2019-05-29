@@ -1,4 +1,4 @@
-# Deep Reinforcement Learning
+# Reinforcement Learning
 
 Table of Contents
 - <a href="#course">Course</a>
