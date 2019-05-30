@@ -16,6 +16,8 @@ Table of Contents
 
 [CS 188: Introduction to Artificial Intelligence](http://www-inst.eecs.berkeley.edu/~cs188/fa18/) Fall 2018
 
+[CS234: Reinforcement Learning](http://web.stanford.edu/class/cs234/index.html) Winter 2019
+
 #### <a name="DRL">Deep Reinforcement Learning</a>
 
 [CS 294: Deep Reinforcement Learning](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/index.html) Fall 2017 by Sergey Levine
