@@ -4,6 +4,8 @@ Table of Contents
 - <a href="#course">Course</a>
   - <a href="#RL">Reinforcement Learning</a>
   - <a href="#DRL">Deep Reinforcement Learning</a>
+- <a href="#survey">Survey</a>
+  
 
 
 ### <a name="course">Course</a>
@@ -23,6 +25,10 @@ Table of Contents
 [CS 294: Deep Reinforcement Learning](http://rail.eecs.berkeley.edu/deeprlcourse-fa17/index.html) Fall 2017 by Sergey Levine
 
 [Deep Reinforcement Learning](https://www.youtube.com/watch?v=z95ZYgPgXOY&list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_) 2018 by Li Hongyi
+
+### <a name="survey">Survey</a>
+
+Deep reinforcement learning: An overview \[2017, arxiv, Yuxi Li\] \[[Paper](https://arxiv.org/pdf/1701.07274.pdf)\]
 
 
 
