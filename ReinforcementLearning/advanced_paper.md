@@ -3,3 +3,5 @@ Unifying count-based exploration and intrinsic motivation \[2016, NIPS, Marc G. 
 Darla: Improving zero-shot transfer in reinforcement learning \[2017, ICML, Irina Higgins\] \[[Paper](https://arxiv.org/pdf/1707.08475.pdf)\]
 
 Curiosity-driven exploration by self-supervised prediction \[2017, CVPR, Deepak Pathak\] \[[Paper](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w5/papers/Pathak_Curiosity-Driven_Exploration_by_CVPR_2017_paper.pdf)\]
+
+Generalizing skills with semi-supervised reinforcement learning \[2017, arxiv, Chelsea Finn\] \[[Paper](https://arxiv.org/pdf/1612.00429.pdf)\]
