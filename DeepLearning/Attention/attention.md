@@ -7,5 +7,9 @@
   ### Hung-yi Lee
   #### Attention on Sensory Information
   
+  application:
+  - Machine Translation
+  
+  
 
 
