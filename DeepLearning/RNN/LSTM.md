@@ -25,7 +25,7 @@ reference:
   
   ---
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM.png" width="70%" /><br/>
-  Li Hongyi PPT
+  Hung-yi Lee PPT
 </div>
 
 
