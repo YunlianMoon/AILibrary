@@ -2,7 +2,7 @@
 
 reference: 
 - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)<br/>
-- [ML Lecture 21-1: Recurrent Neural Network (Part I)](https://www.youtube.com/watch?v=xCGidAeyS4M) by Li Hongyi
+- [ML Lecture 21-1: Recurrent Neural Network (Part I)](https://www.youtube.com/watch?v=xCGidAeyS4M) by Hung-yi Lee
 
 ### LSTM Networks
 <div align=center>
