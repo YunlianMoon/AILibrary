@@ -42,6 +42,8 @@ Listen, attend and spell: A neural network for large vocabulary conversational s
   Attention based Image Caption Model
 </div>
 
+Show, attend and tell: Neural image caption generation with visual attention \[2015, ICML, Kelvin Xu\] \[[Paper](http://proceedings.mlr.press/v37/xuc15.pdf)\]
+
   
   
   
