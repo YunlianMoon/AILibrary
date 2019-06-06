@@ -64,6 +64,8 @@ Show, attend and tell: Neural image caption generation with visual attention \[2
 
 End-to-end memory networks \[2015, NIPS, Sainbayar Sukhbaatar\] \[[Paper](https://papers.nips.cc/paper/5846-end-to-end-memory-networks.pdf)\]
 
+Spatial transformer networks \[2015, NIPS, Max Jaderberg\] \[[Paper](http://papers.nips.cc/paper/5854-spatial-transformer-networks.pdf)\]
+
 
 
   
