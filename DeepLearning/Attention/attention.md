@@ -11,6 +11,9 @@ application:
   - Machine Translation
   - Speech Recognition
   - Image Caption Generation
+  - Video Caption Generation
+  - Reading Comprehension/Quesion Answering
+  - Visual Question Answering
   
   
 ##### machine translation
@@ -31,7 +34,7 @@ application:
 
 Listen, attend and spell: A neural network for large vocabulary conversational speech recognition \[2016, ICASSP, William Chan\] \[[Paper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/44926.pdf)\]
 
-#### Image Caption Generation
+#### image caption generation
 
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/image_caption_match.png" width="30%" />
@@ -43,6 +46,10 @@ Listen, attend and spell: A neural network for large vocabulary conversational s
 </div>
 
 Show, attend and tell: Neural image caption generation with visual attention \[2015, ICML, Kelvin Xu\] \[[Paper](http://proceedings.mlr.press/v37/xuc15.pdf)\]
+
+#### reading comprehension
+
+
 
   
   
