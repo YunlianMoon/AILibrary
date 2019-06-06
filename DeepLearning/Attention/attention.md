@@ -20,6 +20,7 @@ application:
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/machine_translation_rnn_2.png" width="25%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="5%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/machine_translation_rnn_3.png" width="35%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="5%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/machine_translation_rnn_4.png" width="30%" /><br/>
   Attention based Machine Translation Model
 </div>
