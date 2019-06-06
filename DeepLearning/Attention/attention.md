@@ -41,7 +41,7 @@ Listen, attend and spell: A neural network for large vocabulary conversational s
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/image_caption_rnn_1.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/image_caption_rnn_2.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/image_caption_rnn_2.png" width="30%" /><br/>
   Attention based Image Caption Model
 </div>
 
@@ -50,7 +50,7 @@ Show, attend and tell: Neural image caption generation with visual attention \[2
 #### reading comprehension
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/reading_comprehension.png" width="50%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/reading_comprehension.png" width="50%" /> <br/>
   Attention based Reading Comprehension Model
 </div>
 
