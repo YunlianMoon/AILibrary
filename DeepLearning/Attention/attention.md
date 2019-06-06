@@ -69,7 +69,19 @@ Spatial transformer networks \[2015, NIPS, Max Jaderberg\] \[[Paper](http://pape
 
 #### Attention on Memory
 
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_2.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_3.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_4.png" width="40%" />
+  <br/>
+  Neural Turing Machine
+</div>
+
+
+
 Neural turing machines \[2014, arxiv, Alex Graves\] \[[Paper](https://arxiv.org/pdf/1410.5401.pdf%20(http://Neural%20Turning%20Machines)%20)\]
+
 
 
 
