@@ -101,14 +101,3 @@ Neural machine translation by jointly learning to align and translate \[2015, ar
 Attention-based models for speech recognition \[2015, NIPS, Jan K Chorowski\] \[[Paper](http://papers.nips.cc/paper/5847-attention-based-models-for-speech-recognition.pdf)\]
 
 A neural attention model for abstractive sentence summarization \[2015, arxiv, Alexander M. Rush\] \[[Paper](https://arxiv.org/pdf/1509.00685.pdf%C3%AF%C2%BC%E2%80%B0)\]
-
-
-
-
-
-  
-  
-  
-  
-
-
