@@ -9,6 +9,7 @@
   
 application:
   - Machine Translation
+  - Speech Recognition
   
   
 ##### machine translation
@@ -24,6 +25,10 @@ application:
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/machine_translation_rnn_4.png" width="32%" /><br/>
   Attention based Machine Translation Model
 </div>
+
+#### speech recognition
+
+Listen, attend and spell: A neural network for large vocabulary conversational speech recognition \[2016, ICASSP, William Chan\] \[[Paper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/44926.pdf)\]
   
   
   
