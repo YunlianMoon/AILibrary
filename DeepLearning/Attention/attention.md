@@ -54,10 +54,11 @@ Show, attend and tell: Neural image caption generation with visual attention \[2
   Attention based Reading Comprehension Model
 </div>
 
+<br/>
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/reading_comprehension_memory_network_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/reading_comprehension_memory_network_1.png" width="45%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/reading_comprehension_memory_network_2.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/reading_comprehension_memory_network_2.png" width="45%" /><br/>
   Attention based Reading Comprehension Model
 </div>
 
