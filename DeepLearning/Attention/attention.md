@@ -79,9 +79,9 @@ Spatial transformer networks \[2015, NIPS, Max Jaderberg\] \[[Paper](http://pape
   Neural Turing Machine
 </div>
 
+<br/>
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/stack_rnn.png" width="40%" />
-  <br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/stack_rnn.png" width="50%" /><br/>
   Stack RNN
 </div>
 
@@ -91,7 +91,7 @@ Inferring algorithmic patterns with stack-augmented recurrent nets \[2015, NIPS,
 
 ---
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/summary.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/summary.png" width="50%" />
 </div>
 
 
