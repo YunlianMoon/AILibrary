@@ -62,6 +62,8 @@ Show, attend and tell: Neural image caption generation with visual attention \[2
   Attention based Reading Comprehension Model
 </div>
 
+End-to-end memory networks \[2015, NIPS, Sainbayar Sukhbaatar\] \[[Paper](https://papers.nips.cc/paper/5846-end-to-end-memory-networks.pdf)\]
+
 
 
   
