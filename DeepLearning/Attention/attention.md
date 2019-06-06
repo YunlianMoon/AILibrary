@@ -15,7 +15,7 @@ application:
   
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/machine_translate_match.png" width="48%" />
-  & rArr;
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="20%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/machine_translation_rnn_1.png" width="48%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/machine_translation_rnn_2.png" width="50%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/machine_translation_rnn_3.png" width="50%" />
