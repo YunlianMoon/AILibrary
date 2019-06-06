@@ -71,8 +71,10 @@ Spatial transformer networks \[2015, NIPS, Max Jaderberg\] \[[Paper](http://pape
 
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_2.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_3.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_4.png" width="40%" />
   <br/>
   Neural Turing Machine
