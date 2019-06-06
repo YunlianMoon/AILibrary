@@ -2,6 +2,7 @@
 
 - reference from [Machine Learning and having it deep and structured (2015,Fall)](http://speech.ee.ntu.edu.tw/~tlkagk/courses/MLDS_2015_2/Lecture/Attain%20(v3).ecm.mp4/index.html) by Hung-yi Lee
   - Attention on Sensory Information
+  - Attention on Memory
   
   
 ### Hung-yi Lee
@@ -65,6 +66,10 @@ Show, attend and tell: Neural image caption generation with visual attention \[2
 End-to-end memory networks \[2015, NIPS, Sainbayar Sukhbaatar\] \[[Paper](https://papers.nips.cc/paper/5846-end-to-end-memory-networks.pdf)\]
 
 Spatial transformer networks \[2015, NIPS, Max Jaderberg\] \[[Paper](http://papers.nips.cc/paper/5854-spatial-transformer-networks.pdf)\]
+
+#### Attention on Memory
+
+Neural turing machines \[2014, arxiv, Alex Graves\] \[[Paper](https://arxiv.org/pdf/1410.5401.pdf%20(http://Neural%20Turning%20Machines)%20)\]
 
 
 
