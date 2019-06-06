@@ -75,16 +75,24 @@ Spatial transformer networks \[2015, NIPS, Max Jaderberg\] \[[Paper](http://pape
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_2.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_3.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_4.png" width="40%" />
-  <br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/neural_turing_machine_4.png" width="40%" /><br/>
   Neural Turing Machine
 </div>
 
-
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/stack_rnn.png" width="40%" />
+  <br/>
+  Stack RNN
+</div>
 
 Neural turing machines \[2014, arxiv, Alex Graves\] \[[Paper](https://arxiv.org/pdf/1410.5401.pdf%20(http://Neural%20Turning%20Machines)%20)\]
 
 Inferring algorithmic patterns with stack-augmented recurrent nets \[2015, NIPS, Armand Joulin\] \[[Paper](https://papers.nips.cc/paper/5857-inferring-algorithmic-patterns-with-stack-augmented-recurrent-nets.pdf)\]
+
+---
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/summary.png" width="40%" />
+</div>
 
 
 
