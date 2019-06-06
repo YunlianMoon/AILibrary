@@ -94,6 +94,15 @@ Inferring algorithmic patterns with stack-augmented recurrent nets \[2015, NIPS,
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/summary.png" width="50%" />
 </div>
 
+Ask me anything: Dynamic memory networks for natural language processing \[2016, ICML, Ankit Kumar\] \[[Paper](http://117.128.6.19/cache/proceedings.mlr.press/v48/kumar16.pdf?ich_args2=506-06223805024609_cc9a49a6346b57a963eb82b841345dfb_10001002_9c896125dfc0f0d8973f518939a83798_54e0ec0af538ef972e0245b27382d357)\]
+
+Neural machine translation by jointly learning to align and translate \[2015, arxiv, Dzmitry Bahdanau\] \[[Paper](https://arxiv.org/pdf/1409.0473.pdf)\]
+
+Attention-based models for speech recognition \[2015, NIPS, Jan K Chorowski\] \[[Paper](http://papers.nips.cc/paper/5847-attention-based-models-for-speech-recognition.pdf)\]
+
+A neural attention model for abstractive sentence summarization \[2015, arxiv, Alexander M. Rush\] \[[Paper](https://arxiv.org/pdf/1509.00685.pdf%C3%AF%C2%BC%E2%80%B0)\]
+
+
 
 
 
