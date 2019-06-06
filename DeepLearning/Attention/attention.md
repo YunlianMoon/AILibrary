@@ -84,6 +84,8 @@ Spatial transformer networks \[2015, NIPS, Max Jaderberg\] \[[Paper](http://pape
 
 Neural turing machines \[2014, arxiv, Alex Graves\] \[[Paper](https://arxiv.org/pdf/1410.5401.pdf%20(http://Neural%20Turning%20Machines)%20)\]
 
+Inferring algorithmic patterns with stack-augmented recurrent nets \[2015, NIPS, Armand Joulin\] \[[Paper](https://papers.nips.cc/paper/5857-inferring-algorithmic-patterns-with-stack-augmented-recurrent-nets.pdf)\]
+
 
 
 
