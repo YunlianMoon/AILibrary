@@ -4,6 +4,7 @@
   - [Machine Learning and having it deep and structured (2015,Fall)](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLSD15_2.html)
 - Table of Contents
   - Semi-supervised Learning
+  - Transfer Learning
   
  ### semi-supervised learning
  
@@ -17,6 +18,8 @@
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/semi_supervised_learning_4.png" width="22%" /><br />
   Semi-supervised Learning
 </div>
+
+### transfer learning
  
  
   
