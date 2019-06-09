@@ -6,6 +6,7 @@
   - Semi-supervised Learning
   - Transfer Learning
   - Self-taught Learning
+  - Restricted Boltzmann Machine (RBM)
   
  ### semi-supervised learning
  
@@ -35,6 +36,19 @@
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/self_taught_learning_1.png" width="40%" /><br />
   Self-taught Learning
 </div>
+
+### restricted boltzmann machine
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/RBM_1.png" width="20%" /><br />
+  Restricted Boltzmann Machine
+</div>
+
+Training restricted Boltzmann machines using approximations to the likelihood gradient \[2008, ACM, Tijmen Tieleman\] \[[Paper](http://www.cs.utoronto.ca/~tijmen/pcd/pcd.pdf)\]
+
+Exploring strategies for training deep neural networks \[2009, JMLR, Hugo Larochelle\] \[[Paper](http://www.jmlr.org/papers/volume10/larochelle09a/larochelle09a.pdf)\]
+
+Deep boltzmann machines \[2009, ICAIS, Ruslan Salakhutdinov\] \[[Paper](http://proceedings.mlr.press/v5/salakhutdinov09a/salakhutdinov09a.pdf)\]
  
  
   
