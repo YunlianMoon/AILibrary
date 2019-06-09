@@ -7,6 +7,15 @@
   
  ### semi-supervised learning
  
+ <div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/semi_supervised_learning_1.png" width="20%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/semi_supervised_learning_2.png" width="20%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/semi_supervised_learning_2.png" width="20%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/semi_supervised_learning_4.png" width="20%" />
+  Semi-supervised Learning
+</div>
+ 
  
   
   
