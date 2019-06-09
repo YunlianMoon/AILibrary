@@ -24,7 +24,7 @@
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/transfer_learning_1.png" width="20%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/transfer_learning_2png" width="20%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/transfer_learning_2.png" width="20%" /><br />
   Transfer Learning
 </div>
  
