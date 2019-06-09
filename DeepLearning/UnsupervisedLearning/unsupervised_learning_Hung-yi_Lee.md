@@ -40,7 +40,7 @@
 ### restricted boltzmann machine
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/RBM_1.png" width="20%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/RBM_1.png" width="40%" /><br />
   Restricted Boltzmann Machine
 </div>
 
