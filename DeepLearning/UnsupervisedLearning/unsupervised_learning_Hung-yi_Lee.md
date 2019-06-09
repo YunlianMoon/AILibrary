@@ -5,6 +5,7 @@
 - Table of Contents
   - Semi-supervised Learning
   - Transfer Learning
+  - Self-taught Learning
   
  ### semi-supervised learning
  
@@ -26,6 +27,13 @@
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/transfer_learning_2.png" width="40%" /><br />
   Transfer Learning
+</div>
+
+### self-taught learning
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/UnsupervisedLearning/images/self_taught_learning_1.png" width="40%" /><br />
+  Self-taught Learning
 </div>
  
  
