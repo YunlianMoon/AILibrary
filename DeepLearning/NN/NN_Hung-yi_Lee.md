@@ -6,4 +6,4 @@
 
 #### paper
 
-Visualizing and understanding convolutional networks \[2014, arxiv, Matthew D. Zeiler\] [Paper](https://arxiv.org/pdf/1311.2901.pdf)
+Visualizing and understanding convolutional networks \[2014, arxiv, Matthew D. Zeiler\] \[[Paper](https://arxiv.org/pdf/1311.2901.pdf)\]
