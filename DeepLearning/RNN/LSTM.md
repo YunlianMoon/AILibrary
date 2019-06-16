@@ -17,9 +17,9 @@ reference:
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="70%" /><br/>  
   forget gate<br/>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-i.png" width="70%" /><br/> 
-  input gate and gate gate<br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-i.png" width="70%" /><br/>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-C.png" width="70%" /><br/> 
+  input gate and gate gate<br/>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-o.png" width="70%" /><br/>
   output gate<br/>
   
