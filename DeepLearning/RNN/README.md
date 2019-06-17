@@ -8,4 +8,6 @@ Learning phrase representations using RNN encoder-decoder for statistical machin
 
 Learning longer memory in recurrent neural networks \[2014, arxiv, Tomas Mikolov\] \[[Paper](https://arxiv.org/pdf/1412.7753.pdf)\]
 
+A simple way to initialize recurrent networks of rectified linear units \[2015, arxiv, Quoc V. Le\] \[[Paper](https://arxiv.org/pdf/1504.00941.pdf)\]
+
 Adaptive computation time for recurrent neural networks \[2016, arxiv, Alex Graves\] \[[Paper](https://arxiv.org/pdf/1603.08983.pdf)\]
