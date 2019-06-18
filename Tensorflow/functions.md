@@ -8,25 +8,31 @@
   - Checkpointing
   - Queues and syncronizations
   - Flow control
+  
+### Data Definition
+
+- tf.constant(value, dtype=None, shape=None, name='Const', verify_shape=False)
+- tf.
  
 ### Maths
 
 #### Arithmetic Operation
  
-operation: Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal
+operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
  
 - tf.add(x, y, name=None)
-- tf.sub(x, y, name=None)
-- tf.mul(x, y, name=None)
+- tf.subtract(x, y, name=None)
+- tf.multiply(x, y, name=None)
+- tf.scalar_mul(scalar, x)
 - tf.div(x, y, name=None)
 - tf.mod(x, y, name=None)
 - tf.abs(x, name=None)
-- tf.neg(x, name=None)
-- tf.sign(x, name=None)
+- tf.negative(x, name=None)
+- tf.sign(x, name=None) <br />
+`Example: y = sign(x) = -1 if x < 0; 0 if x == 0; 1 if x > 0`
 - tf.inv(x, name=None)
 - tf.square(x, name=None)
 - tf.round(x, name=None)
-- tf.round(a)
 - tf.sqrt(x, name=None)
 - tf.pow(x, y, name=None)
 - tf.exp(x, name=None)
