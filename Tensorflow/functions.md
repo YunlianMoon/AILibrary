@@ -1,5 +1,17 @@
 # Tensorflow Functions
 
+- Table of Contents
+  - Maths
+  - Array
+  - Matrix
+  - Neuronal Network
+  - Checkpointing
+  - Queues and syncronizations
+  - Flow control
+ 
+ ### Maths
+ 
+
 - tf.placeholder <br />
 `Form: tf.placeholder(dtype, shape=None, name=None)` <br />
 
