@@ -12,7 +12,8 @@
 ### Data Definition
 
 - tf.constant(value, dtype=None, shape=None, name='Const', verify_shape=False)
-- tf.
+- tf.placeholder(dtype, shape=None, name=None)
+- tf.Variable
  
 ### Maths
 
@@ -142,9 +143,9 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 
 #### Convolution
 
-- tf.nn.conv2d(input, filter, strides, padding, use_cudnn_on_gpu=None, data_format=None, name=None)
+- tf.nn.conv2d(input, filter, strides, padding, use_cudnn_on_gpu=None, data_format=None, name=None) <br />
 `input shape: [batch_size, in_height, in_width, in_channels]`
-- tf.nn.conv3d(input, filter, strides, padding, name=None)
+- tf.nn.conv3d(input, filter, strides, padding, name=None) <br />
 `input shape: [batch_size, in_depth, in_height, in_width, in_channels]`
 
 #### Pooling
@@ -165,6 +166,9 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 #### Losses
 
 - tf.nn.l2_loss(t, name=None)
+- tf.losses.sigmoid_cross_entropy
+- tf.losses.softmax_cross_entropy
+- tf.losses.huber_loss
 
 #### Classification
 
@@ -202,9 +206,9 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 - tf.nn.fixed_unigram_candidate_sampler(true_classes, num_true, num_sampled, unique, range_max, vocab_file=”, distortion=1.0, num_reserved_ids=0, num_shards=1, shard=0, unigrams=(), seed=None, name=None)
 
 ### Saving and Restoring Variables
-
-- tf.train.Saver()	 
-- tf.train.Saver(var_list=None, reshape=False, sharded=False, max_to_keep=5, keep_checkpoint_every_n_hours=10000.0, name=None, restore_sequentially=False, saver_def=None, builder=None)	
+ 
+tf.train.Saver.__init__(var_list=None, reshape=False, sharded=False, max_to_keep=5, keep_checkpoint_every_n_hours=10000.0, name=None, restore_sequentially=False, saver_def=None, builder=None)
+	
 - tf.train.Saver.save(sess, save_path, global_step=None, latest_filename=None, meta_graph_suffix=’meta’, write_meta_graph=True)
 - tf.train.Saver.restore(sess, save_path)
 - tf.train.Saver.last_checkpoints
@@ -214,30 +218,7 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 
  
 
-- tf.placeholder <br />
-`Form: tf.placeholder(dtype, shape=None, name=None)` <br />
-
-- tf.Variable
-
-- tf.to_float
-
-- tf.one_hot
-
-- tf.cast
-
-- tf.reshape
-
 - tf.tile
-
-- tf.concat
-
-- tf.log
-
-- tf.matmul
-
-- tf.reduce_sum
-
-- tf.reduce_mean
 
 - tf.train.AdamOptimizer
 
@@ -245,20 +226,11 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 
 - tf.pad
 
-- tf.maximum
-
 - tf.convert_to_tensor
 
 - tf.stop_gradient
 
-- tf.exp
-
-- tf.round
-
 - tf.newaxis
-
-- tf.multiply
-
 
 - tf.contrib.slim.conv2d
 
@@ -268,19 +240,8 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 
 - tf.contrib.rnn.GRUCell
 
-- tf.nn.dynamic_rnn
 
-- tf.nn.relu
 
-- tf.nn.sigmoid
-
-- tf.nn.softmax
-
-- tf.losses.sigmoid_cross_entropy
-
-- tf.losses.softmax_cross_entropy
-
-- tf.losses.huber_loss
 
 
 
