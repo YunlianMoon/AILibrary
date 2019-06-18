@@ -143,7 +143,9 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 #### Convolution
 
 - tf.nn.conv2d(input, filter, strides, padding, use_cudnn_on_gpu=None, data_format=None, name=None)
+`input shape: [batch_size, in_height, in_width, in_channels]`
 - tf.nn.conv3d(input, filter, strides, padding, name=None)
+`input shape: [batch_size, in_depth, in_height, in_width, in_channels]`
 
 #### Pooling
 
