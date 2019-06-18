@@ -16,6 +16,8 @@
 
 - tf.concat
 
+- tf.log
+
 - tf.contrib.slim.conv2d
 
 - tf.contrib.slim.max_pool2d
