@@ -26,6 +26,25 @@
 
 - tf.train.AdamOptimizer
 
+- tf.clip_by_value
+
+- tf.pad
+
+- tf.maximum
+
+- tf.convert_to_tensor
+
+- tf.stop_gradient
+
+- tf.exp
+
+- tf.round
+
+- tf.newaxis
+
+- tf.multiply
+
+
 - tf.contrib.slim.conv2d
 
 - tf.contrib.slim.max_pool2d
@@ -45,6 +64,8 @@
 - tf.losses.sigmoid_cross_entropy
 
 - tf.losses.softmax_cross_entropy
+
+- tf.losses.huber_loss
 
 
 
