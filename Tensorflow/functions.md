@@ -10,6 +10,8 @@
   - Flow control
  
 ### Maths
+
+#### Arithmetic Operation
  
 operation: Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal
  
@@ -36,7 +38,9 @@ operation: Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal
 - tf.tan(x, name=None)
 - tf.atan(x, name=None)
 
-### Tensor Transformations
+### Array
+
+#### Tensor Transformations
 
 - tf.string_to_number(string_tensor, out_type=None, name=None)
 - tf.to_double(x, name=’ToDouble’)
@@ -45,7 +49,7 @@ operation: Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal
 - tf.to_int64(x, name=’ToInt64’)
 - tf.cast(x, dtype, name=None)
 
-### Shapes and Shaping
+#### Shapes and Shaping
 
 - tf.shape(input, name=None)
 - tf.size(input, name=None)
@@ -53,7 +57,7 @@ operation: Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal
 - tf.reshape(tensor, shape, name=None)
 - tf.expand_dims(input, dim, name=None)
 
-### Slicing and Joining
+#### Slicing and Joining
 
 - tf.slice(input_, begin, size, name=None)
 - tf.split(split_dim, num_split, value, name=’split’)
@@ -66,6 +70,8 @@ operation: Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal
 
 ### Matrix
 
+#### Matrix Operation
+
 - tf.diag(diagonal, name=None)
 - tf.diag_part(input, name=None)
 - tf.trace(x, name=None)
@@ -76,7 +82,7 @@ operation: Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal
 - tf.cholesky(input, name=None)
 - tf.matrix_solve(matrix, rhs, adjoint=None, name=None)
 
-### Complex
+#### Complex
 
 - tf.complex(real, imag, name=None)
 - tf.complex_abs(x, name=None)
@@ -85,7 +91,7 @@ operation: Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal
 - tf.real(input, name=None)
 - tf.fft(input, name=None)
 
-### Reduction
+#### Reduction
 
 - tf.reduce_sum(input_tensor, reduction_indices=None, keep_dims=False, name=None)
 - tf.reduce_prod(input_tensor, reduction_indices=None, keep_dims=False, name=None)
@@ -97,7 +103,7 @@ operation: Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal
 - tf.accumulate_n(inputs, shape=None, tensor_dtype=None, name=None)
 - tf.cumsum(x, axis=0, exclusive=False, reverse=False, name=None)
 
-### Segmentation
+#### Segmentation
 
 - tf.segment_sum(data, segment_ids, name=None)
 - tf.segment_prod(data, segment_ids, name=None)
@@ -107,7 +113,7 @@ operation: Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal
 - tf.unsorted_segment_sum(data, segment_ids, num_segments, name=None)
 - tf.sparse_segment_sum(data, indices, segment_ids, name=None)
 
-### Sequence Comparison and Indexing
+#### Sequence Comparison and Indexing
 
 - tf.argmin(input, dimension, name=None)
 - tf.argmax(input, dimension, name=None)
