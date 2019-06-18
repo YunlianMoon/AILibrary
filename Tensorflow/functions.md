@@ -9,7 +9,32 @@
   - Queues and syncronizations
   - Flow control
  
- ### Maths
+### Maths
+ 
+operation: Add, Sub, Mul, Div, Exp, Log, Greater, Less, Equal
+ 
+- tf.add(x, y, name=None)
+- tf.sub(x, y, name=None)
+- tf.mul(x, y, name=None)
+- tf.div(x, y, name=None)
+- tf.mod(x, y, name=None)
+- tf.abs(x, name=None)
+- tf.neg(x, name=None)
+- tf.sign(x, name=None)
+- tf.inv(x, name=None)
+- tf.square(x, name=None)
+- tf.round(x, name=None)
+- tf.round(a)
+- tf.sqrt(x, name=None)
+- tf.pow(x, y, name=None)
+- tf.exp(x, name=None)
+- tf.log(x, name=None)
+- tf.maximum(x, y, name=None)
+- tf.minimum(x, y, name=None)
+- tf.cos(x, name=None)
+- tf.sin(x, name=None)
+- tf.tan(x, name=None)
+- tf.atan(x, name=None)
  
 
 - tf.placeholder <br />
