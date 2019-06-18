@@ -81,7 +81,7 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 - tf.diag(diagonal, name=None)
 - tf.diag_part(input, name=None)
 - tf.trace(x, name=None)
-- tf.matmul(a, b, transpose_a=False, transpose_b=False, a_is_sparse=False, b_is_sparse=False, name=None)
+- tf.matmul(a, b, transpose_a=False, transpose_b=False, adjoint_a=False, adjoint_b=False, a_is_sparse=False, b_is_sparse=False, name=None)
 - tf.matrix_determinant(input, name=None)
 - tf.matrix_inverse(input, adjoint=None, name=None)
 - tf.cholesky(input, name=None)
