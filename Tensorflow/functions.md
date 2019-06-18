@@ -1,7 +1,7 @@
 # Tensorflow Functions
 
-- tf.placeholder
-`Form: tf.placeholder(dtype, shape=None, name=None)`
+- tf.placeholder <br />
+`Form: tf.placeholder(dtype, shape=None, name=None)` <br />
 
 - tf.Variable
 
