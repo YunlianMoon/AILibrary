@@ -18,6 +18,14 @@
 
 - tf.log
 
+- tf.matmul
+
+- tf.reduce_sum
+
+- tf.reduce_mean
+
+- tf.train.AdamOptimizer
+
 - tf.contrib.slim.conv2d
 
 - tf.contrib.slim.max_pool2d
@@ -27,6 +35,8 @@
 - tf.contrib.rnn.GRUCell
 
 - tf.nn.dynamic_rnn
+
+- tf.nn.relu
 
 - tf.nn.sigmoid
 
