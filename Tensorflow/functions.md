@@ -9,17 +9,9 @@
   - Queues and syncronizations
   - Flow control
   
-### initialize
-- init = tf.initialize_all_variables()
-- sess = tf.Session()
-- sess.run(init)
-  
 ### Data Definition
 
-- tf.placeholder(dtype, shape=None, name=None)
-- tf.Variable(initializer, name)
-- tf.constant(value, dtype=None, shape=None, name='Const', verify_shape=False)
-- tf.zeros(shape, dtype=tf.float32, name=None)
+
 - tf.random_uniform(shape, minval=0, maxval=None, dtype=tf.float32, seed=None, name=None)
  
 ### Maths
@@ -51,6 +43,7 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 - tf.sin(x, name=None)
 - tf.tan(x, name=None)
 - tf.atan(x, name=None)
+- tf.equal(x, y, name=None)
 
 ### Array
 
@@ -145,7 +138,7 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 - tf.nn.softplus(features, name=None)
 - tf.nn.dropout(x, keep_prob, noise_shape=None, seed=None, name=None)
 - tf.nn.bias_add(value, bias, data_format=None, name=None)
-- tf.sigmoid(x, name=None)	y = 1 / (1 + exp(-x))
+- tf.sigmoid(x, name=None)
 - tf.tanh(x, name=None)
 
 #### Convolution
@@ -170,7 +163,7 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 - tf.nn.normalize_moments(counts, mean_ss, variance_ss, shift, name=None)
 - tf.nn.moments(x, axes, shift=None, name=None, keep_dims=False)
 
-#### Losses
+#### Losses/Costs
 
 - tf.nn.l2_loss(t, name=None)
 - tf.losses.sigmoid_cross_entropy
@@ -214,7 +207,7 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 
 ### Saving and Restoring Variables
  
-tf.train.Saver.__init__(var_list=None, reshape=False, sharded=False, max_to_keep=5, keep_checkpoint_every_n_hours=10000.0, name=None, restore_sequentially=False, saver_def=None, builder=None)
+tf.train.Saver.\_\_init\_\_(var_list=None, reshape=False, sharded=False, max_to_keep=5, keep_checkpoint_every_n_hours=10000.0, name=None, restore_sequentially=False, saver_def=None, builder=None)
 	
 - tf.train.Saver.save(sess, save_path, global_step=None, latest_filename=None, meta_graph_suffix=’meta’, write_meta_graph=True)
 - tf.train.Saver.restore(sess, save_path)
@@ -225,13 +218,12 @@ tf.train.Saver.__init__(var_list=None, reshape=False, sharded=False, max_to_keep
 #### Optimizer
 
 - tf.train.GradientDescentOptimizer(learning_rate).minimize(loss)
+- tf.train.AdamOptimizer(learning_rate).minimize(loss)
 
 
  
 
 - tf.tile
-
-- tf.train.AdamOptimizer
 
 - tf.clip_by_value
 
@@ -243,13 +235,7 @@ tf.train.Saver.__init__(var_list=None, reshape=False, sharded=False, max_to_keep
 
 - tf.newaxis
 
-- tf.contrib.slim.conv2d
 
-- tf.contrib.slim.max_pool2d
-
-- tf.contrib.slim.fully_connected
-
-- tf.contrib.rnn.GRUCell
 
 
 
