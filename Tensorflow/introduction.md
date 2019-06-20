@@ -38,3 +38,17 @@ sess.run([output], feed_dict={input1:[7.], input2:[2.]})
 
 #### device
 with tf.device("/gpu:1")
+
+#### summary
+
+- tf.scalar_summary(loss.op.name, loss)
+
+tf.merge_all_summaries()
+
+summary_writer = tf.train.SummaryWriter(FLAGS.train_dir, graph_def=sess.graph_def)
+
+summary_str = sess.run(summary_op, feed_dict=feed_dict)
+
+summary_writer.add_summary(summary_str, step)
+
+
