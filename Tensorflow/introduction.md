@@ -6,11 +6,13 @@ import tensorflow as tf
 
 #### source op
 - tf.placeholder(dtype, shape=None, name=None)
-- tf.Variable(initializer, name)
 
+- tf.Variable(initializer, name)
 - tf.zeros(shape, dtype=tf.float32, name=None)
 - tf.constant(value, dtype=None, shape=None, name='Const', verify_shape=False)
 - tf.truncated_normal(shape, mean=0.0, stddev=1.0, dtype=tf.float32, seed=None, name=None)
+- tf.random_uniform(shape, minval=0, maxval=None, dtype=tf.float32, seed=None, name=None)
+- tf.random_normal(shape, mean=0.0, stddev=1.0, dtype=tf.float32, seed=None, name=None)
 
 
 #### session
@@ -30,6 +32,8 @@ Operation.run() <br />
 (3) <br />
 with tf.Session() as sess: <br />
   sess.run(init) <br />
+  
+config=tf.ConfigProto(allow_soft_placement=True, log_device_placement=True)
 
 sess.close()
 
