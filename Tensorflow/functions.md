@@ -7,17 +7,11 @@
   - Neuronal Network
   - Checkpointing
   - Queues and syncronizations
-  - Flow control
-  
-### Data Definition
-
-
-- tf.random_uniform(shape, minval=0, maxval=None, dtype=tf.float32, seed=None, name=None)
+  - Flow control 
  
 ### Maths
 
 #### Arithmetic Operation
- 
 operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
  
 - tf.add(x, y, name=None)
@@ -48,32 +42,35 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 ### Array
 
 #### Tensor Transformations
-
+##### Casting
 - tf.string_to_number(string_tensor, out_type=None, name=None)
-- tf.to_double(x, name=’ToDouble’)
-- tf.to_float(x, name=’ToFloat’)
-- tf.to_int32(x, name=’ToInt32’)
-- tf.to_int64(x, name=’ToInt64’)
+- tf.to_double(x, name='ToDouble')
+- tf.to_float(x, name='ToFloat')
+- tf.to_bfloat16(x, name='ToBFloat16')
+- tf.to_int32(x, name='ToInt32')
+- tf.to_int64(x, name='ToInt64')
 - tf.cast(x, dtype, name=None)
-
-#### Shapes and Shaping
-
+##### Shapes and Shaping
 - tf.shape(input, name=None)
 - tf.size(input, name=None)
 - tf.rank(input, name=None)
 - tf.reshape(tensor, shape, name=None)
+- tf.squeeze(input, squeeze_dims=None, name=None)
 - tf.expand_dims(input, dim, name=None)
-
-#### Slicing and Joining
-
+##### Slicing and Joining
 - tf.slice(input_, begin, size, name=None)
-- tf.split(split_dim, num_split, value, name=’split’)
-- tf.concat(concat_dim, values, name=’concat’)
-- tf.pack(values, axis=0, name=’pack’)
+- tf.split(split_dim, num_split, value, name='split')
+- tf.tile(input, multiples, name=None)
+- tf.pad(input, paddings, name=None)
+- tf.concat(concat_dim, values, name='concat')
+- tf.pack(values, name='pack')
+- tf.unpack(value, num=None, name='unpack')
+- tf.reverse_sequence(input, seq_lengths, seq_dim, name=None)
 - tf.reverse(tensor, dims, name=None)
-- tf.transpose(a, perm=None, name=’transpose’)
-- tf.gather(params, indices, validate_indices=None, name=None)
-- tf.one_hot(indices, depth, on_value=None, off_value=None, axis=None, dtype=None, name=None)
+- tf.transpose(a, perm=None, name='transpose')
+- tf.gather(params, indices, name=None)
+- tf.dynamic_partition(data, partitions, num_partitions, name=None)
+- tf.dynamic_stitch(indices, data, name=None)
 
 ### Matrix
 
@@ -234,6 +231,8 @@ tf.train.Saver.\_\_init\_\_(var_list=None, reshape=False, sharded=False, max_to_
 - tf.stop_gradient
 
 - tf.newaxis
+
+- tf.one_hot(indices, depth, on_value=None, off_value=None, axis=None, dtype=None, name=None)
 
 
 
