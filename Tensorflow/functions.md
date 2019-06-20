@@ -9,11 +9,18 @@
   - Queues and syncronizations
   - Flow control
   
+### initialize
+- init = tf.initialize_all_variables()
+- sess = tf.Session()
+- sess.run(init)
+  
 ### Data Definition
 
-- tf.constant(value, dtype=None, shape=None, name='Const', verify_shape=False)
 - tf.placeholder(dtype, shape=None, name=None)
-- tf.Variable
+- tf.Variable(initializer, name)
+- tf.constant(value, dtype=None, shape=None, name='Const', verify_shape=False)
+- tf.zeros(shape, dtype=tf.float32, name=None)
+- tf.random_uniform(shape, minval=0, maxval=None, dtype=tf.float32, seed=None, name=None)
  
 ### Maths
 
@@ -214,6 +221,10 @@ tf.train.Saver.__init__(var_list=None, reshape=False, sharded=False, max_to_keep
 - tf.train.Saver.last_checkpoints
 - tf.train.Saver.set_last_checkpoints(last_checkpoints)
 - tf.train.Saver.set_last_checkpoints_with_time(last_checkpoints_with_time)
+
+#### Optimizer
+
+- tf.train.GradientDescentOptimizer(learning_rate).minimize(loss)
 
 
  
