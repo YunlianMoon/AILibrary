@@ -16,20 +16,20 @@ import tensorflow as tf
 #### session
 init = tf.initialize_all_variables()
 
-(1)
-sess = tf.Session()
-sess.run(init)
-fetch:
-sess.run()
-(2)
-sess = tf.InteractiveSession()
-sess.run(init)
-fetch:
-Tensor.eval()
-Operation.run()
-(3)
-with tf.Session() as sess:
-  sess.run(init)
+(1) <br />
+sess = tf.Session() <br />
+sess.run(init) <br />
+fetch: <br />
+sess.run() <br />
+(2) <br />
+sess = tf.InteractiveSession() <br />
+sess.run(init) <br />
+fetch: <br />
+Tensor.eval() <br />
+Operation.run() <br />
+(3) <br />
+with tf.Session() as sess: <br />
+  sess.run(init) <br />
 
 sess.close()
 
