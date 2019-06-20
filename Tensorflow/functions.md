@@ -1,47 +1,17 @@
 # Tensorflow Functions
 
 - Table of Contents
-  - Maths
   - Array
+  - Constant
+  - Maths 
   - Matrix
   - Neuronal Network
   - Checkpointing
   - Queues and syncronizations
-  - Flow control 
- 
-### Maths
-
-#### Arithmetic Operation
-operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
- 
-- tf.add(x, y, name=None)
-- tf.subtract(x, y, name=None)
-- tf.multiply(x, y, name=None)
-- tf.scalar_mul(scalar, x)
-- tf.div(x, y, name=None)
-- tf.mod(x, y, name=None)
-- tf.abs(x, name=None)
-- tf.negative(x, name=None)
-- tf.sign(x, name=None) <br />
-`Example: y = sign(x) = -1 if x < 0; 0 if x == 0; 1 if x > 0`
-- tf.inv(x, name=None)
-- tf.square(x, name=None)
-- tf.round(x, name=None)
-- tf.sqrt(x, name=None)
-- tf.pow(x, y, name=None)
-- tf.exp(x, name=None)
-- tf.log(x, name=None)
-- tf.maximum(x, y, name=None)
-- tf.minimum(x, y, name=None)
-- tf.cos(x, name=None)
-- tf.sin(x, name=None)
-- tf.tan(x, name=None)
-- tf.atan(x, name=None)
-- tf.equal(x, y, name=None)
-
+  - Control Flow
+  
 ### Array
-
-#### Tensor Transformations
+Tensor Transformations
 ##### Casting
 - tf.string_to_number(string_tensor, out_type=None, name=None)
 - tf.to_double(x, name='ToDouble')
@@ -71,6 +41,56 @@ operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
 - tf.gather(params, indices, name=None)
 - tf.dynamic_partition(data, partitions, num_partitions, name=None)
 - tf.dynamic_stitch(indices, data, name=None)
+
+### Constant
+Constants, Sequences, and Random Values
+##### Constant Value Tensors
+- tf.zeros(shape, dtype=tf.float32, name=None)
+- tf.zeros_like(tensor, dtype=None, name=None)
+- tf.ones(shape, dtype=tf.float32, name=None)
+- tf.ones_like(tensor, dtype=None, name=None)
+- tf.fill(dims, value, name=None)
+- tf.constant(value, dtype=None, shape=None, name='Const')
+##### Sequences
+- tf.linspace(start, stop, num, name=None)
+- tf.range(start, limit, delta=1, name='range')
+##### Random Tensors
+- tf.random_normal(shape, mean=0.0, stddev=1.0, dtype=tf.float32, seed=None, name=None)
+- tf.truncated_normal(shape, mean=0.0, stddev=1.0, dtype=tf.float32, seed=None, name=None)
+- tf.random_uniform(shape, minval=0.0, maxval=1.0, dtype=tf.float32, seed=None, name=None)
+- tf.random_shuffle(value, seed=None, name=None)
+- tf.set_random_seed(seed)
+ 
+### Maths
+#### Arithmetic Operation
+operation: Add, Subtract, Multiply, Div, Exp, Log, Greater, Less, Equal
+
+- tf.add(x, y, name=None)
+- tf.subtract(x, y, name=None)
+- tf.multiply(x, y, name=None)
+- tf.scalar_mul(scalar, x)
+- tf.div(x, y, name=None)
+- tf.mod(x, y, name=None)
+- tf.abs(x, name=None)
+- tf.negative(x, name=None)
+- tf.sign(x, name=None) <br />
+`Example: y = sign(x) = -1 if x < 0; 0 if x == 0; 1 if x > 0`
+- tf.inv(x, name=None)
+- tf.square(x, name=None)
+- tf.round(x, name=None)
+- tf.sqrt(x, name=None)
+- tf.pow(x, y, name=None)
+- tf.exp(x, name=None)
+- tf.log(x, name=None)
+- tf.maximum(x, y, name=None)
+- tf.minimum(x, y, name=None)
+- tf.cos(x, name=None)
+- tf.sin(x, name=None)
+- tf.tan(x, name=None)
+- tf.atan(x, name=None)
+- tf.equal(x, y, name=None)
+
+
 
 ### Matrix
 
@@ -216,6 +236,67 @@ tf.train.Saver.\_\_init\_\_(var_list=None, reshape=False, sharded=False, max_to_
 
 - tf.train.GradientDescentOptimizer(learning_rate).minimize(loss)
 - tf.train.AdamOptimizer(learning_rate).minimize(loss)
+
+
+### Control Flow
+##### Control Flow Operations
+- tf.identity(input, name=None)
+- tf.tuple(tensors, name=None, control_inputs=None)
+- tf.group(*inputs, **kwargs)
+- tf.no_op(name=None)
+- tf.count_up_to(ref, limit, name=None)
+##### Logical Operators
+- tf.logical_and(x, y, name=None)
+- tf.logical_not(x, name=None)
+- tf.logical_or(x, y, name=None)
+- tf.logical_xor(x, y, name='LogicalXor')
+##### Comparison Operators
+- tf.equal(x, y, name=None)
+- tf.not_equal(x, y, name=None)
+- tf.less(x, y, name=None)
+- tf.less_equal(x, y, name=None)
+- tf.greater(x, y, name=None)
+- tf.greater_equal(x, y, name=None)
+- tf.select(condition, t, e, name=None)
+- tf.where(input, name=None)
+##### Debugging Operations
+- tf.is_finite(x, name=None)
+- tf.is_inf(x, name=None)
+- tf.is_nan(x, name=None)
+- tf.verify_tensor_all_finite(t, msg, name=None)
+- tf.check_numerics(tensor, message, name=None)
+- tf.add_check_numerics_ops()
+- tf.Assert(condition, data, summarize=None, name=None)
+- tf.Print(input_, data, message=None, first_n=None, summarize=None, name=None)
+
+### Framwork
+Building Graphs
+##### Core graph data structures
+- class tf.Graph
+- class tf.Operation
+- class tf.Tensor
+##### Tensor types
+- class tf.DType
+- tf.as_dtype(type_value)
+##### Utility functions
+- tf.device(dev)
+- tf.name_scope(name)
+- tf.control_dependencies(control_inputs)
+- tf.convert_to_tensor(value, dtype=None, name=None)
+- tf.get_default_graph()
+- tf.import_graph_def(graph_def, input_map=None, return_elements=None, name=None, op_dict=None)
+##### Graph collections
+- tf.add_to_collection(name, value)
+- tf.get_collection(key, scope=None)
+- class tf.GraphKeys
+##### Defining new operations
+- class tf.RegisterGradient
+- tf.NoGradient(op_type)
+- class tf.RegisterShape
+- class tf.TensorShape
+- class tf.Dimension
+- tf.op_scope(values, name, default_name)
+- tf.get_seed(op_seed)
 
 
  
