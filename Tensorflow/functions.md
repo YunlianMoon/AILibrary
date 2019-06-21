@@ -14,8 +14,10 @@
   - Train
   
 ### Array
+Note: Functions taking Tensor arguments can also take anything accepted by tf.convert_to_tensor.
 Tensor Transformations
 ##### Casting
+TensorFlow provides several operations that you can use to cast tensor data types in your graph.
 - tf.string_to_number(string_tensor, out_type=None, name=None)
 - tf.to_double(x, name='ToDouble')
 - tf.to_float(x, name='ToFloat')
@@ -23,6 +25,7 @@ Tensor Transformations
 - tf.to_int32(x, name='ToInt32')
 - tf.to_int64(x, name='ToInt64')
 - tf.cast(x, dtype, name=None)
+`Describe: Casts a tensor to a new type`
 ##### Shapes and Shaping
 - tf.shape(input, name=None)
 - tf.size(input, name=None)
