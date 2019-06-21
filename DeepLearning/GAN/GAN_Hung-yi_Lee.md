@@ -18,6 +18,10 @@
   Training Algorithm
 </div>
 
+<br/>
+
+example: [crypko](https://crypko.ai/#/)
+
 
 ### Conditional GAN
 <div align=center>
