@@ -14,7 +14,7 @@
   - Train
   
 ### Array
-Note: Functions taking Tensor arguments can also take anything accepted by tf.convert_to_tensor.
+<font color="red">Note: Functions taking Tensor arguments can also take anything accepted by tf.convert_to_tensor.</font> <br />
 Tensor Transformations
 ##### Casting
 TensorFlow provides several operations that you can use to cast tensor data types in your graph.
