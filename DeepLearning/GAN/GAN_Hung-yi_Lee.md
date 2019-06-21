@@ -18,9 +18,7 @@
   Training Algorithm
 </div>
 
-<br/>
-
-example: [crypko](https://crypko.ai/#/)
+example: \[[crypko](https://crypko.ai/#/)\]
 
 
 ### Conditional GAN
@@ -35,7 +33,7 @@ Adversarial Learning of Label Dependency: A Novel Framework for Multi-class Clas
 
 Few-Shot Adversarial Learning of Realistic Neural Talking Head Models \[2019, arxiv, Egor Zakharov\] \[[Paper](https://arxiv.org/pdf/1905.08233.pdf)\]
 
-example: [sound to image](https://wjohn1483.github.io/audio_to_scene/index.html) [talking head](https://www.youtube.com/watch?v=p1b5aiTrGzY)
+example: \[[sound to image](https://wjohn1483.github.io/audio_to_scene/index.html)\] \[[talking head](https://www.youtube.com/watch?v=p1b5aiTrGzY)\]
 
 ### Unsupervised Conditional GAN
 <div align=center>
