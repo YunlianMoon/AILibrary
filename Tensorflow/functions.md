@@ -2,13 +2,16 @@
 
 - Table of Contents
   - Array
+  - Client
   - Constant
-  - Maths 
-  - Matrix
-  - Neuronal Network
-  - Checkpointing
-  - Queues and syncronizations
   - Control Flow
+  - Framework
+  - Image
+  - IO
+  - Math
+  - Neuronal Network
+  - State
+  - Train
   
 ### Array
 Tensor Transformations
