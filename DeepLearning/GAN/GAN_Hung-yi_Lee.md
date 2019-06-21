@@ -9,6 +9,8 @@
   Typical GAN
 </div>
 
+<br/>
+
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/GAN/image/typical_gan_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
