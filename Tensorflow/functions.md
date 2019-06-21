@@ -45,7 +45,7 @@ Tensor Transformations
 `Describe: Inserts a dimension of 1 into a tensor's shape`
 ##### Slicing and Joining
 *TensorFlow provides several operations to slice or extract parts of a tensor, or join multiple tensors together*
-- tf.slice(input_, begin, size, name=None)
+- tf.slice(input_, begin, size, name=None) </br>
 `Describe: Extracts a slice from a tensor`
 - tf.split(split_dim, num_split, value, name='split')
 - tf.tile(input, multiples, name=None)
