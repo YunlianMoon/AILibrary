@@ -14,6 +14,7 @@
   - Train
   
 ### Array
+<font color=red size=6>字体颜色</font>
 <font color="red">Note: Functions taking Tensor arguments can also take anything accepted by tf.convert_to_tensor.</font> <br />
 Tensor Transformations
 ##### Casting
