@@ -5,7 +5,7 @@
 
 ### Typical GAN
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/GAN/image/typical_gan.png" width="70%" /><br/>  
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/GAN/image/typical_gan.png" width="50%" /><br/>  
   Typical GAN
 </div>
 
@@ -23,7 +23,7 @@ example: \[[crypko](https://crypko.ai/#/)\]
 
 ### Conditional GAN
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/GAN/image/conditional_gan.png" width="70%" /><br/>  
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/GAN/image/conditional_gan.png" width="50%" /><br/>  
   Conditional GAN (pair data)
 </div>
 
@@ -37,7 +37,7 @@ example: \[[sound to image](https://wjohn1483.github.io/audio_to_scene/index.htm
 
 ### Unsupervised Conditional GAN
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/GAN/image/unsupervised_conditional_gan.png" width="70%" /><br/>  
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/GAN/image/unsupervised_conditional_gan.png" width="50%" /><br/>  
   Unsupervised Conditional GAN (unpair data)
 </div>
 
