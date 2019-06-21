@@ -41,6 +41,8 @@ example: \[[sound to image](https://wjohn1483.github.io/audio_to_scene/index.htm
   Unsupervised Conditional GAN (unpair data)
 </div>
 
+<br />
+
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/GAN/image/cycle_gan.png" width="70%" /><br/>  
   Cycle GAN
