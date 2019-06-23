@@ -49,15 +49,24 @@ Tensor Transformations
 `Describe: Extracts a slice from a tensor`
 - tf.split(split_dim, num_split, value, name='split') <br/>
 `Describe: Splits a tensor into num_split tensors along one dimension`
-- tf.tile(input, multiples, name=None)
-- tf.pad(input, paddings, name=None)
-- tf.concat(concat_dim, values, name='concat')
-- tf.pack(values, name='pack')
-- tf.unpack(value, num=None, name='unpack')
-- tf.reverse_sequence(input, seq_lengths, seq_dim, name=None)
-- tf.reverse(tensor, dims, name=None)
+- tf.tile(input, multiples, name=None) <br/>
+`Describe: Constructs a tensor by tiling a given tensor`
+- tf.pad(input, paddings, name=None) <br/>
+`Describe: Pads a tensor with zeros`
+- tf.concat(concat_dim, values, name='concat') <br/>
+`Describe: Concatenates tensors along one dimension`
+- tf.stack(values, axis=0, name='stack') <br/>
+`Describe: Packs a list of rank-R tensors into one rank-(R+1) tensor`
+- tf.unstack(value, num=None, axis=0, name='unstack') <br/>
+`Describe: Unpacks the given dimension of a rank-R tensor into rank-(R-1) tensors`
+- tf.reverse_sequence(input, seq_lengths, seq_axis=None, batch_axis=None, name=None, seq_dim=None, batch_dim=None) <br/>
+`Describe: Reverses variable length slices in dimension seq_dim`
+- tf.reverse(tensor, dims, name=None) <br/>
+`Describe: Reverses specific dimensions of a tensor`
+`Note: Given a tensor, and a bool tensor dims representing the dimensions of tensor, this operation reverses each dimension i of tensor where dims[i] is True`
 - tf.transpose(a, perm=None, name='transpose')
-- tf.gather(params, indices, name=None)
+- tf.gather(params, indices, validate_indices=None, name=None, axis=0) <br/>
+`Describe: Gather slices from params according to indices`
 - tf.dynamic_partition(data, partitions, num_partitions, name=None)
 - tf.dynamic_stitch(indices, data, name=None)
 
