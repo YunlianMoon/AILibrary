@@ -62,7 +62,7 @@ Tensor Transformations
 - tf.reverse_sequence(input, seq_lengths, seq_axis=None, batch_axis=None, name=None, seq_dim=None, batch_dim=None) <br/>
 `Describe: Reverses variable length slices in dimension seq_dim`
 - tf.reverse(tensor, dims, name=None) <br/>
-`Describe: Reverses specific dimensions of a tensor`
+`Describe: Reverses specific dimensions of a tensor` <br/>
 `Note: Given a tensor, and a bool tensor dims representing the dimensions of tensor, this operation reverses each dimension i of tensor where dims[i] is True`
 - tf.transpose(a, perm=None, name='transpose')
 - tf.gather(params, indices, validate_indices=None, name=None, axis=0) <br/>
