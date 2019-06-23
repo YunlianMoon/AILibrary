@@ -14,7 +14,7 @@
   - Train
   
 ### Array
-*Note: Functions taking Tensor arguments can also take anything accepted by tf.convert_to_tensor* <br />
+*Note: Functions taking Tensor arguments can also take anything accepted by tf.convert_to_tensor* <br/>
 Tensor Transformations
 ##### Casting
 *TensorFlow provides several operations that you can use to cast tensor data types in your graph*
@@ -24,30 +24,31 @@ Tensor Transformations
 - tf.to_bfloat16(x, name='ToBFloat16')
 - tf.to_int32(x, name='ToInt32')
 - tf.to_int64(x, name='ToInt64')
-- tf.cast(x, dtype, name=None) </br>
+- tf.cast(x, dtype, name=None) <br/>
 `Describe: Casts a tensor to a new type`
 ##### Shapes and Shaping
 *TensorFlow provides several operations that you can use to determine the shape of a tensor and change the shape of a tensor*
-- tf.shape(input, name=None) </br>
+- tf.shape(input, name=None) <br/>
 `Describe: returns a 1-D integer tensor representing the shape of input`
-- tf.size(input, name=None) </br>
+- tf.size(input, name=None) <br/>
 `Describe: returns an integer representing the number of elements in input`
-- tf.rank(input, name=None) </br>
-`Describe: returns an integer representing the rank of input` </br>
+- tf.rank(input, name=None) <br/>
+`Describe: returns an integer representing the rank of input` <br/>
 `Rank: The rank of a tensor is not the same as the rank of a matrix. The rank of a tensor is the number of indices required to uniquely select each element of the tensor. Rank is also known as "order", "degree", or "ndims."`
-- tf.reshape(tensor, shape, name=None) </br>
-`Describe: returns a tensor that has the same values as tensor with shape shape` </br>
+- tf.reshape(tensor, shape, name=None) <br/>
+`Describe: returns a tensor that has the same values as tensor with shape shape` <br/>
 `If shape is the special value [-1], then tensor is flattened and the operation outputs a 1-D tensor with all elements of tensor.`
-`If shape is 1-D or higher, then the operation returns a tensor with shape shape filled with the values of tensor. In this case, the number of elements implied by shape must be the same as the number of elements in tensor.` </br>
-- tf.squeeze(input, squeeze_dims=None, name=None) </br>
+`If shape is 1-D or higher, then the operation returns a tensor with shape shape filled with the values of tensor. In this case, the number of elements implied by shape must be the same as the number of elements in tensor.` <br/>
+- tf.squeeze(input, squeeze_dims=None, name=None) <br/>
 `Describe: Removes dimensions of size 1 from the shape of a tensor`
-- tf.expand_dims(input, dim, name=None) </br>
+- tf.expand_dims(input, dim, name=None) <br/>
 `Describe: Inserts a dimension of 1 into a tensor's shape`
 ##### Slicing and Joining
 *TensorFlow provides several operations to slice or extract parts of a tensor, or join multiple tensors together*
-- tf.slice(input_, begin, size, name=None) </br>
+- tf.slice(input_, begin, size, name=None) <br/>
 `Describe: Extracts a slice from a tensor`
-- tf.split(split_dim, num_split, value, name='split')
+- tf.split(split_dim, num_split, value, name='split') <br/>
+`Describe: Splits a tensor into num_split tensors along one dimension`
 - tf.tile(input, multiples, name=None)
 - tf.pad(input, paddings, name=None)
 - tf.concat(concat_dim, values, name='concat')
