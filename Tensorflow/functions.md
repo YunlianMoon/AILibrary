@@ -87,7 +87,7 @@ sess = tf.Session()   |    with tf.Session() as sess:     |    sess = tf.Session
 sess.run(...)         |      sess.run(...)                |                                            log_device_placement=True)) 
 sess.close()          |                                   |
 ```
-- class tf.InteractiveSession
+- class tf.InteractiveSession <br/>
 `Describe: A TensorFlow Session for use in interactive contexts, such as a shell`
   - tf.InteractiveSession.close()
 ``` python
@@ -119,21 +119,31 @@ sess.close()
 ### Constant
 Constants, Sequences, and Random Values
 ##### Constant Value Tensors
+*TensorFlow provides several operations that you can use to generate constants*
 - tf.zeros(shape, dtype=tf.float32, name=None)
 - tf.zeros_like(tensor, dtype=None, name=None)
 - tf.ones(shape, dtype=tf.float32, name=None)
 - tf.ones_like(tensor, dtype=None, name=None)
-- tf.fill(dims, value, name=None)
+- tf.fill(dims, value, name=None) <br/>
+`Describe: Creates a tensor filled with a scalar value`
 - tf.constant(value, dtype=None, shape=None, name='Const')
 ##### Sequences
-- tf.linspace(start, stop, num, name=None)
-- tf.range(start, limit, delta=1, name='range')
+- tf.linspace(start, stop, num, name=None) <br/>
+`Describe: Generates values in an interval`
+- tf.range(start, limit, delta=1, name='range') <br/>
+`Describe: Creates a sequence of integers`
 ##### Random Tensors
-- tf.random_normal(shape, mean=0.0, stddev=1.0, dtype=tf.float32, seed=None, name=None)
-- tf.truncated_normal(shape, mean=0.0, stddev=1.0, dtype=tf.float32, seed=None, name=None)
-- tf.random_uniform(shape, minval=0.0, maxval=1.0, dtype=tf.float32, seed=None, name=None)
-- tf.random_shuffle(value, seed=None, name=None)
-- tf.set_random_seed(seed)
+*TensorFlow has several ops that create random tensors with different distributions. The random ops are stateful, and create new random values each time they are evaluated*
+- tf.random_normal(shape, mean=0.0, stddev=1.0, dtype=tf.float32, seed=None, name=None) <br/>
+`Desceibe: Outputs random values from a normal distribution`
+- tf.truncated_normal(shape, mean=0.0, stddev=1.0, dtype=tf.float32, seed=None, name=None) <br/>
+`Desceibe: Outputs random values from a truncated normal distribution`
+- tf.random_uniform(shape, minval=0.0, maxval=1.0, dtype=tf.float32, seed=None, name=None) <br/>
+`Describe: Outputs random values from a uniform distribution`
+- tf.random_shuffle(value, seed=None, name=None) <br/>
+`Describe: Randomly shuffles a tensor along its first dimension`
+- tf.set_random_seed(seed) <br/>
+`Describe: Sets the graph-level random seed`
 
 ### Control Flow
 ##### Control Flow Operations
