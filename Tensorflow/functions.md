@@ -76,18 +76,19 @@ Tensor Transformations
 Running Graphs
 *This library contains classes for launching graphs and executing operations*
 #### Session management
-##### class tf.Session
+- class tf.Session
+  - tf.Session.run(fetches, feed_dict=None)
+  - tf.Session.close()
+  - tf.Session.graph
+  - tf.Session.as_default() <br/>
 `Describe: A class for running TensorFlow operations`
 ``` python
 sess = tf.Session()   |    with tf.Session() as sess:     |    sess = tf.Session(config=tf.ConfigProto(allow_soft_placement=True,
 sess.run(...)         |      sess.run(...)                |                                            log_device_placement=True)) 
 sess.close()          |                                   |
 ```
-- tf.Session.run(fetches, feed_dict=None)
-- tf.Session.close()
-- tf.Session.graph
-- tf.Session.as_default()
-##### class tf.InteractiveSession
+- class tf.InteractiveSession
+  - tf.InteractiveSession.close() <br/>
 `Describe: A TensorFlow Session for use in interactive contexts, such as a shell`
 ``` python
 sess = tf.InteractiveSession()
@@ -95,7 +96,6 @@ Tensor.eval()
 Operation.run()
 sess.close()
 ```
-- tf.InteractiveSession.close()
 - tf.get_default_session()
 #### Error classes
 - class tf.OpError
