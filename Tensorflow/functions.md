@@ -67,13 +67,22 @@ Tensor Transformations
 - tf.transpose(a, perm=None, name='transpose')
 - tf.gather(params, indices, validate_indices=None, name=None, axis=0) <br/>
 `Describe: Gather slices from params according to indices`
-- tf.dynamic_partition(data, partitions, num_partitions, name=None)
-- tf.dynamic_stitch(indices, data, name=None)
+- tf.dynamic_partition(data, partitions, num_partitions, name=None) <br/>
+`Describe: Partitions data into num_partitions tensors using indices from partitions`
+- tf.dynamic_stitch(indices, data, name=None) <br/>
+`Describe: Interleave the values from the data tensors into a single tensor`
 
 ### Client
 Running Graphs
+*This library contains classes for launching graphs and executing operations*
 #### Session management
-- class tf.Session
+- class tf.Session <br/>
+`Describe: A class for running TensorFlow operations` <br/>
+|Item|Price|Number|
+|--------|-----:|:----:|
+|computer|$1600|5|
+|cellphone|$12|12|
+|pen|$1|234|
 - class tf.InteractiveSession
 - tf.get_default_session()
 #### Error classes
