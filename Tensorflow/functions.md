@@ -79,10 +79,14 @@ Running Graphs
 - class tf.Session <br/>
 `Describe: A class for running TensorFlow operations` <br/>
 ``` python
-sess = tf.Session()   |    with tf.Session() as sess:
-sess.run(...)         |      sess.run(...)             
+sess = tf.Session()   |    with tf.Session() as sess:     |    sess = tf.Session(config=tf.ConfigProto(allow_soft_placement=True,
+sess.run(...)         |      sess.run(...)                |                                            log_device_placement=True)) 
 sess.close()          |     
 ```
+  - tf.Session.run(fetches, feed_dict=None)
+  - tf.Session.close()
+  - tf.Session.graph
+  - tf.Session.as_default()
 - class tf.InteractiveSession
 - tf.get_default_session()
 #### Error classes
