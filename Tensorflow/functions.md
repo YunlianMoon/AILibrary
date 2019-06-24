@@ -78,11 +78,11 @@ Running Graphs
 #### Session management
 - class tf.Session <br/>
 `Describe: A class for running TensorFlow operations` <br/>
-'|Item|Price|Number|
-|--------|-----:|:----:|
-|computer|$1600|5|
-|cellphone|$12|12|
-|pen|$1|234|'
+``` python
+sess = tf.Session()   |    with tf.Session() as sess:
+sess.run(...)         |      sess.run(...)             
+sess.close()          |     
+```
 - class tf.InteractiveSession
 - tf.get_default_session()
 #### Error classes
