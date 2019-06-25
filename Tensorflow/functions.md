@@ -147,39 +147,89 @@ Constants, Sequences, and Random Values
 
 ### Control Flow
 ##### Control Flow Operations
-- tf.identity(input, name=None)
-- tf.tuple(tensors, name=None, control_inputs=None)
-- tf.group(*inputs, **kwargs)
-- tf.no_op(name=None)
-- tf.count_up_to(ref, limit, name=None)
+*TensorFlow provides several operations and classes that you can use to control the execution of operations and add conditional dependencies to your graph*
+- tf.identity(input, name=None) <br/>
+`Describe: Return a tensor with the same shape and contents as the input tensor or value`
+- tf.tuple(tensors, name=None, control_inputs=None) <br/>
+`Describe: Group tensors together`
+- tf.group(\*inputs, \*\*kwargs) <br/>
+`Describe: Create an op that groups multiple operations`
+- tf.no_op(name=None) <br/>
+`Describe: Does nothing. Only useful as a placeholder for control edges`
+- tf.count_up_to(ref, limit, name=None) <br/>
+`Describe: Increments 'ref' until it reaches 'limit'`
 ##### Logical Operators
-- tf.logical_and(x, y, name=None)
-- tf.logical_not(x, name=None)
-- tf.logical_or(x, y, name=None)
+*TensorFlow provides several operations that you can use to add logical operators to your graph*
+- tf.logical_and(x, y, name=None) <br/>
+`Describe: Returns the truth value of x AND y element-wise`
+- tf.logical_not(x, name=None) <br/>
+`Describe: Returns the truth value of NOT x element-wise`
+- tf.logical_or(x, y, name=None) <br/>
+`Describe: Returns the truth value of x OR y element-wise`
 - tf.logical_xor(x, y, name='LogicalXor')
 ##### Comparison Operators
-- tf.equal(x, y, name=None)
-- tf.not_equal(x, y, name=None)
-- tf.less(x, y, name=None)
-- tf.less_equal(x, y, name=None)
-- tf.greater(x, y, name=None)
-- tf.greater_equal(x, y, name=None)
-- tf.select(condition, t, e, name=None)
-- tf.where(input, name=None)
+*TensorFlow provides several operations that you can use to add comparison operators to your graph*
+- tf.equal(x, y, name=None) <br/>
+`Describe: Returns the truth value of (x == y) element-wise`
+- tf.not_equal(x, y, name=None) <br/>
+`Describe: Returns the truth value of (x != y) element-wise`
+- tf.less(x, y, name=None) <br/>
+`Describe: Returns the truth value of (x < y) element-wise`
+- tf.less_equal(x, y, name=None) <br/>
+`Describe: Returns the truth value of (x <= y) element-wise`
+- tf.greater(x, y, name=None) <br/>
+`Describe: Returns the truth value of (x > y) element-wise`
+- tf.greater_equal(x, y, name=None) <br/>
+`Describe: Returns the truth value of (x >= y) element-wise`
+- tf.select(condition, t, e, name=None) <br/>
+`Describe: Selects elements from t or e, depending on condition`
+- tf.where(condition, x=None, y=None, name=None) <br/>
+`Describe: Return the elements, either from x or y, depending on the condition`
 ##### Debugging Operations
-- tf.is_finite(x, name=None)
-- tf.is_inf(x, name=None)
-- tf.is_nan(x, name=None)
-- tf.verify_tensor_all_finite(t, msg, name=None)
-- tf.check_numerics(tensor, message, name=None)
-- tf.add_check_numerics_ops()
-- tf.Assert(condition, data, summarize=None, name=None)
-- tf.Print(input_, data, message=None, first_n=None, summarize=None, name=None)
+*TensorFlow provides several operations that you can use to validate values and debug your graph*
+- tf.is_finite(x, name=None) <br/>
+`Describe: Returns which elements of x are finite`
+- tf.is_inf(x, name=None) <br/>
+`Describe: Returns which elements of x are Inf`
+- tf.is_nan(x, name=None) <br/>
+`Describe: Returns which elements of x are NaN`
+- tf.verify_tensor_all_finite(t, msg, name=None) <br/>
+`Describe: Assert that the tensor does not contain any NaN's or Inf's`
+- tf.check_numerics(tensor, message, name=None) <br/>
+`Describe: Checks a tensor for NaN and Inf values`
+- tf.add_check_numerics_ops() <br/>
+`Describe: Connect a check_numerics to every floating point tensor`
+- tf.Assert(condition, data, summarize=None, name=None) <br/>
+`Describe: Asserts that the given condition is true`
+- tf.Print(input_, data, message=None, first_n=None, summarize=None, name=None) <br/>
+`Describe: Prints a list of tensors`
 
 ### Framwork
 Building Graphs
+*Classes and functions for building TensorFlow graphs*
 ##### Core graph data structures
-- class tf.Graph
+- class tf.Graph <br/>
+`Describe: A TensorFlow computation, represented as a dataflow graph`
+  - tf.Graph.\_\_init\_\_()
+  - tf.Graph.as_default()
+  - tf.Graph.as_graph_def(from_version=None)
+  - tf.Graph.finalize()
+  - tf.Graph.finalized
+  - tf.Graph.control_dependencies(control_inputs)
+  - tf.Graph.device(device_name_or_function)
+  - tf.Graph.name_scope(name)
+  - tf.Graph.add_to_collection(name, value)
+  - tf.Graph.get_collection(name, scope=None)
+  - tf.Graph.as_graph_element(obj, allow_tensor=True, allow_operation=True)
+  - tf.Graph.get_operation_by_name(name)
+  - tf.Graph.get_tensor_by_name(name)
+  - tf.Graph.get_operations()
+  - tf.Graph.get_default_device()
+  - tf.Graph.seed
+  - tf.Graph.unique_name(name)
+  - tf.Graph.version
+  - tf.Graph.create_op(op_type, inputs, dtypes, input_types=None, name=None, attrs=None, op_def=None, compute_shapes=True)
+  - tf.Graph.gradient_override_map(op_type_map)  
 - class tf.Operation
 - class tf.Tensor
 ##### Tensor types
