@@ -230,7 +230,8 @@ Building Graphs
   - tf.Graph.version
   - tf.Graph.create_op(op_type, inputs, dtypes, input_types=None, name=None, attrs=None, op_def=None, compute_shapes=True)
   - tf.Graph.gradient_override_map(op_type_map)  
-- class tf.Operation
+- class tf.Operation <br/>
+`Describe: Represents a graph node that performs computation on tensors`
 - class tf.Tensor
 ##### Tensor types
 - class tf.DType
