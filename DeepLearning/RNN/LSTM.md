@@ -28,5 +28,9 @@ reference:
   Hung-yi Lee PPT
 </div>
 
-
+### website picture
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/RNN/images/lstm_cell.png" width="60%" /><br/>
+  LSTM cell
+</div>
 
