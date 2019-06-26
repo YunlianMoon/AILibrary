@@ -232,66 +232,177 @@ Building Graphs
   - tf.Graph.gradient_override_map(op_type_map)  
 - class tf.Operation <br/>
 `Describe: Represents a graph node that performs computation on tensors`
-- class tf.Tensor
+  - tf.Operation.name
+  - tf.Operation.type
+  - tf.Operation.inputs
+  - tf.Operation.control_inputs
+  - tf.Operation.outputs
+  - tf.Operation.device
+  - tf.Operation.graph
+  - tf.Operation.run(feed_dict=None, session=None)
+  - tf.Operation.get_attr(name)
+  - tf.Operation.traceback
+  - tf.Operation.__init__(node_def, g, inputs=None, output_types=None, control_inputs=None, input_types=None, original_op=None, op_def=None)
+  - tf.Operation.node_def
+  - tf.Operation.op_def
+  - tf.Operation.values()
+- class tf.Tensor <br/>
+`Describe: Represents a value produced by an Operation`
+  - tf.Tensor.dtype
+  - tf.Tensor.name
+  - tf.Tensor.value_index
+  - tf.Tensor.graph
+  - tf.Tensor.op
+  - tf.Tensor.consumers()
+  - tf.Tensor.eval(feed_dict=None, session=None) <br/>
+  `Describe: Evaluates this tensor in a Session`
+  - tf.Tensor.get_shape()
+  - tf.Tensor.set_shape(shape)
+  - tf.Tensor.__init__(op, value_index, dtype)
+  - tf.Tensor.device
 ##### Tensor types
-- class tf.DType
-- tf.as_dtype(type_value)
+- class tf.DType <br/>
+`Describe: Represents the type of the elements in a Tensor`
+  - tf.DType.is_compatible_with(other)
+  - tf.DType.name
+  - tf.DType.base_dtype
+  - tf.DType.is_ref_dtype
+  - tf.DType.as_ref
+  - tf.DType.is_integer
+  - tf.DType.is_quantized
+  - tf.DType.as_numpy_dtype
+  - tf.DType.as_datatype_enum
+  - tf.DType.__init__(type_enum)
+  - tf.DType.max
+  - tf.DType.min
+  - tf.as_dtype(type_value) 
+- tf.as_dtype(type_value) <br/>
+`Describe: Converts the given type_value to a DType`
 ##### Utility functions
 - tf.device(dev)
 - tf.name_scope(name)
 - tf.control_dependencies(control_inputs)
-- tf.convert_to_tensor(value, dtype=None, name=None)
-- tf.get_default_graph()
-- tf.import_graph_def(graph_def, input_map=None, return_elements=None, name=None, op_dict=None)
+- tf.convert_to_tensor(value, dtype=None, name=None) <br/>
+`Describe: Converts the given value to a Tensor`
+- tf.get_default_graph() <br/>
+`Describe: Returns the default graph for the current thread`
+- tf.import_graph_def(graph_def, input_map=None, return_elements=None, name=None, op_dict=None) <br/>
+`Describe: Imports the TensorFlow graph in graph_def into the Python Graph`
 ##### Graph collections
 - tf.add_to_collection(name, value)
 - tf.get_collection(key, scope=None)
-- class tf.GraphKeys
+- class tf.GraphKeys <br/>
+`Describe: Standard names to use for graph collections`
+  - VARIABLES
+  - TRAINABLE_VARIABLES
+  - SUMMARIES
+  - QUEUE_RUNNERS
 ##### Defining new operations
-- class tf.RegisterGradient
-- tf.NoGradient(op_type)
-- class tf.RegisterShape
-- class tf.TensorShape
-- class tf.Dimension
-- tf.op_scope(values, name, default_name)
-- tf.get_seed(op_seed)
+- class tf.RegisterGradient <br/>
+`Describe: A decorator for registering the gradient function for an op type`
+  - tf.RegisterGradient.\_\_init\_\_(op_type)
+- tf.NoGradient(op_type) <br/>
+`Describe: Specifies that ops of type op_type do not have a defined gradient`
+- class tf.RegisterShape <br/>
+`Describe: A decorator for registering the shape function for an op type`
+  - tf.RegisterShape.\_\_init\_\_(op_type)
+- class tf.TensorShape <br/>
+`Describe: Represents the shape of a Tensor`
+  - tf.TensorShape.merge_with(other)
+  - tf.TensorShape.concatenate(other)
+  - tf.TensorShape.ndims
+  - tf.TensorShape.dims
+  - tf.TensorShape.as_list()
+  - tf.TensorShape.is_compatible_with(other)
+  - tf.TensorShape.is_fully_defined()
+  - tf.TensorShape.with_rank(rank)
+  - tf.TensorShape.with_rank_at_least(rank)
+  - tf.TensorShape.with_rank_at_most(rank)
+  - tf.TensorShape.assert_has_rank(rank)
+  - tf.TensorShape.assert_same_rank(other)
+  - tf.TensorShape.assert_is_compatible_with(other)
+  - tf.TensorShape.assert_is_fully_defined()
+  - tf.TensorShape.\_\_init\_\_(dims)
+  - tf.TensorShape.as_dimension_list()
+  - tf.TensorShape.num_elements()
+- class tf.Dimension <br/>
+`Describe: Represents the value of one dimension in a TensorShape`
+  - tf.Dimension.\_\_init\_\_(value)
+  - tf.Dimension.assert_is_compatible_with(other)
+  - tf.Dimension.is_compatible_with(other)
+  - tf.Dimension.merge_with(other)
+  - tf.Dimension.value
+- tf.op_scope(values, name, default_name) <br/>
+`Describe: Returns a context manager for use when defining a Python op`
+- tf.get_seed(op_seed) <br/>
+`Describe: Returns the local seeds an operation should use given an op-specific seed`
 
 ### Image
 #### Encoding and Decoding
-- tf.image.decode_jpeg(contents, channels=None, ratio=None, fancy_upscaling=None, try_recover_truncated=None, acceptable_fraction=None, name=None)
-- tf.image.encode_jpeg(image, format=None, quality=None, progressive=None, optimize_size=None, chroma_downsampling=None, density_unit=None, x_density=None, y_density=None, xmp_metadata=None, name=None)
-- tf.image.decode_png(contents, channels=None, name=None)
-- tf.image.encode_png(image, compression=None, name=None)
+*TensorFlow provides Ops to decode and encode JPEG and PNG formats. Encoded images are represented by scalar string Tensors, decoded images by 3-D uint8 tensors of shape \[height, width, channels\]*
+- tf.image.decode_jpeg(contents, channels=None, ratio=None, fancy_upscaling=None, try_recover_truncated=None, acceptable_fraction=None, name=None) <br/>
+`Describe: Decode a JPEG-encoded image to a uint8 tensor`
+- tf.image.encode_jpeg(image, format=None, quality=None, progressive=None, optimize_size=None, chroma_downsampling=None, density_unit=None, x_density=None, y_density=None, xmp_metadata=None, name=None) <br/>
+`Describe: JPEG-encode an image`
+- tf.image.decode_png(contents, channels=None, name=None) <br/>
+`Describe: Decode a PNG-encoded image to a uint8 tensor`
+- tf.image.encode_png(image, compression=None, name=None) <br/>
+`Describe: PNG-encode an image`
 #### Resizing
-- tf.image.resize_images(images, new_height, new_width, method=0)
-- tf.image.resize_area(images, size, name=None)
-- tf.image.resize_bicubic(images, size, name=None)
-- tf.image.resize_bilinear(images, size, name=None)
-- tf.image.resize_nearest_neighbor(images, size, name=None)
+*The resizing Ops accept input images as tensors of several types. They always output resized images as float32 tensors*
+- tf.image.resize_images(images, new_height, new_width, method=0) <br/>
+`Describe: Resize images to new_width, new_height using the specified method`
+- tf.image.resize_area(images, size, name=None) <br/>
+`Describe: Resize images to size using area interpolation`
+- tf.image.resize_bicubic(images, size, name=None) <br/>
+`Describe: Resize images to size using bicubic interpolation`
+- tf.image.resize_bilinear(images, size, name=None) <br/>
+`Describe: Resize images to size using bilinear interpolation`
+- tf.image.resize_nearest_neighbor(images, size, name=None) <br/>
+`Describe: Resize images to size using nearest neighbor interpolation`
 #### Cropping
-- tf.image.resize_image_with_crop_or_pad(image, target_height, target_width)
-- tf.image.pad_to_bounding_box(image, offset_height, offset_width, target_height, target_width)
-- tf.image.crop_to_bounding_box(image, offset_height, offset_width, target_height, target_width)
-- tf.image.random_crop(image, size, seed=None, name=None)
-- tf.image.extract_glimpse(input, size, offsets, centered=None, normalized=None, uniform_noise=None, name=None)
+- tf.image.resize_image_with_crop_or_pad(image, target_height, target_width) <br/>
+`Describe: Crops and/or pads an image to a target width and height`
+- tf.image.pad_to_bounding_box(image, offset_height, offset_width, target_height, target_width) <br/>
+`Describe: Pad image with zeros to the specified height and width`
+- tf.image.crop_to_bounding_box(image, offset_height, offset_width, target_height, target_width) <br/>
+`Describe: Crops an image to a specified bounding box`
+- tf.image.random_crop(image, size, seed=None, name=None) <br/>
+`Describe: Randomly crops image to size [target_height, target_width]`
+- tf.image.extract_glimpse(input, size, offsets, centered=None, normalized=None, uniform_noise=None, name=None) <br/>
+`Describe: Extracts a glimpse from the input tensor`
 #### Flipping and Transposing
-- tf.image.flip_up_down(image)
-- tf.image.random_flip_up_down(image, seed=None)
-- tf.image.flip_left_right(image)
-- tf.image.random_flip_left_right(image, seed=None)
-- tf.image.transpose_image(image)
+- tf.image.flip_up_down(image) <br/>
+`Describe: Flip an image horizontally (upside down)`
+- tf.image.random_flip_up_down(image, seed=None) <br/>
+`Describe: Randomly flips an image vertically (upside down)`
+- tf.image.flip_left_right(image) <br/>
+`Describe: Flip an image horizontally (left to right)`
+- tf.image.random_flip_left_right(image, seed=None) <br/>
+`Describe: Randomly flip an image horizontally (left to right)`
+- tf.image.transpose_image(image) <br/>
+`Describe: Transpose an image by swapping the first and second dimension`
 #### Image Adjustments
-- tf.image.adjust_brightness(image, delta, min_value=None, max_value=None)
-- tf.image.random_brightness(image, max_delta, seed=None)
-- tf.image.adjust_contrast(images, contrast_factor, min_value=None, max_value=None)
-- tf.image.random_contrast(image, lower, upper, seed=None)
-- tf.image.per_image_whitening(image)
+*TensorFlow provides functions to adjust images in various ways: brightness, contrast, hue, and saturation. Each adjustment can be done with predefined parameters or with random parameters picked from predefined intervals. Random adjustments are often useful to expand a training set and reduce overfitting*
+- tf.image.adjust_brightness(image, delta, min_value=None, max_value=None) <br/>
+`Describe: Adjust the brightness of RGB or Grayscale images`
+- tf.image.random_brightness(image, max_delta, seed=None) <br/>
+`Describe: Adjust the brightness of images by a random factor`
+- tf.image.adjust_contrast(images, contrast_factor, min_value=None, max_value=None) <br/>
+`Describe: Adjust contrast of RGB or grayscale images`
+- tf.image.random_contrast(image, lower, upper, seed=None) <br/>
+`Describe: Adjust the contrase of an image by a random factor`
+- tf.image.per_image_whitening(image) <br/>
+`Describe: Linearly scales image to have zero mean and unit norm`
 
 ### IO
 Inputs and Readers
 #### Placeholders
-- tf.placeholder(dtype, shape=None, name=None)
+*TensorFlow provides a placeholder operation that must be fed with data on execution*
+- tf.placeholder(dtype, shape=None, name=None) <br/>
+`Describe: Inserts a placeholder for a tensor that will be always fed`
 #### Readers
+*TensorFlow provides a set of Reader classes for reading data formats*
 - class tf.ReaderBase
 - class tf.TextLineReader
 - class tf.WholeFileReader
@@ -327,40 +438,60 @@ Inputs and Readers
 ### Math
 #### Arithmetic Operators
 - tf.add(x, y, name=None)
-- tf.sub(x, y, name=None)
-- tf.mul(x, y, name=None)
+- tf.subtract(x, y, name=None)
+- tf.multiply(x, y, name=None) <br/>
+`Describe: Returns x * y element-wise`
 - tf.div(x, y, name=None)
 - tf.mod(x, y, name=None)
 #### Basic Math Functions
-- tf.add_n(inputs, name=None)
+- tf.add_n(inputs, name=None) <br/>
+`Describe: Add all input tensors element wise`
 - tf.abs(x, name=None)
-- tf.neg(x, name=None)
-- tf.sign(x, name=None)
+- tf.negative(x, name=None)
+- tf.sign(x, name=None) <br/>
+`Describe: Returns an element-wise indication of the sign of a number` <br/>
+```python
+y = sign(x) = -1 if x < 0; 0 if x == 0; 1 if x > 0
+```
 - tf.inv(x, name=None)
 - tf.square(x, name=None)
 - tf.round(x, name=None)
 - tf.sqrt(x, name=None)
 - tf.rsqrt(x, name=None)
-- tf.pow(x, y, name=None)
+- tf.pow(x, y, name=None) <br/>
+`Describe: Computes the power of one value to another`
 - tf.exp(x, name=None)
 - tf.log(x, name=None)
-- tf.ceil(x, name=None)
-- tf.floor(x, name=None)
-- tf.maximum(x, y, name=None)
-- tf.minimum(x, y, name=None)
+- tf.ceil(x, name=None) <br/>
+`Describe: Returns element-wise smallest integer in not less than x`
+- tf.floor(x, name=None) <br/>
+`Describe: Returns element-wise largest integer not greater than x`
+- tf.maximum(x, y, name=None) <br/>
+`Describe: Returns the max of x and y (i.e. x > y ? x : y) element-wise, broadcasts`
+- tf.minimum(x, y, name=None) <br/>
+`Describe: Returns the min of x and y (i.e. x < y ? x : y) element-wise, broadcasts`
 - tf.cos(x, name=None)
 - tf.sin(x, name=None)
 #### Matrix Math Functions
-- tf.diag(diagonal, name=None)
-- tf.transpose(a, perm=None, name='transpose')
-- tf.matmul(a, b, transpose_a=False, transpose_b=False, a_is_sparse=False, b_is_sparse=False, name=None)
-- tf.batch_matmul(x, y, adj_x=None, adj_y=None, name=None)
-- tf.matrix_determinant(input, name=None)
-- tf.batch_matrix_determinant(input, name=None)
+*TensorFlow provides several operations that you can use to add basic mathematical functions for matrices to your graph*
+- tf.diag(diagonal, name=None) <br/>
+`Describe: Returns a diagonal tensor with a given diagonal values`
+- tf.transpose(a, perm=None, name='transpose') <br/>
+`Describe: Transposes a. Permutes the dimensions according to perm`
+- tf.matmul(a, b, transpose_a=False, transpose_b=False, a_is_sparse=False, b_is_sparse=False, name=None) <br/>
+`Describe: Multiplies matrix a by matrix b, producing a * b`
+- tf.batch_matmul(x, y, adj_x=None, adj_y=None, name=None) <br/>
+`Describe: Multiplies slices of two tensors in batches`
+- tf.matrix_determinant(input, name=None) <br/>
+`Describe: Calculates the determinant of a square matrix`
+- tf.batch_matrix_determinant(input, name=None) <br/>
+`Describe: Calculates the determinants for a batch of square matrices`
 - tf.matrix_inverse(input, name=None)
 - tf.batch_matrix_inverse(input, name=None)
-- tf.cholesky(input, name=None)
-- tf.batch_cholesky(input, name=None)
+- tf.cholesky(input, name=None) <br/>
+`Describe: Calculates the Cholesky decomposition of a square matrix`
+- tf.batch_cholesky(input, name=None)  <br/>
+`Describe: Calculates the Cholesky decomposition of a batch of square matrices`
 #### Complex Number Functions
 - tf.complex(real, imag, name=None)
 - tf.complex_abs(x, name=None)
@@ -368,15 +499,25 @@ Inputs and Readers
 - tf.imag(in_, name=None)
 - tf.real(in_, name=None)
 #### Reduction
-- tf.reduce_sum(input_tensor, reduction_indices=None, keep_dims=False, name=None)
-- tf.reduce_prod(input_tensor, reduction_indices=None, keep_dims=False, name=None)
-- tf.reduce_min(input_tensor, reduction_indices=None, keep_dims=False, name=None)
-- tf.reduce_max(input_tensor, reduction_indices=None, keep_dims=False, name=None)
-- tf.reduce_mean(input_tensor, reduction_indices=None, keep_dims=False, name=None)
-- tf.reduce_all(input_tensor, reduction_indices=None, keep_dims=False, name=None)
-- tf.reduce_any(input_tensor, reduction_indices=None, keep_dims=False, name=None)
-- tf.accumulate_n(inputs, shape=None, tensor_dtype=None, name=None)
+*TensorFlow provides several operations that you can use to perform common math computations that reduce various dimensions of a tensor*
+- tf.reduce_sum(input_tensor, reduction_indices=None, keep_dims=False, name=None) <br/>
+`Describe: Computes the sum of elements across dimensions of a tensor`
+- tf.reduce_prod(input_tensor, reduction_indices=None, keep_dims=False, name=None) <br/>
+`Describe: Computes the product of elements across dimensions of a tensor`
+- tf.reduce_min(input_tensor, reduction_indices=None, keep_dims=False, name=None) <br/>
+`Describe: Computes the minimum of elements across dimensions of a tensor`
+- tf.reduce_max(input_tensor, reduction_indices=None, keep_dims=False, name=None) <br/>
+`Describe: Computes the maximum of elements across dimensions of a tensor`
+- tf.reduce_mean(input_tensor, reduction_indices=None, keep_dims=False, name=None) <br/>
+`Describe: Computes the mean of elements across dimensions of a tensor`
+- tf.reduce_all(input_tensor, reduction_indices=None, keep_dims=False, name=None) <br/>
+`Describe: Computes the "logical and" of elements across dimensions of a tensor`
+- tf.reduce_any(input_tensor, reduction_indices=None, keep_dims=False, name=None) <br/>
+`Describe: Computes the "logical or" of elements across dimensions of a tensor`
+- tf.accumulate_n(inputs, shape=None, tensor_dtype=None, name=None) <br/>
+`Describe: Returns the element-wise sum of a list of tensors`
 #### Segmentation
+*TensorFlow provides several operations that you can use to perform common math computations on tensor segments*
 - tf.segment_sum(data, segment_ids, name=None)
 - tf.segment_prod(data, segment_ids, name=None)
 - tf.segment_min(data, segment_ids, name=None)
@@ -386,45 +527,81 @@ Inputs and Readers
 - tf.sparse_segment_sum(data, indices, segment_ids, name=None)
 - tf.sparse_segment_mean(data, indices, segment_ids, name=None)
 #### Sequence Comparison and Indexing
-- tf.argmin(input, dimension, name=None)
-- tf.argmax(input, dimension, name=None)
-- tf.listdiff(x, y, name=None)
-- tf.where(input, name=None)
-- tf.unique(x, name=None)
-- tf.edit_distance(hypothesis, truth, normalize=True, name='edit_distance')
-- tf.invert_permutation(x, name=None)
+*TensorFlow provides several operations that you can use to add sequence comparison and index extraction to your graph. You can use these operations to determine sequence differences and determine the indexes of specific values in a tensor*
+- tf.argmin(input, dimension, name=None) <br/>
+`Describe: Returns the index with the smallest value across dimensions of a tensor`
+- tf.argmax(input, dimension, name=None) <br/>
+`Describe: Returns the index with the largest value across dimensions of a tensor`
+- tf.listdiff(x, y, name=None) <br/>
+`Describe: Computes the difference between two lists of numbers`
+- tf.where(input, name=None) <br/>
+`Describe: Returns locations of true values in a boolean tensor`
+- tf.unique(x, name=None) <br/>
+`Describe: Finds unique elements in a 1-D tensor`
+- tf.edit_distance(hypothesis, truth, normalize=True, name='edit_distance') <br/>
+`Describe: Computes the Levenshtein distance between sequences`
+- tf.invert_permutation(x, name=None) <br/>
+`Describe: Computes the inverse permutation of a tensor`
 
 ### Neural Network
 #### Activation Functions
-- tf.nn.relu(features, name=None)
-- tf.nn.relu6(features, name=None)
-- tf.nn.softplus(features, name=None)
-- tf.nn.dropout(x, keep_prob, noise_shape=None, seed=None, name=None)
-- tf.nn.bias_add(value, bias, name=None)
-- tf.sigmoid(x, name=None)
-- tf.tanh(x, name=None)
+*The activation ops provide different types of nonlinearities for use in neural networks*
+- tf.nn.relu(features, name=None) <br/>
+`Describe: Computes rectified linear: max(features, 0)`
+- tf.nn.relu6(features, name=None) <br/>
+`Describe: Computes Rectified Linear 6: min(max(features, 0), 6)`
+- tf.nn.softplus(features, name=None) <br/>
+`Describe: Computes softplus: log(exp(features) + 1)`
+- tf.nn.dropout(x, keep_prob, noise_shape=None, seed=None, name=None) <br/>
+`Describe: Computes dropout`
+- tf.nn.bias_add(value, bias, name=None) <br/>
+`Describe: Adds bias to value (This is (mostly) a special case of tf.add where bias is restricted to 1-D)`
+- tf.sigmoid(x, name=None) <br/>
+`Describe: Computes sigmoid of x element-wise (Specifically, y = 1 / (1 + exp(-x)))`
+- tf.tanh(x, name=None) <br/>
+`Describe: Computes hyperbolic tangent of x element-wise`
 #### Convolution
-- tf.nn.conv2d(input, filter, strides, padding, use_cudnn_on_gpu=None, name=None)
-- tf.nn.depthwise_conv2d(input, filter, strides, padding, name=None)
-- tf.nn.separable_conv2d(input, depthwise_filter, pointwise_filter, strides, padding, name=None)
+*The convolution ops sweep a 2-D filter over a batch of images, applying the filter to each window of each image of the appropriate size*
+- tf.nn.conv2d(input, filter, strides, padding, use_cudnn_on_gpu=None, name=None) <br/>
+`Describe: Computes a 2-D convolution given 4-D input and filter tensors` <br/>
+`input shape: [batch, in_height, in_width, in_channels], filter shape: [filter_height, filter_width, in_channels, out_channels]`
+- tf.nn.depthwise_conv2d(input, filter, strides, padding, name=None) <br/>
+`Describe: Depthwise 2-D convolution`
+- tf.nn.separable_conv2d(input, depthwise_filter, pointwise_filter, strides, padding, name=None) <br/>
+`Describe: 2-D convolution with separable filters`
 #### Pooling
-- tf.nn.avg_pool(value, ksize, strides, padding, name=None)
-- tf.nn.max_pool(value, ksize, strides, padding, name=None)
-- tf.nn.max_pool_with_argmax(input, ksize, strides, padding, Targmax=None, name=None)
+*The pooling ops sweep a rectangular window over the input tensor, computing a reduction operation for each window (average, max, or max with argmax)*
+- tf.nn.avg_pool(value, ksize, strides, padding, name=None) <br/>
+`Describe: Performs the average pooling on the input`
+- tf.nn.max_pool(value, ksize, strides, padding, name=None) <br/>
+`Describe: Performs the max pooling on the input`
+- tf.nn.max_pool_with_argmax(input, ksize, strides, padding, Targmax=None, name=None) <br/>
+`Describe: Performs max pooling on the input and outputs both max values and indices`
 #### Normalization
-- tf.nn.l2_normalize(x, dim, epsilon=1e-12, name=None)
-- tf.nn.local_response_normalization(input, depth_radius=None, bias=None, alpha=None, beta=None, name=None)
-- tf.nn.moments(x, axes, name=None)
+*Normalization is useful to prevent neurons from saturating when inputs may have varying scale, and to aid generalization*
+- tf.nn.l2_normalize(x, dim, epsilon=1e-12, name=None) <br/>
+`Describe: Normalizes along dimension dim using an L2 norm`
+- tf.nn.local_response_normalization(input, depth_radius=None, bias=None, alpha=None, beta=None, name=None) <br/>
+`Describe: Local Response Normalization`
+- tf.nn.moments(x, axes, name=None) <br/>
+`Describe: Calculate the mean and variance of x`
 #### Losses
-- tf.nn.l2_loss(t, name=None)
+*The loss ops measure error between two tensors, or between a tensor and zero. These can be used for measuring accuracy of a network in a regression task or for regularization purposes (weight decay)*
+- tf.nn.l2_loss(t, name=None) <br/>
+`Describe: L2 Loss (sum(t ** 2) / 2)`
 - tf.losses.sigmoid_cross_entropy
 - tf.losses.softmax_cross_entropy
 - tf.losses.huber_loss
 #### Classification
-- tf.nn.sigmoid_cross_entropy_with_logits(logits, targets, name=None)
-- tf.nn.softmax(logits, name=None)
-- tf.nn.softmax_cross_entropy_with_logits(logits, labels, name=None)
+*TensorFlow provides several operations that help you perform classification*
+- tf.nn.sigmoid_cross_entropy_with_logits(logits, targets, name=None) <br/>
+`Describe: Computes sigmoid cross entropy given logits`
+- tf.nn.softmax(logits, name=None) <br/>
+`Describe: Computes softmax activations`
+- tf.nn.softmax_cross_entropy_with_logits(logits, labels, name=None) <br/>
+`Describe: Computes softmax cross entropy between logits and labels`
 #### Embeddings
+*TensorFlow provides library support for looking up values in embedding tensors*
 - tf.nn.embedding_lookup(params, ids, name=None)
 #### Evaluation
 - tf.nn.top_k(input, k, name=None)
