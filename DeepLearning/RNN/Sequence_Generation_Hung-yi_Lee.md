@@ -85,7 +85,7 @@ Building end-to-end dialogue systems using generative hierarchical neural networ
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/RNN/images/scheduled_sampling.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/RNN/images/scheduled_sampling.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/RNN/images/beam_search.png" width="40%" /><br/>
   Testing: The inputs are the outputs of the last time step. Training: The inputs are reference.
 </div>
 
