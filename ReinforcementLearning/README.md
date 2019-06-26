@@ -1,12 +1,14 @@
 # Reinforcement Learning
 
 Table of Contents
+- <a href="#book">Book</a>
 - <a href="#course">Course</a>
   - <a href="#RL">Reinforcement Learning</a>
   - <a href="#DRL">Deep Reinforcement Learning</a>
 - <a href="#survey">Survey</a>
   
-
+### <a name="book">Book</a>
+-  Reinforcement Learning: An Introduction \[[1998]()\] \[[2018]()\] by Richard S. Sutton
 
 ### <a name="course">Course</a>
 
