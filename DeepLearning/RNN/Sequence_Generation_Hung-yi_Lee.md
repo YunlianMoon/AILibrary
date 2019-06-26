@@ -53,8 +53,10 @@
 
 #### GRU
 
-
-
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/RNN/images/GRU.png" width="40%" /><br/>
+  GRU
+</div>
 
 ### Sequence Generation
 
