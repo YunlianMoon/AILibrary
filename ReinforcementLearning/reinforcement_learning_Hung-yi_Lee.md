@@ -78,7 +78,7 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_2.png" width="40%" />
   <br/>
-  How to estimate 𝑉(s)
+  Actor-Critic
 </div>
 
 ### Asynchronous Advantage Actor-Critic (A3C)
