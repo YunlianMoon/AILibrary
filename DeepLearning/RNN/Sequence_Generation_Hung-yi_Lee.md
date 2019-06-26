@@ -51,6 +51,8 @@
   peephole
 </div>
 
+LSTM: A search space odyssey \[2016, arxiv, Klaus Greff\] \[[paper](https://arxiv.org/pdf/1503.04069.pdf?utm_content=buffereddc5&utm_medium=social&utm_source=plus.google.com&utm_campaign=buffer)\]
+
 #### GRU
 
 <div align=center>
@@ -59,6 +61,13 @@
 </div>
 
 ### Sequence Generation
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/RNN/images/generation.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/RNN/images/generation_1.png" width="40%" /><br/>
+  Sequence Genration
+</div>
 
 ### Conditional Sequence Generation
 
