@@ -65,18 +65,18 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
 <br/>
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/V_MC.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/V_MC.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/V_TD.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/V_TD.png" width="40%" />
   <br/>
   How to estimate 𝑉(s)
 </div>
 
 ### Actor-Critic
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_2.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_2.png" width="40%" />
   <br/>
   How to estimate 𝑉(s)
 </div>
@@ -85,7 +85,7 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
 Asynchronous methods for deep reinforcement learning \[2016, ICML, Volodymyr Mnih\] \[[paper](http://www.jmlr.org/proceedings/papers/v48/mniha16.pdf)\]
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/A3C.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/A3C.png" width="40%" />
   <br/>
   A3C
 </div>
