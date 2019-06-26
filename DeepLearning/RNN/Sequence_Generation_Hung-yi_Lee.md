@@ -71,9 +71,23 @@ LSTM: A search space odyssey \[2016, arxiv, Klaus Greff\] \[[paper](https://arxi
 
 ### Conditional Sequence Generation
 
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/RNN/images/image_caption.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/RNN/images/translation.png" width="40%" /><br/>
+  Conditional Generation
+</div>
+
+Building end-to-end dialogue systems using generative hierarchical neural network models \[2016, AAAI, Iulian V. Serban\] \[[paper](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11957/12160)\]
+
 ### Tips for Generation
 
-<img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/RNN/images/scheduled_sampling.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/RNN/images/scheduled_sampling.png" width="40%" /><br/>
+  Testing: The inputs are the outputs of the last time step. Training: The inputs are reference.
+</div>
 
 
 
