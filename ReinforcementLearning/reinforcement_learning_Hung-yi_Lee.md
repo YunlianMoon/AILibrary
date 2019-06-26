@@ -26,9 +26,6 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
 - value based
 - policy based
 
-### Asynchronous Advantage Actor-Critic (A3C)
-Asynchronous methods for deep reinforcement learning \[2016, ICML, Volodymyr Mnih\] \[[paper](http://www.jmlr.org/proceedings/papers/v48/mniha16.pdf)\]
-
 ### Policy-based Approach (Learning an Actor)
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/NN_actor.png" width="40%" />
@@ -54,6 +51,44 @@ Asynchronous methods for deep reinforcement learning \[2016, ICML, Volodymyr Mni
   Policy-based Approach
 </div>
 
+### Value-based Approach (Learning a Critic)
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_2.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_3.png" width="30%" />
+  <br/>
+  Three kinds of Critics
+</div>
+
+<br/>
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/V_MC.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/V_TD.png" width="30%" />
+  <br/>
+  How to estimate 𝑉(s)
+</div>
+
+### Actor-Critic
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_2.png" width="30%" />
+  <br/>
+  How to estimate 𝑉(s)
+</div>
+
+### Asynchronous Advantage Actor-Critic (A3C)
+Asynchronous methods for deep reinforcement learning \[2016, ICML, Volodymyr Mnih\] \[[paper](http://www.jmlr.org/proceedings/papers/v48/mniha16.pdf)\]
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/A3C.png" width="30%" />
+  <br/>
+  A3C
+</div>
 
 
 
