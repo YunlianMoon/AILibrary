@@ -621,82 +621,224 @@ y = sign(x) = -1 if x < 0; 0 if x == 0; 1 if x > 0
 ### State
 #### Variables
 - class tf.Variable
+  - tf.Variable.\_\_init__(initial_value, trainable=True, collections=None, validate_shape=True, name=None) <br/>
+  `Describe: Creates a new variable with value initial_value`
+  - tf.Variable.initialized_value() <br/>
+  `Describe: Returns the value of the initialized variable`
+  - tf.Variable.assign(value, use_locking=False) <br/>
+  `Describe: Assigns a new value to the variable`
+  - tf.Variable.assign_add(delta, use_locking=False) <br/>
+  `Describe: Adds a value to this variable`
+  - tf.Variable.assign_sub(delta, use_locking=False) <br/>
+  `Describe: Subtracts a value from this variable`
+  - tf.Variable.scatter_sub(sparse_delta, use_locking=False) <br/>
+  `Describe: Subtracts IndexedSlices from this variable`
+  - tf.Variable.count_up_to(limit) <br/>
+  `Describe: Increments this variable until it reaches limit`
+  - tf.Variable.eval(session=None) <br/>
+  `Describe: In a session, computes and returns the value of this variable`
+  - tf.Variable.name <br/>
+  `Describe: The name of this variable`
+  - tf.Variable.dtype <br/>
+  `Describe: The DType of this variable`
+  - tf.Variable.get_shape() <br/>
+  `Describe: The TensorShape of this variable`
+  - tf.Variable.device <br/>
+  `Describe: The device of this variable`
+  - tf.Variable.initializer <br/>
+  `Describe: The initializer operation for this variable`
+  - tf.Variable.graph <br/>
+  `Describe: The Graph of this variable`
+  - tf.Variable.op <br/>
+  `Describe: The Operation of this variable`
 #### Variable helper functions
-- tf.all_variables()
-- tf.trainable_variables()
-- tf.initialize_all_variables()
-- tf.initialize_variables(var_list, name='init')
-- tf.assert_variables_initialized(var_list=None)
+*TensorFlow provides a set of functions to help manage the set of variables collected in the graph*
+- tf.all_variables() <br>
+`Describe: Returns all variables collected in the graph`
+- tf.trainable_variables() <br>
+`Describe: Returns all variables created with trainable=True`
+- tf.initialize_all_variables() <br>
+`Describe: Returns an Op that initializes all variables`
+- tf.initialize_variables(var_list, name='init') <br>
+`Describe: Returns an Op that initializes a list of variables`
+- tf.assert_variables_initialized(var_list=None) <br>
+`Describe: Returns an Op to check if variables are initialized`
 #### Saving and Restoring Variables
-- class tf.train.Saver
-- tf.train.latest_checkpoint(checkpoint_dir, latest_filename=None)
-- tf.train.get_checkpoint_state(checkpoint_dir, latest_filename=None)
-- tf.train.update_checkpoint_state(save_dir, model_checkpoint_path, all_model_checkpoint_paths=None, latest_filename=None)
+- class tf.train.Saver <br/>
+`Describe: Saves and restores variables`
+  - tf.train.Saver.__init__(var_list=None, reshape=False, sharded=False, max_to_keep=5, keep_checkpoint_every_n_hours=10000.0, name=None, restore_sequentially=False, saver_def=None, builder=None) <br/>
+  `Describe: Creates a Saver`
+  - tf.train.Saver.save(sess, save_path, global_step=None, latest_filename=None) <br/>
+  `Describe: Saves variables`
+  - tf.train.Saver.restore(sess, save_path) <br/>
+  `Describe: Restores previously saved variables`
+  - tf.train.Saver.last_checkpoints <br/>
+  `Describe: List of not-yet-deleted checkpoint filenames`
+  - tf.train.Saver.set_last_checkpoints(last_checkpoints) <br/>
+  `Describe: Sets the list of not-yet-deleted checkpoint filenames`
+  - tf.train.Saver.as_saver_def() <br/>
+  `Describe: Generates a SaverDef representation of this saver`
+- tf.train.latest_checkpoint(checkpoint_dir, latest_filename=None) <br/>
+`Describe: Finds the filename of latest saved checkpoint file`
+- tf.train.get_checkpoint_state(checkpoint_dir, latest_filename=None) <br/>
+`Describe: Returns CheckpointState proto from the "checkpoint" file`
+- tf.train.update_checkpoint_state(save_dir, model_checkpoint_path, all_model_checkpoint_paths=None, latest_filename=None) <br/>
+`Describe: Updates the content of the 'checkpoint' file`
 #### Sharing Variables
-- tf.get_variable(name, shape=None, dtype=tf.float32, initializer=None, trainable=True, collections=None)
-- tf.get_variable_scope()
-- tf.variable_scope(name_or_scope, reuse=None, initializer=None)
-- tf.constant_initializer(value=0.0)
-- tf.random_normal_initializer(mean=0.0, stddev=1.0, seed=None)
-- tf.truncated_normal_initializer(mean=0.0, stddev=1.0, seed=None)
-- tf.random_uniform_initializer(minval=0.0, maxval=1.0, seed=None)
-- tf.uniform_unit_scaling_initializer(factor=1.0, seed=None)
-- tf.zeros_initializer(shape, dtype=tf.float32)
+*TensorFlow provides several classes and operations that you can use to create variables contingent on certain conditions*
+- tf.get_variable(name, shape=None, dtype=tf.float32, initializer=None, trainable=True, collections=None) <br/>
+`Describe: Gets an existing variable with these parameters or create a new one`
+- tf.get_variable_scope() <br/>
+`Describe: Returns the current variable scope`
+- tf.variable_scope(name_or_scope, reuse=None, initializer=None) <br/>
+`Describe: Returns a context for variable scope`
+- tf.constant_initializer(value=0.0) <br/>
+`Describe: Returns an initializer that generates Tensors with a single value`
+- tf.random_normal_initializer(mean=0.0, stddev=1.0, seed=None) <br/>
+`Describe: Returns an initializer that generates Tensors with a normal distribution`
+- tf.truncated_normal_initializer(mean=0.0, stddev=1.0, seed=None) <br/>
+`Describe: Returns an initializer that generates a truncated normal distribution`
+- tf.random_uniform_initializer(minval=0.0, maxval=1.0, seed=None) <br/>
+`Describe: Returns an initializer that generates Tensors with a uniform distribution`
+- tf.uniform_unit_scaling_initializer(factor=1.0, seed=None) <br/>
+`Describe: Returns an initializer that generates tensors without scaling variance`
+- tf.zeros_initializer(shape, dtype=tf.float32) <br/>
+`Describe: An adaptor for zeros() to match the Initializer spec`
 #### Sparse Variable Updates
 - tf.scatter_update(ref, indices, updates, use_locking=None, name=None)
 - tf.scatter_add(ref, indices, updates, use_locking=None, name=None)
 - tf.scatter_sub(ref, indices, updates, use_locking=None, name=None)
 - tf.sparse_mask(a, mask_indices, name=None)
 - class tf.IndexedSlices
+  - tf.IndexedSlices.__init__(values, indices, dense_shape=None)
+  - tf.IndexedSlices.values
+  - tf.IndexedSlices.indices
+  - tf.IndexedSlices.dense_shape
+  - tf.IndexedSlices.name
+  - tf.IndexedSlices.dtype
+  - tf.IndexedSlices.device
+  - tf.IndexedSlices.op
 
 ### Train
+*This library provides a set of classes and functions that helps train models*
 #### Optimizers
-- class tf.train.GradientDescentOptimizer
-- class tf.train.AdagradOptimizer
-- class tf.train.MomentumOptimizer
-- class tf.train.AdamOptimizer
-- class tf.train.FtrlOptimizer
-- class tf.train.RMSPropOptimizer
+*The Optimizer base class provides methods to compute gradients for a loss and apply gradients to variables. A collection of subclasses implement classic optimization algorithms such as GradientDescent and Adagrad*
+- class tf.train.Optimizer <br/>
+`Describe: Base class for optimizers`
+  - tf.train.Optimizer.\_\_init__(use_locking, name) <br/>
+  `Describe: Create a new Optimizer`
+  - tf.train.Optimizer.minimize(loss, global_step=None, var_list=None, gate_gradients=1, name=None) <br/>
+  `Describe: Add operations to minimize 'loss' by updating 'var_list'`
+  - tf.train.Optimizer.compute_gradients(loss, var_list=None, gate_gradients=1) <br/>
+  `Describe: Compute gradients of "loss" for the variables in "var_list"`
+  - tf.train.Optimizer.apply_gradients(grads_and_vars, global_step=None, name=None) <br/>
+  `Describe: Apply gradients to variables`
+  - tf.train.Optimizer.get_slot_names() <br/>
+  `Describe: Return a list of the names of slots created by the Optimizer`
+  - tf.train.Optimizer.get_slot(var, name) <br/>
+  `Describe: Return a slot named "name" created for "var" by the Optimizer`
+- class tf.train.GradientDescentOptimizer <br/>
+`Describe: Optimizer that implements the gradient descent algorithm`
+  - tf.train.GradientDescentOptimizer.\_\_init__(learning_rate, use_locking=False, name='GradientDescent') <br/>
+  `Describe: Construct a new gradient descent optimizer`
+- class tf.train.AdagradOptimizer <br/>
+`Describe: Optimizer that implements the Adagrad algorithm`
+  - tf.train.AdagradOptimizer.\_\_init__(learning_rate, initial_accumulator_value=0.1, use_locking=False, name='Adagrad') <br/>
+  `Describe: Construct a new Adagrad optimizer`
+- class tf.train.MomentumOptimizer <br/>
+`Describe: Optimizer that implements the Momentum algorithm`
+  - tf.train.MomentumOptimizer.\_\_init__(learning_rate, momentum, use_locking=False, name='Momentum') <br/>
+  `Describe: Construct a new Momentum optimizer`
+- class tf.train.AdamOptimizer <br/>
+`Describe: Optimizer that implements the Adam algorithm`
+  - tf.train.AdamOptimizer.\_\_init__(learning_rate=0.001, beta1=0.9, beta2=0.999, epsilon=1e-08, use_locking=False, name='Adam') <br/>
+  `Describe: Construct a new Adam optimizer`
+- class tf.train.FtrlOptimizer <br/>
+`Describe: Optimizer that implements the FTRL algorithm`
+  - tf.train.FtrlOptimizer.__init__(learning_rate, learning_rate_power=-0.5, initial_accumulator_value=0.1, l1_regularization_strength=0.0, l2_regularization_strength=0.0, use_locking=False, name='Ftrl') <br/>
+  `Describe: Construct a new FTRL optimizer`
+- class tf.train.RMSPropOptimizer <br/>
+`Describe: Optimizer that implements the RMSProp algorithm`
+  - tf.train.RMSPropOptimizer.__init__(learning_rate, decay, momentum=0.0, epsilon=1e-10, use_locking=False, name='RMSProp') <br/>
+  `Describe: Construct a new RMSProp optimizer`
 #### Gradient Computation
-- tf.gradients(ys, xs, grad_ys=None, name='gradients', colocate_gradients_with_ops=False, gate_gradients=False, aggregation_method=None)
-class tf.AggregationMethod
-- tf.stop_gradient(input, name=None)
+*TensorFlow provides functions to compute the derivatives for a given TensorFlow computation graph, adding operations to the graph. The optimizer classes automatically compute derivatives on your graph, but creators of new Optimizers or expert users can call the lower-level functions below*
+- tf.gradients(ys, xs, grad_ys=None, name='gradients', colocate_gradients_with_ops=False, gate_gradients=False, aggregation_method=None) <br/>
+`Describe: Constructs symbolic partial derivatives of ys w.r.t. x in xs`
+- class tf.AggregationMethod <br/>
+`Describe: A class listing aggregation methods used to combine gradients`
+- tf.stop_gradient(input, name=None) <br/>
+`Describe: Stops gradient computation`
 #### Gradient Clipping
-- tf.clip_by_value(t, clip_value_min, clip_value_max, name=None)
-- tf.clip_by_norm(t, clip_norm, name=None)
-- tf.clip_by_average_norm(t, clip_norm, name=None)
-- tf.clip_by_global_norm(t_list, clip_norm, use_norm=None, name=None)
-- tf.global_norm(t_list, name=None)
+*TensorFlow provides several operations that you can use to add clipping functions to your graph*
+- tf.clip_by_value(t, clip_value_min, clip_value_max, name=None) <br/>
+`Describe: Clips tensor values to a specified min and max (Any values less than clip_value_min are set to clip_value_min. Any values greater than clip_value_max are set to clip_value_max)`
+- tf.clip_by_norm(t, clip_norm, name=None) <br/>
+`Describe: Clips tensor values to a maximum L2-norm`
+- tf.clip_by_average_norm(t, clip_norm, name=None) <br/>
+`Describe: Clips tensor values to a maximum average L2-norm`
+- tf.clip_by_global_norm(t_list, clip_norm, use_norm=None, name=None) <br/>
+`Describe: Clips values of multiple tensors by the ratio of the sum of their norms`
+- tf.global_norm(t_list, name=None) <br/>
+`Describe: Computes the global norm of multiple tensors`
 #### Decaying the learning rate
-- tf.train.exponential_decay(learning_rate, global_step, decay_steps, decay_rate, staircase=False, name=None)
+- tf.train.exponential_decay(learning_rate, global_step, decay_steps, decay_rate, staircase=False, name=None) <br/>
+`Describe: Applies exponential decay to the learning rate`
 #### Moving Averages
-- class tf.train.ExponentialMovingAverage
+*Some training algorithms, such as GradientDescent and Momentum often benefit from maintaining a moving average of variables during optimization. Using the moving averages for evaluations often improve results significantly*
+- class tf.train.ExponentialMovingAverage <br/>
+`Describe: Maintains moving averages of variables by employing and exponential decay`
+  - tf.train.ExponentialMovingAverage.\_\_init__(decay, num_updates=None, name='ExponentialMovingAverage')
+  - tf.train.ExponentialMovingAverage.apply(var_list=None)
+  - tf.train.ExponentialMovingAverage.average_name(var)
+  - tf.train.ExponentialMovingAverage.average(var)
 #### Coordinator and QueueRunner
 - class tf.train.Coordinator
+  - tf.train.Coordinator.__init__()
+  - tf.train.Coordinator.join(threads, stop_grace_period_secs=120)
+  - tf.train.Coordinator.request_stop(ex=None)
+  - tf.train.Coordinator.should_stop()
+  - tf.train.Coordinator.wait_for_stop(timeout=None)
 - class tf.train.QueueRunner
+  - tf.train.QueueRunner.__init__(queue, enqueue_ops)
+  - tf.train.QueueRunner.create_threads(sess, coord=None, daemon=False, start=False)
+  - tf.train.QueueRunner.exceptions_raised
 - tf.train.add_queue_runner(qr, collection='queue_runners')
 - tf.train.start_queue_runners(sess=None, coord=None, daemon=True, start=True, collection='queue_runners')
 #### Summary Operations
-- tf.scalar_summary(tags, values, collections=None, name=None)
-- tf.image_summary(tag, tensor, max_images=None, collections=None, name=None)
-- tf.histogram_summary(tag, values, collections=None, name=None)
-- tf.nn.zero_fraction(value, name=None)
-- tf.merge_summary(inputs, collections=None, name=None)
-- tf.merge_all_summaries(key='summaries')
+*The following ops output Summary protocol buffers as serialized string tensors*
+- tf.scalar_summary(tags, values, collections=None, name=None) <br/>
+`Describe: Outputs a Summary protocol buffer with scalar values`
+- tf.image_summary(tag, tensor, max_images=None, collections=None, name=None) <br/>
+`Describe: Outputs a Summary protocol buffer with images (tensor must be 4-D with shape [batch_size, height, width, channels])`
+- tf.histogram_summary(tag, values, collections=None, name=None) <br/>
+`Describe: Outputs a Summary protocol buffer with a histogram`
+- tf.nn.zero_fraction(value, name=None) <br/>
+`Describe: Returns the fraction of zeros in value`
+- tf.merge_summary(inputs, collections=None, name=None) <br/>
+`Describe: Merges summaries`
+- tf.merge_all_summaries(key='summaries') <br/>
+`Describe: Merges all summaries collected in the default graph`
 #### Adding Summaries to Event Files
+*Writes Summary protocol buffers to event files*
 - class tf.train.SummaryWriter
-- tf.train.summary_iterator(path)
+  - tf.train.SummaryWriter.\_\_init__(logdir, graph_def=None, max_queue=10, flush_secs=120)
+  - tf.train.SummaryWriter.add_summary(summary, global_step=None)
+  - tf.train.SummaryWriter.add_event(event)
+  - tf.train.SummaryWriter.add_graph(graph_def, global_step=None)
+  - tf.train.SummaryWriter.flush()
+  - tf.train.SummaryWriter.close()
+- tf.train.summary_iterator(path) <br/>
+`Describe: An iterator for reading Event protocol buffers from an event file`
 #### Training utilities
-- tf.train.global_step(sess, global_step_tensor)
-- tf.train.write_graph(graph_def, logdir, name, as_text=True)
+- tf.train.global_step(sess, global_step_tensor) <br/>
+`Describe: Small helper to get the global step`
+- tf.train.write_graph(graph_def, logdir, name, as_text=True) <br/>
+`Describe: Writes a graph proto on disk`
 
-
-
-
-
+### Other
 - tf.newaxis
 
-- tf.one_hot(indices, depth, on_value=None, off_value=None, axis=None, dtype=None, name=None)
 
 
 
