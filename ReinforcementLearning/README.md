@@ -30,6 +30,8 @@ Table of Contents
 
 ### <a name="survey">Survey</a>
 
+Reinforcement learning: A survey \[1996, JAIR, Leslie Pack Kaelbling\] \[[Paper](https://www.jair.org/index.php/jair/article/download/10166/24110/)\]
+
 Deep reinforcement learning: An overview \[2017, arxiv, Yuxi Li\] \[[Paper](https://arxiv.org/pdf/1701.07274.pdf)\]
 
 
