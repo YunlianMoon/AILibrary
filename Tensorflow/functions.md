@@ -807,27 +807,37 @@ y = sign(x) = -1 if x < 0; 0 if x == 0; 1 if x > 0
 - tf.train.start_queue_runners(sess=None, coord=None, daemon=True, start=True, collection='queue_runners')
 #### Summary Operations
 *The following ops output Summary protocol buffers as serialized string tensors*
-- tf.scalar_summary(tags, values, collections=None, name=None) <br/>
-`Describe: Outputs a Summary protocol buffer with scalar values`
-- tf.image_summary(tag, tensor, max_images=None, collections=None, name=None) <br/>
+- tf.summary.scalar(tags, values, collections=None, name=None) <br/>
+`Describe: Outputs a Summary protocol buffer with scalar values` <br/>
+`Example: tf.summary.scalar("loss", loss)`
+- tf.summary.image(tag, tensor, max_images=3, collections=None, name=None) <br/>
 `Describe: Outputs a Summary protocol buffer with images (tensor must be 4-D with shape [batch_size, height, width, channels])`
-- tf.histogram_summary(tag, values, collections=None, name=None) <br/>
+- tf.summary.histogram(tags, values, collections=None, name=None) <br/>
 `Describe: Outputs a Summary protocol buffer with a histogram`
 - tf.nn.zero_fraction(value, name=None) <br/>
 `Describe: Returns the fraction of zeros in value`
-- tf.merge_summary(inputs, collections=None, name=None) <br/>
+- tf.summary.merge(inputs, collections=None, name=None) <br/>
 `Describe: Merges summaries`
-- tf.merge_all_summaries(key='summaries') <br/>
+- tf.summaries.merge_all(key='summaries') <br/>
 `Describe: Merges all summaries collected in the default graph`
+- tf.summary.FileWritter(path, sess.graph) <br/>
+`Describe: `
 #### Adding Summaries to Event Files
 *Writes Summary protocol buffers to event files*
 - class tf.train.SummaryWriter
-  - tf.train.SummaryWriter.\_\_init__(logdir, graph_def=None, max_queue=10, flush_secs=120)
-  - tf.train.SummaryWriter.add_summary(summary, global_step=None)
-  - tf.train.SummaryWriter.add_event(event)
-  - tf.train.SummaryWriter.add_graph(graph_def, global_step=None)
-  - tf.train.SummaryWriter.flush()
-  - tf.train.SummaryWriter.close()
+  - tf.train.SummaryWriter.\_\_init__(logdir, graph_def=None, max_queue=10, flush_secs=120) <br/>
+  `Describe: Creates a SummaryWriter and an event file` <br/>
+  `Example: writer = tf.train.SummaryWriter(<some-directory>, sess.graph_def)`
+  - tf.train.SummaryWriter.add_summary(summary, global_step=None) <br/>
+  `Describe: Adds a Summary protocol buffer to the event file`
+  - tf.train.SummaryWriter.add_event(event) <br/>
+  `Describe: Adds an event to the event file`
+  - tf.train.SummaryWriter.add_graph(graph_def, global_step=None) <br/>
+  `Describe: Adds a GraphDef protocol buffer to the event file`
+  - tf.train.SummaryWriter.flush() <br/>
+  `Describe: Flushes the event file to disk`
+  - tf.train.SummaryWriter.close() <br/>
+  `Describe: Flushes the event file to disk and close the file`
 - tf.train.summary_iterator(path) <br/>
 `Describe: An iterator for reading Event protocol buffers from an event file`
 #### Training utilities
