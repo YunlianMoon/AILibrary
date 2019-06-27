@@ -51,6 +51,11 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
   Policy-based Approach
 </div>
 
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/policy_gradient_1.png" width="40%" /><br/>
+  Policy Gradient
+</div>
+
 ### Value-based Approach (Learning a Critic)
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_1.png" width="30%" />
