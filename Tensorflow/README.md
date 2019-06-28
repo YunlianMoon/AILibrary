@@ -2,6 +2,8 @@
 
 官方网站 \[[link](https://www.tensorflow.org/)\]
 
+官方中文网站 \[[link](https://tensorflow.google.cn/)\]
+
 TensorFlow官方文档 \[[link](https://devdocs.io/tensorflow~python/)\]
 
 TensorFlow官方文档_W3Cschool \[[link](https://www.w3cschool.cn/tensorflow_python/)\]
