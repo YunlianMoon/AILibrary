@@ -27,6 +27,10 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
 - value based
 - policy based
 
+### On-policy v.s. Off-policy
+- On-policy: The agent learned and the agent interacting with the environment is the same.
+- Off-policy: The agent learned and the agent interacting with the environment is different.
+
 ### Policy-based Approach (Learning an Actor)
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/NN_actor.png" width="40%" />
