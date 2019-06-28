@@ -807,36 +807,33 @@ y = sign(x) = -1 if x < 0; 0 if x == 0; 1 if x > 0
 - tf.train.start_queue_runners(sess=None, coord=None, daemon=True, start=True, collection='queue_runners')
 #### Summary Operations
 *The following ops output Summary protocol buffers as serialized string tensors*
-- tf.summary.scalar(tags, values, collections=None, name=None) <br/>
+- tf.summary.scalar(name, tensor, collections=None, family=None) <br/>
 `Describe: Outputs a Summary protocol buffer with scalar values` <br/>
 `Example: tf.summary.scalar("loss", loss)`
-- tf.summary.image(tag, tensor, max_images=3, collections=None, name=None) <br/>
+- tf.summary.image(name, tensor, max_outputs=3, collections=None, family=None) <br/>
 `Describe: Outputs a Summary protocol buffer with images (tensor must be 4-D with shape [batch_size, height, width, channels])`
-- tf.summary.histogram(tags, values, collections=None, name=None) <br/>
+- tf.summary.histogram(name, values, collections=None, family=None) <br/>
 `Describe: Outputs a Summary protocol buffer with a histogram`
 - tf.nn.zero_fraction(value, name=None) <br/>
 `Describe: Returns the fraction of zeros in value`
 - tf.summary.merge(inputs, collections=None, name=None) <br/>
 `Describe: Merges summaries`
-- tf.summaries.merge_all(key='summaries') <br/>
+- tf.summary.merge_all(key=tf.GraphKeys.SUMMARIES, scope=None, name=None) <br/>
 `Describe: Merges all summaries collected in the default graph`
-- tf.summary.FileWritter(path, sess.graph) <br/>
-`Describe: `
 #### Adding Summaries to Event Files
 *Writes Summary protocol buffers to event files*
-- class tf.train.SummaryWriter
-  - tf.train.SummaryWriter.\_\_init__(logdir, graph_def=None, max_queue=10, flush_secs=120) <br/>
-  `Describe: Creates a SummaryWriter and an event file` <br/>
-  `Example: writer = tf.train.SummaryWriter(<some-directory>, sess.graph_def)`
-  - tf.train.SummaryWriter.add_summary(summary, global_step=None) <br/>
+- class tf.summary.FileWritter <br/>
+  - tf.summary.FileWriter.\_\_init__(self, logdir, graph=None, max_queue=10, flush_secs=120, graph_def=None)
+  `Describe: Creates a SummaryWriter and an event file`
+  - tf.summary.FileWriter.add_summary(summary, global_step=None) <br/>
   `Describe: Adds a Summary protocol buffer to the event file`
-  - tf.train.SummaryWriter.add_event(event) <br/>
+  - tf.summary.FileWriter.add_event(event) <br/>
   `Describe: Adds an event to the event file`
-  - tf.train.SummaryWriter.add_graph(graph_def, global_step=None) <br/>
+  - tf.summary.FileWriter.add_graph(graph_def, global_step=None) <br/>
   `Describe: Adds a GraphDef protocol buffer to the event file`
-  - tf.train.SummaryWriter.flush() <br/>
+  - tf.summary.FileWriter.flush() <br/>
   `Describe: Flushes the event file to disk`
-  - tf.train.SummaryWriter.close() <br/>
+  - tf.summary.FileWriter.close() <br/>
   `Describe: Flushes the event file to disk and close the file`
 - tf.train.summary_iterator(path) <br/>
 `Describe: An iterator for reading Event protocol buffers from an event file`
