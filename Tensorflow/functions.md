@@ -604,7 +604,7 @@ y = sign(x) = -1 if x < 0; 0 if x == 0; 1 if x > 0
 *TensorFlow provides library support for looking up values in embedding tensors*
 - tf.nn.embedding_lookup(params, ids, name=None)
 #### Evaluation
-- tf.nn.top_k(input, k, name=None)
+- tf.nn.top_k(input, k, name=None) <br/>
 - tf.nn.in_top_k(predictions, targets, k, name=None)
 #### Candidate Sampling
 ##### Sampled Loss Functions
