@@ -3,6 +3,7 @@
 - Reference
   - [Machine Learning (2016,Fall)](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML16.html)
   - [Machine Learning and having it deep and structured (2018,Spring)](http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html)
+  - [Machine Learning (2019,Spring)](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html)
   
 ### Application
 - chat-bot <br/>
@@ -96,6 +97,11 @@ Asynchronous methods for deep reinforcement learning \[2016, ICML, Volodymyr Mni
   <br/>
   A3C
 </div>
+
+### Proximal Policy Optimization (PPO)
+default reinforcement learning algorithm at OpenAI
+
+demo: \[[DeepMind](https://www.youtube.com/watch?v=gn4nRCC9TwQ&feature=youtu.be)\] \[[OpenAI]()\]
 
 
 
