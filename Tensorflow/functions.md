@@ -13,6 +13,8 @@
   - State
   - Train
   
+Version: tensorflow 2.0
+  
 ### Array
 *Note: Functions taking Tensor arguments can also take anything accepted by tf.convert_to_tensor* <br/>
 Tensor Transformations
