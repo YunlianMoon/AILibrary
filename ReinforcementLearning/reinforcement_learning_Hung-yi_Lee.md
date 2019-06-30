@@ -75,8 +75,26 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/IS_2.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/IS_3.png" width="40%" /><br/>
-  Policy Gradient
+  On-policy to Off-policy
 </div>
+
+### Proximal Policy Optimization (PPO)
+default reinforcement learning algorithm at OpenAI
+
+demo: \[[DeepMind](https://www.youtube.com/watch?v=gn4nRCC9TwQ&feature=youtu.be)\] \[[OpenAI]()\]
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/ppo_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/ppo_2.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/ppo_3.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/ppo_4.png" width="40%" />
+  PPO/TRPO
+</div>
+
+Proximal policy optimization algorithms \[2017, arxiv, John Schulman\] \[[paper](https://arxiv.org/pdf/1707.06347.pdf)\]
 
 ### Value-based Approach (Learning a Critic)
 <div align=center>
@@ -116,11 +134,6 @@ Asynchronous methods for deep reinforcement learning \[2016, ICML, Volodymyr Mni
   <br/>
   A3C
 </div>
-
-### Proximal Policy Optimization (PPO)
-default reinforcement learning algorithm at OpenAI
-
-demo: \[[DeepMind](https://www.youtube.com/watch?v=gn4nRCC9TwQ&feature=youtu.be)\] \[[OpenAI]()\]
 
 
 
