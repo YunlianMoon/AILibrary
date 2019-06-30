@@ -124,13 +124,15 @@ Proximal policy optimization algorithms \[2017, arxiv, John Schulman\] \[[paper]
 
 ### Q-Learning
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_1.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_2.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_3.png" width="40%" /><br/>
   Q-Learning
 </div>
+
+<br/>
 
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_tips_target_network.png" width="40%" />
@@ -142,6 +144,8 @@ Proximal policy optimization algorithms \[2017, arxiv, John Schulman\] \[[paper]
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_tips_replay_buffer_2.png" width="40%" /><br/>
   Tips of Q-Learning
 </div>
+
+<br/>
 
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="40%" /><br/>
