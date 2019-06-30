@@ -27,10 +27,6 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
 - value based
 - policy based
 
-### On-policy v.s. Off-policy
-- On-policy: The agent learned and the agent interacting with the environment is the same.
-- Off-policy: The agent learned and the agent interacting with the environment is different.
-
 ### Policy-based Approach (Learning an Actor)
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/NN_actor.png" width="40%" />
@@ -62,6 +58,23 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
 
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/policy_gradient_1.png" width="40%" /><br/>
+  Policy Gradient
+</div>
+
+### On-policy v.s. Off-policy
+- On-policy: The agent learned and the agent interacting with the environment is the same.
+- Off-policy: The agent learned and the agent interacting with the environment is different.
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/IS_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/IS_issue_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/IS_issue_2.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/IS_2.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/IS_3.png" width="40%" /><br/>
   Policy Gradient
 </div>
 
