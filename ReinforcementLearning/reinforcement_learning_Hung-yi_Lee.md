@@ -117,6 +117,39 @@ Proximal policy optimization algorithms \[2017, arxiv, John Schulman\] \[[paper]
   How to estimate 𝑉(s)
 </div>
 
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/MC_TD_compare.png" width="40%" /><br/>
+  MC v.s. TD
+</div>
+
+### Q-Learning
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_2.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_3.png" width="40%" /><br/>
+  Q-Learning
+</div>
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_tips_target_network.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_tips_exploration.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_tips_replay_buffer_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_tips_replay_buffer_2.png" width="40%" /><br/>
+  Tips of Q-Learning
+</div>
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="40%" /><br/>
+  Typical Q-Learning Algorithm
+</div>
+
+
+
 ### Actor-Critic
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_1.png" width="40%" />
