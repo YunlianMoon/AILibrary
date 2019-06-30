@@ -26,6 +26,9 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
 ### Classification
 - value based
 - policy based
+  - policy gradient
+  - TRPO
+  - PPO
 
 ### Policy-based Approach (Learning an Actor)
 <div align=center>
