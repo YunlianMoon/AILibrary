@@ -25,6 +25,7 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
 
 ### Classification
 - value based
+  - Q learning
 - policy based
   - policy gradient
   - TRPO
