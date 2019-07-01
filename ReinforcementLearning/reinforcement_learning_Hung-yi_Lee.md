@@ -209,7 +209,7 @@ Parameter space noise for exploration \[2017, arxiv, Matthias Plappert\] \[[pape
 
 Noisy networks for exploration \[2017, arxiv, Meire Fortunato\] \[[paper](https://arxiv.org/pdf/1706.10295.pdf)\]
 
-demo: [link](https://openai.com/blog/better-exploration-with-parameter-noise/) 
+demo: \[[link](https://openai.com/blog/better-exploration-with-parameter-noise/)\]
 
 - Distributional Q-function
 
@@ -219,7 +219,7 @@ demo: [link](https://openai.com/blog/better-exploration-with-parameter-noise/)
   Distributional Q-function
 </div>
 
-demo: [link](https://www.youtube.com/watch?v=yFBwyPuO2Vg&feature=youtu.be)
+demo: \[[link](https://www.youtube.com/watch?v=yFBwyPuO2Vg&feature=youtu.be)\]
 
 - Rainbow
 
@@ -227,6 +227,13 @@ Rainbow: Combining improvements in deep reinforcement learning \[2018, AAAI, Mat
 
 #### Q-Learning for Continuous Actions
 
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  Q-Learning for Continuous Actions
+</div>
+
+demo: \[[link](https://www.youtube.com/watch?v=ZhsEKTo7V04)\]
 
 
 ### Actor-Critic
