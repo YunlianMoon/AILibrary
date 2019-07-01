@@ -146,7 +146,7 @@ Proximal policy optimization algorithms \[2017, arxiv, John Schulman\] \[[paper]
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_tips_replay_buffer_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_tips_replay_buffer_2.png" width="40%" /><br/>
-  Tips of Q-Learning
+  Q-Learning technologies
 </div>
 
 <br/>
@@ -155,6 +155,77 @@ Proximal policy optimization algorithms \[2017, arxiv, John Schulman\] \[[paper]
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="40%" /><br/>
   Typical Q-Learning Algorithm
 </div>
+
+#### Tips of Q-Learning
+
+- Double DQN
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="40%" /><br/>
+  Double DQN
+</div>
+
+Deep reinforcement learning with double q-learning \[2016, AAAI, Hasselt Van\] \[[paper](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Applications_files/doubledqn.pdf)\]
+
+- Dueling DQN
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  Dueling DQN
+</div>
+
+Dueling network architectures for deep reinforcement learning \[2015, arxiv, Ziyu Wang\] \[[paper](https://arxiv.org/pdf/1511.06581.pdf)\]
+
+- Prioritized Reply
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  Prioritized Reply
+</div>
+
+Prioritized experience replay \[2015, arxiv, Tom Schaul\] \[[paper](https://arxiv.org/pdf/1511.05952.pdf)\]
+
+- Multi-step
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  Multi-step
+</div>
+
+- Noisy Net
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  Noisy Net
+</div>
+
+Parameter space noise for exploration \[2017, arxiv, Matthias Plappert\] \[[paper](https://arxiv.org/pdf/1706.01905.pdf)\]
+
+Noisy networks for exploration \[2017, arxiv, Meire Fortunato\] \[[paper](https://arxiv.org/pdf/1706.10295.pdf)\]
+
+demo: [link](https://openai.com/blog/better-exploration-with-parameter-noise/) 
+
+- Distributional Q-function
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  Distributional Q-function
+</div>
+
+demo: [link](https://www.youtube.com/watch?v=yFBwyPuO2Vg&feature=youtu.be)
+
+- Rainbow
+
+Rainbow: Combining improvements in deep reinforcement learning \[2018, AAAI, Matteo Hessel\] \[[paper](https://arxiv.org/pdf/1710.02298.pdf)\]
+
+#### Q-Learning for Continuous Actions
 
 
 
