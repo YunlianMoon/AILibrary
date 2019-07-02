@@ -33,7 +33,9 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
   - TRPO
   - PPO
 - Actor-Critic
-  - KK
+  - A2C
+  - A3C
+  - Pathwise Derivative Policy Gradient
 
 ### Policy-based Approach (Learning an Actor)
 <div align=center>
@@ -282,12 +284,16 @@ Asynchronous methods for deep reinforcement learning \[2016, ICML, Volodymyr Mni
   Pathwise Derivative Policy Gradient
 </div>
 
+<br/>
+
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_algorithm.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/pathwise_algorithm.png" width="40%" /><br/>
   Pathwise Derivative Policy Gradient algorithm
 </div>
+
+<br/>
 
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/ac_gan.png" width="40%" /<br/>
