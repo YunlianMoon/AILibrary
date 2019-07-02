@@ -161,8 +161,8 @@ Proximal policy optimization algorithms \[2017, arxiv, John Schulman\] \[[paper]
 - Double DQN
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="40%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/double_dqn_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/double_dqn_2.png" width="40%" /><br/>
   Double DQN
 </div>
 
@@ -171,11 +171,11 @@ Deep reinforcement learning with double q-learning \[2016, AAAI, Hasselt Van\] \
 - Dueling DQN
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/dueling_dqn_1.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/dueling_dqn_2.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/dueling_dqn_3.png" width="30%" /><br/>
   Dueling DQN
 </div>
 
@@ -184,7 +184,7 @@ Dueling network architectures for deep reinforcement learning \[2015, arxiv, Ziy
 - Prioritized Reply
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/prioritized_reply.png" width="30%" /><br/>
   Prioritized Reply
 </div>
 
@@ -193,15 +193,15 @@ Prioritized experience replay \[2015, arxiv, Tom Schaul\] \[[paper](https://arxi
 - Multi-step
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/multi_step.png" width="30%" /><br/>
   Multi-step
 </div>
 
 - Noisy Net
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/noise_net_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/noise_net_2.png" width="30%" /><br/>
   Noisy Net
 </div>
 
@@ -214,8 +214,8 @@ demo: \[[link](https://openai.com/blog/better-exploration-with-parameter-noise/)
 - Distributional Q-function
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/distributional_q_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/distributional_q_2.png" width="30%" /><br/>
   Distributional Q-function
 </div>
 
