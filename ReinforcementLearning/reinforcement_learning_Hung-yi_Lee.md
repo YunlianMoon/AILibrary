@@ -247,16 +247,24 @@ demo: \[[link](https://www.youtube.com/watch?v=ZhsEKTo7V04)\]
 
 ### Actor-Critic
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_3.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_2.png" width="30%" />
-  <br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_2.png" width="40%" /><br/>
   Actor-Critic
 </div>
 
-### Asynchronous Advantage Actor-Critic (A3C)
+#### Advantage Actor-Critic (A2C)
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/advantage_actor_critic_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/advantage_actor_critic_2.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/advantage_actor_critic_3.png" width="30%" /><br/>
+  Advantage Actor-Critic
+</div>
+
+#### Asynchronous Advantage Actor-Critic (A3C)
 Asynchronous methods for deep reinforcement learning \[2016, ICML, Volodymyr Mnih\] \[[paper](http://www.jmlr.org/proceedings/papers/v48/mniha16.pdf)\]
 
 <div align=center>
@@ -264,6 +272,33 @@ Asynchronous methods for deep reinforcement learning \[2016, ICML, Volodymyr Mni
   <br/>
   A3C
 </div>
+
+#### Pathwise Derivative Policy Gradient
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/pathwise_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/pathwise_2.png" width="40%" /><br/>
+  Pathwise Derivative Policy Gradient
+</div>
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/q_learning_algorithm.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/pathwise_algorithm.png" width="40%" /><br/>
+  Pathwise Derivative Policy Gradient algorithm
+</div>
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/ac_gan.png" width="40%" /<br/>
+  Connection with GAN
+</div>
+
+Deterministic policy gradient algorithms \[2014, ICML, David Silver\] \[[paper](http://proceedings.mlr.press/v32/silver14.pdf)\]
+
+Continuous control with deep reinforcement learning \[2015, arxiv, Timothy P. Lillicrap\] \[[paper](https://arxiv.org/pdf/1509.02971.pdf)\]
+
+Connecting generative adversarial networks and actor-critic methods \[2016, arxiv, David Pfau\] \[[paper](https://arxiv.org/pdf/1610.01945.pdf)\]
 
 
 
