@@ -33,7 +33,7 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
   - TRPO
   - PPO
 - Actor-Critic
-  - 
+  - KK
 
 ### Policy-based Approach (Learning an Actor)
 <div align=center>
@@ -112,7 +112,7 @@ Proximal policy optimization algorithms \[2017, arxiv, John Schulman\] \[[paper]
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_2.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_3.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_3.png" width="40%" />
   <br/>
   Three kinds of Critics
 </div>
