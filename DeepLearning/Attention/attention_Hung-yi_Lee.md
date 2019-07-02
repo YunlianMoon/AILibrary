@@ -87,7 +87,11 @@ Spatial transformer networks \[2015, NIPS, Max Jaderberg\] \[[Paper](http://pape
 
 Neural turing machines \[2014, arxiv, Alex Graves\] \[[Paper](https://arxiv.org/pdf/1410.5401.pdf%20(http://Neural%20Turning%20Machines)%20)\]
 
+Reinforcement learning neural turing machines-revised \[2015, arxiv, Wojciech Zaremba\] \[[Paper](https://arxiv.org/pdf/1505.00521.pdf?utm_content=buffer2aaa3&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)\]
+
 Inferring algorithmic patterns with stack-augmented recurrent nets \[2015, NIPS, Armand Joulin\] \[[Paper](https://papers.nips.cc/paper/5857-inferring-algorithmic-patterns-with-stack-augmented-recurrent-nets.pdf)\]
+
+End-to-end memory networks \[2015, NIPS, Sainbayar Sukhbaatar\] \[[Paper](https://papers.nips.cc/paper/5846-end-to-end-memory-networks.pdf)\]
 
 ---
 <div align=center>
