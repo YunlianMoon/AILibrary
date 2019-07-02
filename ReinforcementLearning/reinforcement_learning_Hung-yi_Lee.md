@@ -184,7 +184,7 @@ Dueling network architectures for deep reinforcement learning \[2015, arxiv, Ziy
 - Prioritized Reply
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/prioritized_reply.png" width="30%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/prioritized_reply.png" width="40%" /><br/>
   Prioritized Reply
 </div>
 
@@ -193,15 +193,16 @@ Prioritized experience replay \[2015, arxiv, Tom Schaul\] \[[paper](https://arxi
 - Multi-step
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/multi_step.png" width="30%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/multi_step.png" width="40%" /><br/>
   Multi-step
 </div>
 
 - Noisy Net
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/noise_net_1.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/noise_net_2.png" width="30%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/noise_net_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/noise_net_2.png" width="40%" /><br/>
   Noisy Net
 </div>
 
@@ -214,8 +215,9 @@ demo: \[[link](https://openai.com/blog/better-exploration-with-parameter-noise/)
 - Distributional Q-function
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/distributional_q_1.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/distributional_q_2.png" width="30%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/distributional_q_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/distributional_q_2.png" width="40%" /><br/>
   Distributional Q-function
 </div>
 
@@ -228,13 +230,13 @@ Rainbow: Combining improvements in deep reinforcement learning \[2018, AAAI, Mat
 #### Q-Learning for Continuous Actions
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/typical_q_learning_algorithm.png" width="30%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/continuous_action_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/continuous_action_2.png" width="40%" /><br/>
   Q-Learning for Continuous Actions
 </div>
 
 demo: \[[link](https://www.youtube.com/watch?v=ZhsEKTo7V04)\]
-
 
 ### Actor-Critic
 <div align=center>
