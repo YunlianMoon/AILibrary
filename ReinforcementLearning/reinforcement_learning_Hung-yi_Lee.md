@@ -26,10 +26,14 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
 ### Classification
 - value based
   - Q learning
+  - DQN/Double DQN/Dueling DQN/Prioritized Reply/Multi-step/Noisy Net/Distributional Q-function/Rainbow
+  - Q-Learning for Continuous Actions
 - policy based
   - policy gradient
   - TRPO
   - PPO
+- Actor-Critic
+  - 
 
 ### Policy-based Approach (Learning an Actor)
 <div align=center>
@@ -61,7 +65,9 @@ Sequence level training with recurrent neural networks \[2015, arxiv, Marc'Aurel
 <br/>
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/policy_gradient_1.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/policy_gradient_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/policy_gradient_2.png" width="40%" /><br/>
   Policy Gradient
 </div>
 
