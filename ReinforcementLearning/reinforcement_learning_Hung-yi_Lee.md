@@ -108,13 +108,13 @@ Proximal policy optimization algorithms \[2017, arxiv, John Schulman\] \[[paper]
 
 ### Value-based Approach (Learning a Critic)
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_2.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_2.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/critic_3.png" width="40%" />
   <br/>
-  Three kinds of Critics
+  Two kinds of Critics
 </div>
 
 <br/>
@@ -124,7 +124,7 @@ Proximal policy optimization algorithms \[2017, arxiv, John Schulman\] \[[paper]
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/V_TD.png" width="40%" />
   <br/>
-  How to estimate 𝑉(s)
+  How to estimate 𝑉(s) (Estimated by TD or MC)
 </div>
 
 <div align=center>
@@ -247,9 +247,11 @@ demo: \[[link](https://www.youtube.com/watch?v=ZhsEKTo7V04)\]
 
 ### Actor-Critic
 <div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_3.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_2.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/actor_critic_2.png" width="30%" />
   <br/>
   Actor-Critic
 </div>
