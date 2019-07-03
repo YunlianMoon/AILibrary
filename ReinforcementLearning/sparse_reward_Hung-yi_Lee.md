@@ -26,4 +26,23 @@ Reinforcement learning with unsupervised auxiliary tasks \[2016, arxiv, Max Jade
 
 ### Curriculum Learning
 
+Starting from simple training examples, and then becoming harder and harder
+
+#### Reverse Curriculum Generation
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/reverse_curriculum_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/reverse_curriculum_2.png" /><br/>
+  Reverse Curriculum Generation
+</div>
+
+### Hierarchical Reinforcement Learning
+
+- If lower agent cannot achieve the goal, the upper agent would get penalty
+- If an agent get to the wrong goal, assume the original goal is the wrong one
+
+Hierarchical reinforcement learning with hindsight \[2018, arxiv, Andrew Levy\] \[[paper]()\]
+
+
 
