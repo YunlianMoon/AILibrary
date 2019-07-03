@@ -39,7 +39,7 @@ The agent will copy every behavior, even irrelevant actions \[[video](https://ww
 ### Inverse Reinforcement Learning (IRL)
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/inverse_rl_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/inverse_rl_1.png" width="50%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/inverse_rl_2.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
