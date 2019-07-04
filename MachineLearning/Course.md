@@ -1,151 +1,46 @@
-# Life Long Learning
+# Machine Learning Coures
 
-- Reference
-  - [Machine Learning (2019,Spring)](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html)
-- Contents
-  - Knowledge Retention
-  - Knowledge Transfer
-  - Model Expansion
-  
-Continuous Learning, Never Ending Learning, Incremental Learning \[[link](https://www.pearsonlearned.com/lifelong-learning-will-help-workers-navigate-future-work/)\]
+A curated list of courses dedicated to machine learning.
 
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
-  Life Long Learning (LLL)
-</div>
+I have spent a day looking for some latest courses about machine learning, but sadly, I have not found any newly opened courses including slides and videos from 2017 to 2018. 
 
-### Knowledge Retention
+I recorded some courses with detailed information, including teaching institution, publishing history, publishing platform, and so on.
 
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_2.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_3.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
-  Example
-</div>
+### Table of Courses
+- <a href="#AndrewNg">Machine Learning by Andrew Ng</a>
+- <a href="#YaserAbu-Mostafa">Learning from Data by Yaser Abu-Mostafa</a>
+- <a href="#TomMitchell">Machine Learning by Tom Mitchell</a>
+- <a href="#NandodeFreitas">Machine Learning for Undergraduates by Nando de Freitas</a>
+- <a href="#JohnW.Paisley">Machine Learning by John W. Paisley</a>
+- <a href="#TommiJaakkola">Machine Learning by Tommi Jaakkola</a>
+- <a href="#LinXuantian">机器学习基石 by 林轩田</a>
 
-Catastrophic Forgetting
+#### <a name="AndrewNg">Machine Learning by Andrew Ng</a>
+Tag: CS229, stanford  
+Publishing platform: stanford, coursera,    
+Latest: [\[stanford\]Autumn 2017](http://cs229.stanford.edu/)\(no open videos)  
+Others: [\[coursera\]](https://www.coursera.org/learn/machine-learning),   
 
-Towards ai-complete question answering: A set of prerequisite toy tasks \[2015, arxiv, Jason Weston\] \[[paper](https://arxiv.org/pdf/1502.05698.pdf)\]
-
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
-  Multi-task training
-</div>
-
-#### Elastic Weight Consolidation (EWC)
-
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_2.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_3.png" width="30%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
-  Example
-</div>
-
-Overcoming catastrophic forgetting in neural networks \[2017, PNAS, James Kirkpatrick\] \[[paper](https://www.pnas.org/content/114/13/3521.full)\]
-
-#### Synaptic Intelligence (SI)
-
-Continual learning through synaptic intelligence \[2017, ICML, Friedemann Zenke\] \[[paper](https://arxiv.org/pdf/1703.04200.pdf)\]
-
-#### Memory Aware Synapses (MAS)
-
-Special part: Do not need labelled data
-
-Memory aware synapses: Learning what (not) to forget \[2018, CVPR, Rahaf Aljundi\] \[[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Rahaf_Aljundi_Memory_Aware_Synapses_ECCV_2018_paper.pdf)\]
-
-#### Generating Data
-
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
-  Generating Data
-</div>
-
-Continual learning with deep generative replay \[2017, NIPS, Hanul Shin\] \[[paper](http://papers.nips.cc/paper/6892-continual-learning-with-deep-generative-replay.pdf)\]
-
-Fearnet: Brain-inspired model for incremental learning \[2017, arxiv, Ronald Kemker\] \[[paper](https://arxiv.org/pdf/1711.10563.pdf)\]
-
-#### Adding New Classes
-
-- Learning without forgetting (LwF)
-
-Learning without forgetting \[2017, TPAMI, Zhizhong Li\] \[[paper](https://arxiv.org/pdf/1606.09282)\]
-
-- iCaRL: Incremental Classifier and Representation Learning
-
-icarl: Incremental classifier and representation learning \[2017, CVPR, Sylvestre-Alvise Rebuffi\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Rebuffi_iCaRL_Incremental_Classifier_CVPR_2017_paper.pdf)\]
-
-### Knowledge Transfer
-
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
-  Life-Long v.s. Transfer
-</div>
-
-<br/>
-
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
-  Evaluation
-</div>
-
-#### Gradient Episodic Memory (GEM)
-
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
-  Gradient Episodic Memory
-</div>
-
-Gradient episodic memory for continual learning \[2017, NIPS, David Lopez-Paz\] \[[paper](https://papers.nips.cc/paper/7225-gradient-episodic-memory-for-continual-learning.pdf)\]
-
-Efficient lifelong learning with a-gem \[2018, arxiv, Arslan Chaudhry\] \[[paper](https://arxiv.org/pdf/1812.00420.pdf)\]
-
-### Model Expansion
-
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
-  Progressive Neural Networks
-</div>
-
-Progressive neural networks \[2016, arxiv, Andrei A Rusu\] \[[paper](https://arxiv.org/pdf/1606.04671.pdf?)\]
-
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
-  Expert Gate
-</div>
-
-Expert gate: Lifelong learning with a network of experts \[2017, CVPR, Rahaf Aljundi\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Aljundi_Expert_Gate_Lifelong_CVPR_2017_paper.pdf)\]
-
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
-  Net2Net
-</div>
-
-Net2net: Accelerating learning via knowledge transfer \[2015, arxiv, Tianqi  Chen,\] \[[paper](https://arxiv.org/pdf/1511.05641.pdf)\]
-
-On Training Recurrent Neural Networks for Lifelong Learning \[2018, arxiv, Shagun Sodhani\] \[[paper](https://arxiv.org/pdf/1811.07017.pdf)\]
-
-### Curriculum Learning
-
-<div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
-  Curriculum Learning
-</div>
-
-Taskonomy: Disentangling task transfer learning \[2018, CVPR, Amir R Zamir\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zamir_Taskonomy_Disentangling_Task_CVPR_2018_paper.pdf)\]
+| |Materials|Syllabus|
+|:-:|:-:|:-|
+|[Autumn 2017](http://cs229.stanford.edu/syllabus.html)|[slides](http://cs229.stanford.edu/syllabus.html),videos|**Supervised learning**(Supervised learning setup, LMS, Linear Algebra, Logistic regression, Perceptron, Exponential family, Probability, Generative learning algorithms, Gaussian discriminant analysis, Naive Bayes, Support vector machines, Vectorization, kNN, Softmax Regression, images, labels)<br />**Practice ML advice**(Bias/variance tradeoff, Model selection and feature selection, Evaluating and debugging learning algorithms, Practical advice on structuring an ML project, Convex Optimization)<br />**Deep Learning**(NN architecture, Forward/Back propagation, Vectorization, Evaluation Metrics)<br />**Unsupervised learning**(Clustering, K-means, EM, Mixture of Gaussians, Factor analysis, PCA(Principal components analysis), ICA(Independent components analysis))<br />**Reinforcement learning and control**(MDPs, Bellman equations,  Value iteration and policy iteration, Linear quadratic regulation(LQR), LQG, Q-learning, Value function approximation, Deep Learning Platform, Generative Adversarial Networks(GANs), Adversarial machine learning)|
+|[coursera](https://www.coursera.org/learn/machine-learning)|[slides](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes/tree/master/ppt),[video](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes)|**Linear Regression with One Variable**(Model Representation, Cost Function, Gradient Descent)<br />**Linear Algebra**(Matrices and Vectors, Addition and Scalar Multiplication, Matrix Vector Multiplication, Matrix Matrix Multiplication, Matrix Multiplication Properties, Inverse and Transpose)<br />**Linear Regression with Multiple Variables**(Multiple Features, Gradient Descent for Multiple Variables, Gradient Descent in Practice, Gradient Descent in Practice, Normal Equation, Normal Equation Noninvertibility)<br />**Logistic Regression**(Classification, Hypothesis Representation, Decision Boundary, Cost Function, Advanced Optimization, Multiclass Classification)<br />**Regularization**(Overfitting, Cost Function, Regularized Linear Regression, Regularized Logistic Regression)<br />**Neural Networks**(Non-linear Hypotheses, Neurons and the Brain, Model Representation, Multiclass Classification, Cost Function, Backpropagation Algorithm, Gradient Checking, Random Initialization)<br />**Advice for Applying Machine Learning**(Evaluating a Hypothesis, Model Selection and Train/Validation/Test Sets, Diagnosing Bias vs. Variance, Regularization and Bias/Variance, Learning Curves)<br />**Machine Learning System Design**(Error Analysis, Error Metrics for Skewed Classes, Trading Off Precision and Recall, Data For Machine Learning)<br />**Support Vector Machines**(Optimization Objective, Large Margin Intuition, Kernels)<br /> **Unsupervised Learning**(K-Means Algorithm, Optimization Objective, Random Initialization, Choosing the Number of Clusters)<br />**Dimensionality Reduction**(Principal Component Analysis Problem Formulation, Reconstruction from Compressed Representation, Choosing the Number of Principal Components)<br />**Anomaly Detection**(Gaussian Distribution, Algorithm, Developing and Evaluating an Anomaly Detection System, Anomaly Detection vs. Supervised Learning, Choosing What Features to Use, Multivariate Gaussian Distribution, Anomaly Detection using the Multivariate Gaussian Distribution)<br />**Large Scale Machine Learning**(Learning With Large Datasets, Stochastic Gradient Descent, Mini-Batch Gradient Descent, Stochastic Gradient Descent Convergence, Online Learning, Map Reduce and Data Parallelism)|
+| | | |
 
 
+#### <a name="YaserAbu-Mostafa">Learning from Data by Yaser Abu-Mostafa</a>
 
 
+#### <a name="TomMitchell">Machine Learning by Tom Mitchell</a>
+
+
+#### <a name="NandodeFreitas">Machine Learning for Undergraduates by Nando de Freitas</a>
+
+
+#### <a name="JohnW.Paisley">Machine Learning by John W. Paisley</a>
+
+
+#### <a name="TommiJaakkola">Machine Learning by Tommi Jaakkola</a>
+
+
+#### <a name="LinXuantian">机器学习基石 by 林轩田</a>
