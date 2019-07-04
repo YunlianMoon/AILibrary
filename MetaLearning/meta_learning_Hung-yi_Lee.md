@@ -74,9 +74,56 @@ blog \[[link](https://openai.com/blog/reptile/)\]
 
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
   More Idea
 </div>
+
+### Gradient Descent as LSTM
+
+Optimization as a model for few-shot learning \[2016, ICLR, Sachin Ravi\] \[[paper](https://openreview.net/pdf?id=rJY0-Kcll)\]
+
+Learning to learn by gradient descent by gradient descent \[2016, NIPS, Marcin Andrychowicz\] \[[paper](http://papers.nips.cc/paper/6461-learning-to-learn-by-gradient-descent-by-gradient-descent.pdf)\]
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  Similar to gradient descent based algorithm
+</div>
+
+<br/>
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  Real Implementation
+</div>
+
+<br/>
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  Real Implementation
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
