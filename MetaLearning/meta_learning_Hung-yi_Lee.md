@@ -112,11 +112,11 @@ Learning to learn by gradient descent by gradient descent \[2016, NIPS, Marcin A
 ### Metric-based Approach
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_1.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_2.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_3.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_3.png" width="30%" /><br/>
   Input training data and their labels 
 </div>
 
