@@ -3,19 +3,19 @@
 Meta learning = Learn to learn
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_learning_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-i.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_learning_2.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-C.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_learning_3.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-o.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_learning_4.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_learning_5.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-o.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_learning_6.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_learning_7.png" width="40%" /><br/>
   Meta Learning
 </div>
 
