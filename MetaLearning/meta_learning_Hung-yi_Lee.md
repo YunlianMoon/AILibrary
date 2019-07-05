@@ -74,7 +74,7 @@ blog \[[link](https://openai.com/blog/reptile/)\]
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/architecture.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/idea.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/idea.png" width="50%" /><br/>
   More Idea
 </div>
 
