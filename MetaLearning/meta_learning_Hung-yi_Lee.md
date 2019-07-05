@@ -17,7 +17,7 @@ Meta learning = Learn to learn
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_learning_7.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_learning_8.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_learning_8.png" width="50%" /><br/>
   Meta Learning
 </div>
 
