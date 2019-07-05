@@ -124,13 +124,13 @@ Learning to learn by gradient descent by gradient descent \[2016, NIPS, Marcin A
 
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_shot_1.png" width="40%" /><br/>
-  N-way Few/One-shot Learning<br/>
+  N-way Few/One-shot Learning<br/><br/>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_shot_2.png" width="40%" /><br/>
-  Prototypical Network<br/>
+  Prototypical Network<br/><br/>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_shot_3.png" width="40%" /><br/>
-  Matching Network<br/>
+  Matching Network<br/><br/>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_shot_4.png" width="40%" /><br/>
-  Relation Network<br/>
+  Relation Network<br/><br/>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_shot_5.png" width="40%" /><br/>
   Few-shot learning for imaginary data<br/>
 </div>
