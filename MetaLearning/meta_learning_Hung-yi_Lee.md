@@ -148,16 +148,9 @@ Low-shot learning from imaginary data \[2018, CVPR, Yu-Xiong Wang\] \[[paper](ht
 
 ### Train+Test as RNN
 
+One-shot learning with memory-augmented neural networks \[2016, arxiv, Adam Santoro\] \[[paper](https://arxiv.org/pdf/1605.06065.pdf?utm_source=top.caibaojian.com/103170)\]
 
-
-
-
-
-
-
-
-
-
+A simple neural attentive meta-learner \[2017, arxiv, Nikhil Mishra\] \[[paper](https://arxiv.org/pdf/1707.03141.pdf)\]
 
 
 
