@@ -115,7 +115,7 @@ Learning to learn by gradient descent by gradient descent \[2016, NIPS, Marcin A
 ### Metri-based Approach
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_1.png" width="32%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_2.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
