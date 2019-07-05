@@ -41,15 +41,15 @@ Towards ai-complete question answering: A set of prerequisite toy tasks \[2015, 
 #### Elastic Weight Consolidation (EWC)
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_2.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_2.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_3.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_3.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_4.png" width="30%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_4.png" width="40%" /><br />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_5.png" width="30%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_5.png" width="40%" /><br />
   Example
 </div>
 
