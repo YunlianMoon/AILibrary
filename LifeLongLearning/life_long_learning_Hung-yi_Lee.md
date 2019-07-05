@@ -123,7 +123,7 @@ Efficient lifelong learning with a-gem \[2018, arxiv, Arslan Chaudhry\] \[[paper
 Progressive neural networks \[2016, arxiv, Andrei A Rusu\] \[[paper](https://arxiv.org/pdf/1606.04671.pdf?)\]
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/progressive_network.png" width="40%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/expert_gate.png" width="40%" /><br />
   Expert Gate
 </div>
 
