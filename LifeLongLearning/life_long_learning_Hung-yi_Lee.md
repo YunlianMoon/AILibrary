@@ -10,22 +10,22 @@
 Continuous Learning, Never Ending Learning, Incremental Learning \[[link](https://www.pearsonlearned.com/lifelong-learning-will-help-workers-navigate-future-work/)\]
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/life_long_learning.png" width="40%" /><br />
   Life Long Learning (LLL)
 </div>
 
 ### Knowledge Retention
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_1.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_2.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_2.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_3.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_3.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_4.png" width="30%" /><br />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_5.png" width="30%" /><br />
   Example
 </div>
 
@@ -34,22 +34,22 @@ Catastrophic Forgetting
 Towards ai-complete question answering: A set of prerequisite toy tasks \[2015, arxiv, Jason Weston\] \[[paper](https://arxiv.org/pdf/1502.05698.pdf)\]
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/multi_task_training.png" width="40%" /><br />
   Multi-task training
 </div>
 
 #### Elastic Weight Consolidation (EWC)
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_1.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_2.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_2.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_3.png" width="30%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_3.png" width="30%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_4.png" width="30%" /><br />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_4.png" width="30%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/EWC_5.png" width="30%" /><br />
   Example
 </div>
 
@@ -68,7 +68,7 @@ Memory aware synapses: Learning what (not) to forget \[2018, CVPR, Rahaf Aljundi
 #### Generating Data
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/generating_data.png" width="40%" /><br />
   Generating Data
 </div>
 
@@ -89,22 +89,23 @@ icarl: Incremental classifier and representation learning \[2017, CVPR, Sylvestr
 ### Knowledge Transfer
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" />
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_transfer_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_transfer_2.png" width="40%" /><br />
   Life-Long v.s. Transfer
 </div>
 
 <br/>
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_transfer_evaluation_1.png" width="40%" /><br />
   Evaluation
 </div>
 
 #### Gradient Episodic Memory (GEM)
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/GEM.png" width="40%" /><br />
   Gradient Episodic Memory
 </div>
 
@@ -115,21 +116,21 @@ Efficient lifelong learning with a-gem \[2018, arxiv, Arslan Chaudhry\] \[[paper
 ### Model Expansion
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/progressive_network.png" width="40%" /><br />
   Progressive Neural Networks
 </div>
 
 Progressive neural networks \[2016, arxiv, Andrei A Rusu\] \[[paper](https://arxiv.org/pdf/1606.04671.pdf?)\]
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/progressive_network.png" width="40%" /><br />
   Expert Gate
 </div>
 
 Expert gate: Lifelong learning with a network of experts \[2017, CVPR, Rahaf Aljundi\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Aljundi_Expert_Gate_Lifelong_CVPR_2017_paper.pdf)\]
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/net2net.png" width="40%" /><br />
   Net2Net
 </div>
 
@@ -140,7 +141,7 @@ On Training Recurrent Neural Networks for Lifelong Learning \[2018, arxiv, Shagu
 ### Curriculum Learning
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/ResearchTopics/blob/master/Language/images/word_1.png" width="40%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/curriculum_learning.png" width="40%" /><br />
   Curriculum Learning
 </div>
 
