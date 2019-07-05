@@ -65,16 +65,16 @@ On first-order meta-learning algorithms \[2018, arxiv, Alex Nichol\] \[[paper](h
 blog \[[link](https://openai.com/blog/reptile/)\]
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/reptile_1.png" width="40%" /><br/>
   Reptile
 </div>
 
 ### Other
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/architecture.png.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/idea.png" width="40%" /><br/>
   More Idea
 </div>
 
@@ -85,53 +85,53 @@ Optimization as a model for few-shot learning \[2016, ICLR, Sachin Ravi\] \[[pap
 Learning to learn by gradient descent by gradient descent \[2016, NIPS, Marcin Andrychowicz\] \[[paper](http://papers.nips.cc/paper/6461-learning-to-learn-by-gradient-descent-by-gradient-descent.pdf)\]
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_lstm_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_lstm_2.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_lstm_3.png" width="40%" /><br/>
   Similar to gradient descent based algorithm
 </div>
 
 <br/>
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_lstm_implementation.png" width="40%" /><br/>
   Real Implementation
 </div>
 
 <br/>
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_lstm_v2_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_lstm_v2_2.png" width="40%" /><br/>
   LSTM for Gradient Descent (v2) 
 </div>
 
 ### Metric-based Approach
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_2.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_3.png" width="40%" /><br/>
   Input training data and their labels 
 </div>
 
 <br/>
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_shot_1.png" width="40%" /><br/>
   N-way Few/One-shot Learning<br/>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_shot_2.png" width="40%" /><br/>
   Prototypical Network<br/>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_shot_3.png" width="40%" /><br/>
   Matching Network<br/>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_shot_4.png" width="40%" /><br/>
   Relation Network<br/>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/images/LSTM3-focus-f.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_shot_5.png" width="40%" /><br/>
   Few-shot learning for imaginary data<br/>
 </div>
 
