@@ -21,11 +21,11 @@ Continuous Learning, Never Ending Learning, Incremental Learning \[[link](https:
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_2.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_3.png" width="50%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_3.png" width="45%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_4.png" width="50%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_4.png" width="45%" /><br />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_5.png" width="50%" /><br />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/LifeLongLearning/images/knowledge_retention_example_5.png" width="45%" /><br />
   Example
 </div>
 
