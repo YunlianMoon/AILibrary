@@ -75,7 +75,7 @@ On first-order meta-learning algorithms \[2018, arxiv, Alex Nichol\] \[[paper](h
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/architecture.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/idea.png" width="40%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/idea.png" width="50%" /><br/>
   Reptile
 </div>
 
@@ -112,7 +112,7 @@ Learning to learn by gradient descent by gradient descent \[2016, NIPS, Marcin A
   LSTM for Gradient Descent (v2)
 </div>
 
-### Training data and their labels
+### Metri-based Approach
 
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/MetaLearning/images/meta_data_label_1.png" width="30%" />
@@ -145,6 +145,10 @@ Matching networks for one shot learning \[2016, NIPS, Oriol Vinyals\] \[[paper](
 Learning to compare: Relation network for few-shot learning \[2018, CVPR, Flood Sung\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Sung_Learning_to_Compare_CVPR_2018_paper.pdf)\]
 
 Low-shot learning from imaginary data \[2018, CVPR, Yu-Xiong Wang\] \[[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Low-Shot_Learning_From_CVPR_2018_paper.pdf)\]
+
+### Train+Test as RNN
+
+
 
 
 
