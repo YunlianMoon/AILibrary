@@ -75,7 +75,7 @@
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/lie_1.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/lie_2.png" width="45%" /><br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/lie_2.png" width="42%" /><br/>
   Different Data Distribution
 </div>
 
