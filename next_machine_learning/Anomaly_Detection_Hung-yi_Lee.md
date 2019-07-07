@@ -2,12 +2,6 @@
 
 - Reference
   - [Machine Learning (2019,Spring)](http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML19.html)
-  
-<div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" /><br/>
-  Problem Formulation
-</div>
-
 - Applications
   - Fraud Detection
     - Training data: 正常刷卡行為, 𝑥: 盜刷？
@@ -17,7 +11,14 @@
     - [link](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
   - Cancer Detection
     - Training data: 正常細胞, 𝑥: 癌細胞
-    - [link](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/home)
+    - [link](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/home)  
+  
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" /><br/>
+  Problem Formulation
+</div>
+
+<br/>
     
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" />
