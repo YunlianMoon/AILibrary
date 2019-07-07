@@ -24,6 +24,35 @@
   Categories
 </div>
 
+### With Classifier
+
+Simpsons dataset \[[link](https://www.kaggle.com/alexattia/the-simpsons-characters-dataset/)\]
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" /><br/>
+  Example Application
+</div>
+
+Learning confidence for out-of-distribution detection in neural networks \[2018, arxiv, Terrance DeVries\] \[[paper](https://arxiv.org/pdf/1802.04865.pdf)\]
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" /><br/>
+  Evaluation
+</div>
+
+
 
 
 
