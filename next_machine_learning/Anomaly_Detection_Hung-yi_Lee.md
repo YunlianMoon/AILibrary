@@ -5,13 +5,13 @@
 - Applications
   - Fraud Detection
     - Training data: 正常刷卡行為, 𝑥: 盜刷？
-    - [link](https://www.kaggle.com/ntnu-testimon/paysim1/home) [link](https://www.kaggle.com/mlg-ulb/creditcardfraud/home)
+    - \[[link](https://www.kaggle.com/ntnu-testimon/paysim1/home)\] \[[link](https://www.kaggle.com/mlg-ulb/creditcardfraud/home)\]
   - Network Intrusion Detection
     - Training data: 正常連線, 𝑥: 攻擊行為？
-    - [link](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
+    - \[[link](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)\]
   - Cancer Detection
     - Training data: 正常細胞, 𝑥: 癌細胞
-    - [link](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/home)  
+    - \[[link](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/home)\]
   
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/images/next.png" width="40%" /><br/>
