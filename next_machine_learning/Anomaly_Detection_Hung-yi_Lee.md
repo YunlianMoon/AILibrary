@@ -52,6 +52,21 @@ Learning confidence for out-of-distribution detection in neural networks \[2018,
   Evaluation
 </div>
 
+<br/>
+
+<div align=center>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/next_machine_learning/images/issue_1.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/next_machine_learning/images/issue_2.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/next_machine_learning/images/issue_3.png" width="40%" /><br/>
+  Possible Issues
+</div>
+
+Novelty detection with gan \[2018, arxiv, Mark Kliger\] \[[paper](https://arxiv.org/pdf/1802.10560.pdf)\]
+
+Training confidence-calibrated classifiers for detecting out-of-distribution samples \[2018, arxiv, Kimin Lee\] \[[paper](https://arxiv.org/pdf/1711.09325.pdf)\]
+
 
 
 
