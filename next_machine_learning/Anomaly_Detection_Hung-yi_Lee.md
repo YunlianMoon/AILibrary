@@ -35,7 +35,7 @@ Simpsons dataset \[[link](https://www.kaggle.com/alexattia/the-simpsons-characte
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/next_machine_learning/images/anomaly_example_3.png" width="40%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/next_machine_learning/images/anomaly_example_4.png" width="40%" />
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/next_machine_learning/images/anomaly_example_4.png" width="50%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/DeepLearning/Attention/images/arrow.jpg" width="2%" />
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/next_machine_learning/images/anomaly_example_5.png" width="40%" /><br/>
   Example Application
