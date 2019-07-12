@@ -296,7 +296,7 @@ Asynchronous methods for deep reinforcement learning \[2016, ICML, Volodymyr Mni
 <br/>
 
 <div align=center>
-  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/ac_gan.png" width="40%" /<br/>
+  <img src="https://github.com/YunlianMoon/AILibrary/blob/master/ReinforcementLearning/images/ac_gan.png" width="40%" /><br/>
   Connection with GAN
 </div>
 
