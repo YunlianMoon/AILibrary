@@ -87,7 +87,7 @@ result3=result4=
 ```
 
 (3)<br/>
-hings = tf.losses.hinge_loss(labels=targets, logits=pred, weights)
+hings = tf.losses.hinge_loss(labels=targets, logits=pred, weights)<br/>
 hings_loss = tf.reduce_mean(hings)
 
 
