@@ -2,10 +2,12 @@
 import tensorflow as tf
 
 ### RNN
+---
 lstm_cell = tf.contrib.rnn.LSTMCell(lstm_size, state_is_tuple=True)<br/>
 lstm_cell = tf.contrib.rnn.DropoutWrapper(lstm_cell, output_keep_prob=keep_prob)
 
 ### Loss
+---
 #### regression
 (1)<br/>
 mse_loss = tf.reduce_mean(tf.square(pred - targets))<br/>
@@ -61,4 +63,5 @@ result4 = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=l
 ```
 
 ### Optimizer
+---
 optim = tf.train.RMSPropOptimizer(learning_rate).minimize(loss, name="rmsprop_optim")
