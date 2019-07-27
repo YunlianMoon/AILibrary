@@ -9,11 +9,11 @@ lstm_cell = tf.contrib.rnn.DropoutWrapper(lstm_cell, output_keep_prob=keep_prob)
 loss = tf.reduce_mean(tf.square(pred - targets), name="mse")<br/>
 loss = -tf.reduce_sum(targets * tf.log(tf.clip_by_value(pred, 1e-10, 1.0)), name="cross_entropy")
 
-cross_entropy = tf.nn.sigmoid_cross_entropy_with_logits(labels=targets, logits=pred, name="sigmoid_cross_entropy")<br/>
-cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(labels=targets, logits=pred, name="softmax_cross_entropy")<br/>
-cross_entropy = tf.nn.softmax_cross_entropy_with_logits(labels=targets, logits=pred, name="softmax_cross_entropy")<br/>
-cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=targets, logits=pred, name="softmax_cross_entropy")<br/>
-cross_entropy = tf.nn.weighted_cross_entropy_with_logits(targets, logits, pos_weight, name="weighted_cross_entropy")
+softmax_cross_entropy = tf.nn.softmax_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
+softmax_cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
+softmax_cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(labels=targets, logits=pred)<br/>
+sigmoid_cross_entropy = tf.nn.sigmoid_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
+weighted_cross_entropy = tf.nn.weighted_cross_entropy_with_logits(targets, logits, pos_weight)
 
 ``` python
 import tensorflow as tf
@@ -25,8 +25,8 @@ labels = [[0.2, 0.3, 0.5],
 
 logits_scaled = tf.nn.softmax(logits)
 
-result1 = tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=labels)
-result2 = -tf.reduce_sum(labels * tf.log(logits_scaled), 1)
+result1 = tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=labels) # [1.4143689 1.6642545]
+result2 = -tf.reduce_sum(labels * tf.log(logits_scaled), 1) # [1.4143689 1.6642545]
 ```
 
 ### Optimizer
