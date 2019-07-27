@@ -27,7 +27,15 @@ logits_scaled = tf.nn.softmax(logits)
 
 result1 = tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=labels) # [1.4143689 1.6642545]
 result2 = -tf.reduce_sum(labels * tf.log(logits_scaled), 1) # [1.4143689 1.6642545]
+
+labels1 = [[0, 1, 0],
+          [0, 0, 1]]
+labels2 = [1, 2]
+
+result3 = tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=labels1) # [1.9643688  0.17425454]
+result4 = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=labels2) # [1.9643688  0.17425454]
 ```
+
 
 ### Optimizer
 optim = tf.train.RMSPropOptimizer(learning_rate).minimize(loss, name="rmsprop_optim")
