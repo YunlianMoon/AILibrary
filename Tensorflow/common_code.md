@@ -6,14 +6,34 @@ lstm_cell = tf.contrib.rnn.LSTMCell(lstm_size, state_is_tuple=True)<br/>
 lstm_cell = tf.contrib.rnn.DropoutWrapper(lstm_cell, output_keep_prob=keep_prob)
 
 ### Loss
-loss = tf.reduce_mean(tf.square(pred - targets), name="mse")<br/>
-loss = -tf.reduce_sum(targets * tf.log(tf.clip_by_value(pred, 1e-10, 1.0)), name="cross_entropy")
+#### regression
+(1)<br/>
+mse_loss = tf.reduce_mean(tf.square(pred - targets))<br/>
+mse_loss = tf.losses.mean_squared_error(targets, pred)
+(2)<br/>
+maes_loss = tf.reduce_sum(tf.losses.absolute_difference(targets, pred))
+(3)<br/>
+hubers_loss = tf.reduce_sum(tf.losses.huber_loss(targets, pred))
+
+#### classification
+(1)<br/>
+softmax_cross_entropy = -tf.reduce_sum(targets * tf.log(tf.clip_by_value(pred, 1e-10, 1.0)))<br/>
+softmax_cross_entropy_loss = tf.reduce_mean(cross_entropy)
 
 softmax_cross_entropy = tf.nn.softmax_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
 softmax_cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
 softmax_cross_entropy = tf.nn.softmax_cross_entropy_with_logits_v2(labels=targets, logits=pred)<br/>
+(2)<br/>
+y_pred_si = 1.0 / (1 + tf.exp(-pred))<br/>
+sigmoids_cross_entropy = -targets * tf.log(y_pred_si) - (1 - targets) * tf.log(1 - y_pred_si)<br/>
+sigmoids_cross_entropy_loss = tf.reduce_mean(sigmoids)
+
 sigmoid_cross_entropy = tf.nn.sigmoid_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
+sigmoids_cross_entropy = tf.losses.log_loss(labels=targets, logits=pred)
 weighted_cross_entropy = tf.nn.weighted_cross_entropy_with_logits(targets, logits, pos_weight)
+(3)<br/>
+hings = tf.losses.hinge_loss(labels=targets, logits=pred, weights)
+hings_loss = tf.reduce_mean(hings)
 
 ``` python
 import tensorflow as tf
