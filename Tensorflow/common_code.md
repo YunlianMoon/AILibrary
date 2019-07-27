@@ -34,7 +34,7 @@ sigmoids_cross_entropy = -targets * tf.log(y_pred_si) - (1 - targets) * tf.log(1
 sigmoids_cross_entropy_loss = tf.reduce_mean(sigmoids)
 
 sigmoid_cross_entropy = tf.nn.sigmoid_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
-sigmoids_cross_entropy = tf.losses.log_loss(labels=targets, logits=pred)
+sigmoids_cross_entropy = tf.losses.log_loss(labels=targets, logits=pred)<br/>
 weighted_cross_entropy = tf.nn.weighted_cross_entropy_with_logits(targets, logits, pos_weight)
 
 (3)<br/>
