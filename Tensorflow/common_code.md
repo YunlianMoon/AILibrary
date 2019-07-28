@@ -22,7 +22,7 @@ hubers_loss = tf.reduce_sum(tf.losses.huber_loss(targets, pred))
 #### classification
 (1)<br/>
 softmax_cross_entropy = -tf.reduce_sum(targets * tf.log(tf.clip_by_value(pred, 1e-10, 1.0)))<br/>
-softmax_cross_entropy_loss = tf.reduce_mean(cross_entropy)
+softmax_cross_entropy_loss = tf.reduce_mean(softmax_cross_entropy)
 
 softmax_cross_entropy = tf.nn.softmax_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
 softmax_cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
@@ -51,7 +51,7 @@ result4 = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=l
 (2)<br/>
 y_pred_si = 1.0 / (1 + tf.exp(-pred))<br/>
 sigmoids_cross_entropy = -targets * tf.log(y_pred_si) - (1 - targets) * tf.log(1 - y_pred_si)<br/>
-sigmoids_cross_entropy_loss = tf.reduce_mean(sigmoids)
+sigmoids_cross_entropy_loss = tf.reduce_mean(sigmoids_cross_entropy)
 
 sigmoid_cross_entropy = tf.nn.sigmoid_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
 weighted_cross_entropy = tf.nn.weighted_cross_entropy_with_logits(targets, logits, pos_weight)
