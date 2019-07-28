@@ -3,8 +3,107 @@ import tensorflow as tf
 
 ### RNN
 ---
-lstm_cell = tf.contrib.rnn.LSTMCell(lstm_size, state_is_tuple=True)<br/>
-lstm_cell = tf.contrib.rnn.DropoutWrapper(lstm_cell, output_keep_prob=keep_prob)
+(1) cell<br/>
+gru_cell = tf.nn.rnn_cell.GRUCell(num_units=)<br/>
+gru_cell = tf.contrib.rnn.GRUCell(num_units=)
+
+lstm_cell = tf.nn.rnn_cell.BasicLSTMCell(num_units=,forget_bias=1.0,state_is_tuple=True)<br/>
+lstm_cell = tf.contrib.rnn.BasicLSTMCell(num_units=,forget_bias=1.0,state_is_tuple=True)<br/>
+lstm_cell = tf.nn.rnn_cell.LSTMCell(num_units=,forget_bias=1.0,state_is_tuple=True)<br/>
+lstm_cell = tf.contrib.rnn.LSTMCell(num_units=,forget_bias=1.0,state_is_tuple=True)
+
+multi_cell= tf.nn.rnn_cell.MultiRNNCell(cells,state_is_tuple=True)<br/>
+multi_cell= tf.contrib.rnn..MultiRNNCell(cells,state_is_tuple=True)
+
+rnn_cell = tf.nn.rnn_cell.BasicRNNCell(num_units=)<br/>
+rnn_cell = tf.contrib.rnn.BasicRNNCell(num_units=)<br/>
+rnn_cell = tf.nn.rnn_cell.RNNCell()<br/>
+rnn_cell = tf.contrib.rnn.RNNCell()
+
+(2) dropout wrapper<br/>
+cell = tf.nn.rnn_cell.DropoutWrapper()<br/>
+cell = tf.contrib.rnn.DropoutWrapper(cell, output_keep_prob=keep_prob)<br/>
+
+(3)<br/>
+tf.nn.dynamic_rnn(
+    cell,
+    inputs,
+    sequence_length=None,
+    initial_state=None,
+    dtype=None,
+    parallel_iterations=None,
+    swap_memory=False,
+    time_major=False,
+    scope=None
+)
+
+tf.nn.bidirectional_dynamic_rnn(
+    cell_fw,
+    cell_bw,
+    inputs,
+    sequence_length=None,
+    initial_state_fw=None,
+    initial_state_bw=None,
+    dtype=None,
+    parallel_iterations=None,
+    swap_memory=False,
+    time_major=False,
+    scope=None
+)
+``` python
+import tensorflow as tf
+from tensorflow.examples.tutorials.mnist import input_data
+
+# mnist dataset: http://yann.lecun.com/exdb/mnist/
+
+# hyper parameters
+LEARNING_RATE = 0.01  # learning rate
+TRAINING_ITERS = 100000  # train steps
+BATCH_SIZE = 128
+INPUT_SIZE = 28  # MNIST data input (img shape: 28*28)
+STEP_SIZE = 28  # time steps
+
+# load mnist data
+data_dir = 'MNIST_data'
+mnist = input_data.read_data_sets(data_dir, one_hot=True)  # they has been normalized to range (0,1)
+test_x = mnist.test.images[:2000]
+test_y = mnist.test.labels[:2000]
+
+# x y placeholder
+x = tf.placeholder(tf.float32, [None, STEP_SIZE * INPUT_SIZE])  # shape(batch, 784)
+image = tf.reshape(x, [-1, STEP_SIZE, INPUT_SIZE])  # (batch, height, width, channel)
+y = tf.placeholder(tf.int32, [None, 10])  # input y
+
+# RNN
+rnn_cell = tf.nn.rnn_cell.LSTMCell(num_units=64)
+outputs, (h_c, h_n) = tf.nn.dynamic_rnn(
+    rnn_cell,  # cell you have chosen
+    image,  # input
+    initial_state=None,  # the initial hidden state
+    dtype=tf.float32,  # must given if set initial_state = None
+    time_major=False,  # False: (batch, time step, input); True: (time step, batch, input)
+)
+
+output = tf.layers.dense(outputs[:, -1, :], 10)  # output based on the last output step
+
+loss = tf.losses.softmax_cross_entropy(onehot_labels=y, logits=output)  # compute cost
+train_op = tf.train.AdamOptimizer(LEARNING_RATE).minimize(loss)
+
+accuracy = tf.metrics.accuracy(labels=tf.argmax(y, axis=1), predictions=tf.argmax(output, axis=1), )[1]
+# return (acc, update_op), and create 2 local variables
+
+sess = tf.Session()
+init_op = tf.group(tf.global_variables_initializer(),
+                   tf.local_variables_initializer())  # the local var is for accuracy_op
+sess.run(init_op)  # initialize var in graph
+
+for step in range(1200):  # training
+    b_x, b_y = mnist.train.next_batch(BATCH_SIZE)
+    _, loss_ = sess.run([train_op, loss], {x: b_x, y: b_y})
+    if step % 50 == 0:  # testing
+        accuracy_ = sess.run(accuracy, {x: test_x, y: test_y})
+        print('train loss: %.4f' % loss_, '| test accuracy: %.2f' % accuracy_)
+```
 
 ### Loss
 ---
@@ -22,7 +121,8 @@ hubers_loss = tf.reduce_sum(tf.losses.huber_loss(targets, pred))
 #### classification
 (1)<br/>
 softmax_cross_entropy = -tf.reduce_sum(targets * tf.log(tf.clip_by_value(pred, 1e-10, 1.0)))<br/>
-softmax_cross_entropy_loss = tf.reduce_mean(softmax_cross_entropy)
+softmax_cross_entropy_loss = tf.reduce_mean(softmax_cross_entropy)<br/>
+loss = tf.losses.softmax_cross_entropy(onehot_labels=targets, logits=pred)
 
 softmax_cross_entropy = tf.nn.softmax_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
 softmax_cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
@@ -89,8 +189,6 @@ result3=result4=
 (3)<br/>
 hings = tf.losses.hinge_loss(labels=targets, logits=pred, weights)<br/>
 hings_loss = tf.reduce_mean(hings)
-
-
 
 ### Optimizer
 ---
