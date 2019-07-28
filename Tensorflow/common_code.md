@@ -7,13 +7,13 @@ import tensorflow as tf
 gru_cell = tf.nn.rnn_cell.GRUCell(num_units=)<br/>
 gru_cell = tf.contrib.rnn.GRUCell(num_units=)
 
-lstm_cell = tf.nn.rnn_cell.BasicLSTMCell(num_units=,forget_bias=1.0,state_is_tuple=True)<br/>
-lstm_cell = tf.contrib.rnn.BasicLSTMCell(num_units=,forget_bias=1.0,state_is_tuple=True)<br/>
-lstm_cell = tf.nn.rnn_cell.LSTMCell(num_units=,forget_bias=1.0,state_is_tuple=True)<br/>
-lstm_cell = tf.contrib.rnn.LSTMCell(num_units=,forget_bias=1.0,state_is_tuple=True)
+lstm_cell = tf.nn.rnn_cell.BasicLSTMCell(num_units=, forget_bias=, state_is_tuple=)<br/>
+lstm_cell = tf.contrib.rnn.BasicLSTMCell(num_units=, forget_bias=, state_is_tuple=)<br/>
+lstm_cell = tf.nn.rnn_cell.LSTMCell(num_units=, forget_bias=, state_is_tuple=)<br/>
+lstm_cell = tf.contrib.rnn.LSTMCell(num_units=, forget_bias=, state_is_tuple=)
 
-multi_cell= tf.nn.rnn_cell.MultiRNNCell(cells,state_is_tuple=True)<br/>
-multi_cell= tf.contrib.rnn..MultiRNNCell(cells,state_is_tuple=True)
+multi_cell= tf.nn.rnn_cell.MultiRNNCell(cells, state_is_tuple=)<br/>
+multi_cell= tf.contrib.rnn..MultiRNNCell(cells, state_is_tuple=)
 
 rnn_cell = tf.nn.rnn_cell.BasicRNNCell(num_units=)<br/>
 rnn_cell = tf.contrib.rnn.BasicRNNCell(num_units=)<br/>
@@ -21,11 +21,11 @@ rnn_cell = tf.nn.rnn_cell.RNNCell()<br/>
 rnn_cell = tf.contrib.rnn.RNNCell()
 
 (2) dropout wrapper<br/>
-cell = tf.nn.rnn_cell.DropoutWrapper()<br/>
-cell = tf.contrib.rnn.DropoutWrapper(cell, output_keep_prob=keep_prob)<br/>
+cell = tf.nn.rnn_cell.DropoutWrapper(cell, input_keep_prob=, output_keep_prob=)<br/>
+cell = tf.contrib.rnn.DropoutWrapper(cell, input_keep_prob=, output_keep_prob=)<br/>
 
 (3)<br/>
-tf.nn.dynamic_rnn(
+lstm_outputs, lstm_state = tf.nn.dynamic_rnn(
     cell,
     inputs,
     sequence_length=None,
@@ -37,7 +37,7 @@ tf.nn.dynamic_rnn(
     scope=None
 )
 
-tf.nn.bidirectional_dynamic_rnn(
+lstm_outputs, lstm_state = tf.nn.bidirectional_dynamic_rnn(
     cell_fw,
     cell_bw,
     inputs,
