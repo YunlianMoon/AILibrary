@@ -201,3 +201,4 @@ hings_loss = tf.reduce_mean(hings)
 ### Optimizer
 ---
 optim = tf.train.RMSPropOptimizer(learning_rate).minimize(loss, name="rmsprop_optim")
+optim = tf.train.AdamOptimizer(learning_rate).minimize(loss, name="adam_optim")
