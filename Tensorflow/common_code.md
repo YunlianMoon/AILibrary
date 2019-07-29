@@ -151,6 +151,9 @@ labels2 = [1, 2]
 
 result3 = tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=labels1) # [1.9643688  0.17425454]
 result4 = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=labels2) # [1.9643688  0.17425454]
+
+result5 = tf.losses.softmax_cross_entropy(onehot_labels=labels1, logits=logits)  # 1.0693116
+result6 = tf.reduce_mean(result3)  # 1.0693116
 ```
 
 (2)<br/>
