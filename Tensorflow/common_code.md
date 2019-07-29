@@ -79,7 +79,7 @@ y = tf.placeholder(tf.int32, [None, NUM_CLASSES])  # input y
 # cell = tf.nn.rnn_cell.BasicRNNCell(num_units=64) # 0.72
 # cell = tf.nn.rnn_cell.BasicLSTMCell(num_units=64) # 0.91
 # cell = tf.nn.rnn_cell.LSTMCell(num_units=64) # 0.92
-cell = tf.nn.rnn_cell.GRUCell(num_units=64)  # 0.93
+cell = tf.nn.rnn_cell.GRUCell(num_units=64)  # 0.92
 # cells = [tf.nn.rnn_cell.GRUCell(num_units=64) for _ in range(NUM_LAYERS)]
 # cell = tf.nn.rnn_cell.MultiRNNCell(cells)  # 0.93
 outputs, final_state = tf.nn.dynamic_rnn(
