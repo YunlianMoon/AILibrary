@@ -126,7 +126,7 @@ hubers_loss = tf.reduce_sum(tf.losses.huber_loss(targets, pred))
 (1)<br/>
 softmax_cross_entropy = -tf.reduce_sum(targets * tf.log(tf.clip_by_value(pred, 1e-10, 1.0)))<br/>
 softmax_cross_entropy_loss = tf.reduce_mean(softmax_cross_entropy)<br/>
-softmax_cross_entropy_loss = tf.losses.softmax_cross_entropy(onehot_labels=targets, logits=pred)
+softmax_cross_entropy_loss = tf.losses.softmax_cross_entropy(onehot_labels=targets, logits=pred)<br/>
 softmax_cross_entropy_loss = tf.losses.sparse_softmax_cross_entropy(labels=targets,logits=pred)
 
 softmax_cross_entropy = tf.nn.softmax_cross_entropy_with_logits(labels=targets, logits=pred)<br/>
@@ -200,5 +200,5 @@ hings_loss = tf.reduce_mean(hings)
 
 ### Optimizer
 ---
-optim = tf.train.RMSPropOptimizer(learning_rate).minimize(loss, name="rmsprop_optim")
+optim = tf.train.RMSPropOptimizer(learning_rate).minimize(loss, name="rmsprop_optim")<br/>
 optim = tf.train.AdamOptimizer(learning_rate).minimize(loss, name="adam_optim")
