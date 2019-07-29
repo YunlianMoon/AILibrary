@@ -58,10 +58,10 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 # hyper parameters
 LEARNING_RATE = 0.01  # learning rate
-TRAINING_ITERS = 100000  # train steps
 BATCH_SIZE = 128
 INPUT_SIZE = 28  # MNIST data input (img shape: 28*28)
 STEP_SIZE = 28  # time steps
+NUM_CLASSES = 10
 
 # load mnist data
 data_dir = 'MNIST_data'
@@ -72,19 +72,23 @@ test_y = mnist.test.labels[:2000]
 # x y placeholder
 x = tf.placeholder(tf.float32, [None, STEP_SIZE * INPUT_SIZE])  # shape(batch, 784)
 image = tf.reshape(x, [-1, STEP_SIZE, INPUT_SIZE])  # (batch, height, width, channel)
-y = tf.placeholder(tf.int32, [None, 10])  # input y
+y = tf.placeholder(tf.int32, [None, NUM_CLASSES])  # input y
 
 # RNN
-rnn_cell = tf.nn.rnn_cell.LSTMCell(num_units=64)
-outputs, (h_c, h_n) = tf.nn.dynamic_rnn(
-    rnn_cell,  # cell you have chosen
+# cell = tf.nn.rnn_cell.BasicRNNCell(num_units=64) # 0.72
+# cell = tf.nn.rnn_cell.BasicLSTMCell(num_units=64) # 0.91
+# cell = tf.nn.rnn_cell.LSTMCell(num_units=64) # 0.92
+cell = tf.nn.rnn_cell.GRUCell(num_units=64)  # 0.93
+outputs, final_state = tf.nn.dynamic_rnn(
+    cell,  # cell you have chosen
     image,  # input
     initial_state=None,  # the initial hidden state
     dtype=tf.float32,  # must given if set initial_state = None
     time_major=False,  # False: (batch, time step, input); True: (time step, batch, input)
 )
+# outputs:[batch，time step，n_neurons]
 
-output = tf.layers.dense(outputs[:, -1, :], 10)  # output based on the last output step
+output = tf.layers.dense(outputs[:, -1, :], NUM_CLASSES)  # output based on the last output step
 
 loss = tf.losses.softmax_cross_entropy(onehot_labels=y, logits=output)  # compute cost
 train_op = tf.train.AdamOptimizer(LEARNING_RATE).minimize(loss)
