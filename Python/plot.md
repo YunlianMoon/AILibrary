@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 
 ### line
 
+---
+
 <div align=center>
   <img src="https://github.com/YunlianMoon/AILibrary/blob/master/Python/images/line.png" width="100%" /><br/>
 </div>
