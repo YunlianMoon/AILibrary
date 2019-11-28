@@ -1,32 +1,32 @@
 # Word Embedding
 
-### Language Model
+#### Language Model
 
-### N-gram
+#### N-gram
 
-### one-hot representation
+#### one-hot representation
 
-### Co-Occurance Vector
+#### Co-Occurance Vector
 
-###  NNLM
+####  NNLM
 full name: Nerual Network Language Model
 
-### Distributed Representation
+#### Distributed Representation
 
 ### word2vec
 
-### Skip-gram
+#### Skip-gram
 
-### CBOW
+#### CBOW
 full name: Continuous Bag of Words
 
-### ELMO
+#### ELMO
 full name: Embedding from Language Models
 
-### Encoder-Decoder
+#### Encoder-Decoder
 
-### Transformer
+#### Transformer
 
-### BERT
+#### BERT
 full name: Bidirectional Encoder Representations from Transformer
 
