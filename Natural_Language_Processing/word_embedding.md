@@ -21,6 +21,8 @@ Skip-gram is one of the unsupervised learning techniques used to find the most r
 
 `algorithm`: Skip-gram is used to predict the context word for a given target word. It’s reverse of CBOW algorithm. Here, target word is input while context words are output.
 
+`code`: [Word2Vec (Part 1): NLP With Deep Learning with Tensorflow (Skip-gram)](http://www.thushv.com/natural_language_processing/word2vec-part-1-nlp-with-deep-learning-with-tensorflow-skip-gram/)
+
 #### CBOW
 full name: Continuous Bag of Words
 
