@@ -14,6 +14,7 @@ full name: Nerual Network Language Model
 #### Distributed Representation
 
 ### word2vec
+Word2Vec is a group of models that tries to represent each word in a large text as a vector in a space of N dimensions (which we will call features) making similar words also be close to each other.
 
 #### Skip-gram
 
