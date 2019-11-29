@@ -1,4 +1,7 @@
 # Word Embedding
+`code`: [feature engineering text data](https://github.com/dipanjanS/practical-machine-learning-with-python/tree/master/bonus%20content/feature%20engineering%20text%20data)
+
+### Traditional
 
 #### Language Model
 
