@@ -18,6 +18,8 @@ full name: Nerual Network Language Model
 
 ### fasttext
 
+\[[code](https://github.com/facebookresearch/fastText)\]
+
 ### glove
 
 ### word2vec
