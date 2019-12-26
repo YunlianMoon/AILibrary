@@ -1,20 +1,24 @@
 # Word Embedding
 `code`: [feature engineering text data](https://github.com/dipanjanS/practical-machine-learning-with-python/tree/master/bonus%20content/feature%20engineering%20text%20data)
 
-### Traditional
+### LSA
 
-#### Language Model
+### pLSA
 
-#### N-gram
+### LDA
 
-#### one-hot representation
+### N-gram
 
-#### Co-Occurance Vector
+### one-hot representation
 
-####  NNLM
+### Co-Occurance Vector
+
+###  NNLM
 full name: Nerual Network Language Model
 
-#### Distributed Representation
+### fasttext
+
+### glove
 
 ### word2vec
 Word2Vec is a group of models that tries to represent each word in a large text as a vector in a space of N dimensions (which we will call features) making similar words also be close to each other.
@@ -29,13 +33,11 @@ Skip-gram is one of the unsupervised learning techniques used to find the most r
 #### CBOW
 full name: Continuous Bag of Words
 
-#### ELMO
+### ELMO
 full name: Embedding from Language Models
 
-#### Encoder-Decoder
+### GPT
 
-#### Transformer
-
-#### BERT
+### BERT
 full name: Bidirectional Encoder Representations from Transformer
 
