@@ -18,7 +18,7 @@ full name: Nerual Network Language Model
 
 ### fasttext
 
-\[[code](https://github.com/facebookresearch/fastText)\]
+\[[webcite](https://fasttext.cc/docs/en/support.html)\] \[[code](https://github.com/facebookresearch/fastText)\]
 
 ### glove
 
