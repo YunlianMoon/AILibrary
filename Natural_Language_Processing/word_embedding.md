@@ -33,6 +33,10 @@ Word2Vec is a group of models that tries to represent each word in a large text 
 
 Efficient estimation of word representations in vector space \[2013, arxiv, Tomas Mikolov\] \[[paper](https://arxiv.org/pdf/1301.3781.pdf%5D)\]
 
+Distributed representations of words and phrases and their compositionality \[2013, NIPS, Tomas Mikolov\] \[[paper](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)\]
+
+Distributed representations of sentences and documents \[2014, JMLR, Quoc Le\] \[[paper](http://proceedings.mlr.press/v32/le14.pdf)\]
+
 \[[webcite](https://code.google.com/archive/p/word2vec/)\]
 
 #### Skip-gram
