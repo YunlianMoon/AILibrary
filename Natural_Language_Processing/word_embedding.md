@@ -26,7 +26,7 @@ A neural probabilistic language model \[2003, JMLR, Yoshua Bengio\] \[[paper](ht
 
 Glove: Global vectors for word representation \[2014, EMNLP, Jeffrey Pennington\] \[[paper](https://www.aclweb.org/anthology/D14-1162.pdf)\]
 
-\[[webcite](https://nlp.stanford.edu/projects/glove/)\] \[[code](https://github.com/stanfordnlp/GloVe)\] \[[blog](http://www.foldl.me/2014/glove-python/)\]
+\[[webcite](https://nlp.stanford.edu/projects/glove/)\] \[[code](https://github.com/stanfordnlp/GloVe)\] \[[blog](http://www.foldl.me/2014/glove-python/)\] \[[stanford notes](https://cs224d.stanford.edu/lecture_notes/notes1.pdf)\]
 
 ### word2vec
 Word2Vec is a group of models that tries to represent each word in a large text as a vector in a space of N dimensions (which we will call features) making similar words also be close to each other.
