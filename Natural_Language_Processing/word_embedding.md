@@ -24,7 +24,7 @@ full name: Nerual Network Language Model
 
 GloVe: Global Vectors for Word Representation \[2014, EMNLP, Jeffrey Pennington\] \[[paper](https://www.aclweb.org/anthology/D14-1162.pdf)\]
 
-\[[webcite](https://nlp.stanford.edu/projects/glove/)\] \[[code](https://github.com/stanfordnlp/GloVe)\]
+\[[webcite](https://nlp.stanford.edu/projects/glove/)\] \[[code](https://github.com/stanfordnlp/GloVe)\] \[[blog](http://www.foldl.me/2014/glove-python/)\]
 
 ### word2vec
 Word2Vec is a group of models that tries to represent each word in a large text as a vector in a space of N dimensions (which we will call features) making similar words also be close to each other.
