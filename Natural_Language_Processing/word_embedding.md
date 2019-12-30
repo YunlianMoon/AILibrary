@@ -16,6 +16,8 @@
 ###  NNLM
 full name: Nerual Network Language Model
 
+A neural probabilistic language model \[2003, JLMR, Yoshua Bengio\] \[[paper](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)\]
+
 ### fastText
 
 \[[webcite](https://fasttext.cc/docs/en/support.html)\] \[[code](https://github.com/facebookresearch/fastText)\]
