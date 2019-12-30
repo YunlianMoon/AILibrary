@@ -60,8 +60,15 @@ Enriching word vectors with subword information \[2017, ACL, Piotr Bojanowski\] 
 ### ELMO
 full name: Embedding from Language Models
 
+Deep contextualized word representations \[2018, arxiv, \] \[[paper](https://arxiv.org/pdf/1802.05365.pdf%E3%80%91)\]
+
 ### GPT
+full name: Generative Pre-Training
+
+Improving language understanding by generative pre-training \[2018, arxiv, Alec Radford\] \[[paper](https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf)\]
 
 ### BERT
 full name: Bidirectional Encoder Representations from Transformer
+
+Bert: Pre-training of deep bidirectional transformers for language understanding \[2018, arxiv, \] \[[paper](https://arxiv.org/pdf/1810.04805.pdf%E3%80%91)\]
 
