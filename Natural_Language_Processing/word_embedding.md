@@ -37,6 +37,10 @@ Distributed representations of words and phrases and their compositionality \[20
 
 Distributed representations of sentences and documents \[2014, JMLR, Quoc Le\] \[[paper](http://proceedings.mlr.press/v32/le14.pdf)\]
 
+word2vec Explained: deriving Mikolov et al.'s negative-sampling word-embedding method \[2014, arxiv, Yoav Goldberg\] \[[paper](https://arxiv.org/pdf/1402.3722.pdf)\]
+
+word2vec parameter learning explained \[2014, arxiv, Xin Rong\] \[[paper](https://arxiv.org/pdf/1411.2738.pdf)\]
+
 \[[webcite](https://code.google.com/archive/p/word2vec/)\] \[[code](https://github.com/tmikolov/word2vec)\]
 
 #### Skip-gram
