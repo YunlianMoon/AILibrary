@@ -18,16 +18,6 @@ full name: Nerual Network Language Model
 
 A neural probabilistic language model \[2003, JMLR, Yoshua Bengio\] \[[paper](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)\]
 
-### fastText
-
-\[[webcite](https://fasttext.cc/docs/en/support.html)\] \[[code](https://github.com/facebookresearch/fastText)\]
-
-### glove
-
-Glove: Global vectors for word representation \[2014, EMNLP, Jeffrey Pennington\] \[[paper](https://www.aclweb.org/anthology/D14-1162.pdf)\]
-
-\[[webcite](https://nlp.stanford.edu/projects/glove/)\] \[[code](https://github.com/stanfordnlp/GloVe)\] \[[blog](http://www.foldl.me/2014/glove-python/)\] \[[stanford notes](https://cs224d.stanford.edu/lecture_notes/notes1.pdf)\]
-
 ### word2vec
 Word2Vec is a group of models that tries to represent each word in a large text as a vector in a space of N dimensions (which we will call features) making similar words also be close to each other.
 
@@ -52,6 +42,20 @@ Skip-gram is one of the unsupervised learning techniques used to find the most r
 
 #### CBOW
 full name: Continuous Bag of Words
+
+### glove
+
+Glove: Global vectors for word representation \[2014, EMNLP, Jeffrey Pennington\] \[[paper](https://www.aclweb.org/anthology/D14-1162.pdf)\]
+
+\[[webcite](https://nlp.stanford.edu/projects/glove/)\] \[[code](https://github.com/stanfordnlp/GloVe)\] \[[blog](http://www.foldl.me/2014/glove-python/)\] \[[stanford notes](https://cs224d.stanford.edu/lecture_notes/notes1.pdf)\]
+
+### fastText
+
+Bag of tricks for efficient text classification \[2016, arxiv, Armand Joulin\] \[[paper](https://arxiv.org/pdf/1607.01759v2.pdf)\]
+
+Enriching word vectors with subword information \[2017, ACL, Piotr Bojanowski\] \[[paper](https://arxiv.org/pdf/1607.04606v1.pdf)\]
+
+\[[webcite](https://fasttext.cc/docs/en/support.html)\] \[[code](https://github.com/facebookresearch/fastText)\]
 
 ### ELMO
 full name: Embedding from Language Models
