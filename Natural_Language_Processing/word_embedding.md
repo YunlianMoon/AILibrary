@@ -37,7 +37,7 @@ Distributed representations of words and phrases and their compositionality \[20
 
 Distributed representations of sentences and documents \[2014, JMLR, Quoc Le\] \[[paper](http://proceedings.mlr.press/v32/le14.pdf)\]
 
-\[[webcite](https://code.google.com/archive/p/word2vec/)\]
+\[[webcite](https://code.google.com/archive/p/word2vec/)\] \[[code](https://github.com/tmikolov/word2vec)\]
 
 #### Skip-gram
 Skip-gram is one of the unsupervised learning techniques used to find the most related words for a given word.
