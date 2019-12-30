@@ -29,6 +29,8 @@ GloVe: Global Vectors for Word Representation \[2014, EMNLP, Jeffrey Pennington\
 ### word2vec
 Word2Vec is a group of models that tries to represent each word in a large text as a vector in a space of N dimensions (which we will call features) making similar words also be close to each other.
 
+\[[webcite](https://code.google.com/archive/p/word2vec/)\]
+
 #### Skip-gram
 Skip-gram is one of the unsupervised learning techniques used to find the most related words for a given word.
 
