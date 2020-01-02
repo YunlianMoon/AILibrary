@@ -25,6 +25,8 @@ Efficient estimation of word representations in vector space \[2013, arxiv, Toma
 
 Distributed representations of words and phrases and their compositionality \[2013, NIPS, Tomas Mikolov\] \[[paper](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf)\]
 
+Linguistic regularities in continuous space word representations \[2013, NAACL HLT, Tomas Mikolov\] \[[paper](https://www.aclweb.org/anthology/N13-1090.pdf)\]
+
 Distributed representations of sentences and documents \[2014, JMLR, Quoc Le\] \[[paper](http://proceedings.mlr.press/v32/le14.pdf)\]
 
 word2vec Explained: deriving Mikolov et al.'s negative-sampling word-embedding method \[2014, arxiv, Yoav Goldberg\] \[[paper](https://arxiv.org/pdf/1402.3722.pdf)\]
